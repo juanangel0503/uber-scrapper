@@ -1,0 +1,3064 @@
+[
+  {
+    "_id": {
+      "$oid": "e3epwws130jibkp9gu7hz8"
+    },
+    "name": "Build Your Own - Chicken",
+    "price": "$70.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c99c2dd4d77388ae92d7ee44c7b095a1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "queso",
+      "tortilla",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Serves 4-6 people, Limit one per bag. Build your own bowls and tacos for a small group with your choice of meat or sofritas. Build Your Own meals include tortilla chips, 8 flour tortillas, rice, beans, 3 dips, and guac or queso. Top things off with even more salsas and dips."
+  },
+  {
+    "_id": {
+      "$oid": "rg99lck63yleg3r5vhp0o"
+    },
+    "name": "Build Your Own - Steak",
+    "price": "$70.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/79aab5bc461d521dd4692f2bf4aa1b49/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "queso",
+      "tortilla",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Serves 4-6 people, Limit one per bag. Build your own bowls and tacos for a small group with your choice of meat or sofritas. Build Your Own meals include tortilla chips, 8 flour tortillas, rice, beans, 3 dips, and guac or queso. Top things off with even more salsas and dips."
+  },
+  {
+    "_id": {
+      "$oid": "cxfujq3y6m9xojd8hon7al"
+    },
+    "name": "Build Your Own - Barbacoa",
+    "price": "$70.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c99c2dd4d77388ae92d7ee44c7b095a1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "queso",
+      "tortilla",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Serves 4-6 people, Limit one per bag. Build your own bowls and tacos for a small group with your choice of meat or sofritas. Build Your Own meals include tortilla chips, 8 flour tortillas, rice, beans, 3 dips, and guac or queso. Top things off with even more salsas and dips."
+  },
+  {
+    "_id": {
+      "$oid": "tyn5yk0zutbkydimnh67oa"
+    },
+    "name": "Build Your Own - Carnitas",
+    "price": "$70.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c99c2dd4d77388ae92d7ee44c7b095a1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "queso",
+      "tortilla",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Serves 4-6 people, Limit one per bag. Build your own bowls and tacos for a small group with your choice of meat or sofritas. Build Your Own meals include tortilla chips, 8 flour tortillas, rice, beans, 3 dips, and guac or queso. Top things off with even more salsas and dips."
+  },
+  {
+    "_id": {
+      "$oid": "bmo4e9tkjrrkge82sdjjs"
+    },
+    "name": "Build Your Own - Sofritas",
+    "price": "$70.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/debfb5ba525c248d9df487f9fb04fda2/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "queso",
+      "tortilla",
+      "chips"
+    ],
+    "tags": [
+      "V"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Serves 4-6 people, Limit one per bag. Build your own bowls and tacos for a small group with your choice of meat or sofritas. Build Your Own meals include tortilla chips, 8 flour tortillas, rice, beans, 3 dips, and guac or queso. Top things off with even more salsas and dips."
+  },
+  {
+    "_id": {
+      "$oid": "nv7j62lht08kqx0k425up8"
+    },
+    "name": "2 Large Chips & 3 Large Sides",
+    "price": "$24.05",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/21ef713a3892402aa11c1e5663514cb7/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "guacamole",
+      "salsa",
+      "queso",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "BUILD YOUR OWN",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "2 Large Chips, Large Queso Blanco, Large Guacamole, and one Large Salsa of your choice."
+  },
+  {
+    "_id": {
+      "$oid": "3r3bw6o9o2j6sdvkiqn3ae"
+    },
+    "name": "Burrito Bowl",
+    "price": "$11.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/39e12c89a716ea2bf071513410caa4ce/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "cheese",
+      "sour cream",
+      "queso",
+      "fajita veggies"
+    ],
+    "tags": [
+      "V",
+      "VGO"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "ENTREES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Your choice of freshly grilled meat or sofritas served in a delicious bowl with rice, beans, or fajita veggies, and topped with guac, salsa, queso blanco, sour cream or cheese."
+  },
+  {
+    "_id": {
+      "$oid": "ss45p6d0h2hv3p0bde49on"
+    },
+    "name": "Burrito",
+    "price": "$11.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/39e12c89a716ea2bf071513410caa4ce/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "rice",
+      "beans",
+      "salsa",
+      "cheese",
+      "sour cream",
+      "queso",
+      "tortilla",
+      "fajita veggies"
+    ],
+    "tags": [
+      "V",
+      "VGO"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "ENTREES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Your choice of freshly grilled meat or sofritas wrapped in a warm flour tortilla with rice, beans, or fajita veggies, and topped with guac, salsa, queso blanco, sour cream or cheese."
+  },
+  {
+    "_id": {
+      "$oid": "l117hav78loih5pz6sfk"
+    },
+    "name": "Quesadilla",
+    "price": "$12.20",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/77e2b0592d66d2dde7517fe70eb42dcf/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "cheese",
+      "tortilla",
+      "fajita veggies"
+    ],
+    "tags": [
+      "V",
+      "VGO"
+    ],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "ENTREES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan",
+      "vegetarian"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Cheese in a Flour Tortilla with your choice of meat, sofritas or fajita veggies and three included sides."
+  },
+  {
+    "_id": {
+      "$oid": "hie3x13bm8a4nhs0r4x4xq"
+    },
+    "name": "Salad",
+    "price": "$11.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/18529d7010b92a7194bb9dc297399a6b/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "beans",
+      "lettuce",
+      "guacamole",
+      "salsa",
+      "cheese",
+      "sour cream",
+      "queso"
+    ],
+    "tags": [
+      "V"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "ENTREES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Your choice of meat or sofritas served with our fresh supergreens lettuce blend made of Romaine, Baby Kale, and Baby Spinach. Add beans, queso blanco, salsa, guacamole, sour cream or cheese and top it off with our signature Chipotle-Honey Vinaigrette."
+  },
+  {
+    "_id": {
+      "$oid": "g127ji1qjubuhk2u5mv8x"
+    },
+    "name": "Tacos",
+    "price": "$11.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3d9e034a306ae5c8b37a4e370c2c7dc3/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "sofritas",
+      "guacamole",
+      "tortilla"
+    ],
+    "tags": [
+      "V"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "ENTREES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegan"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Your choice of freshly grilled meat, sofritas, or guacamole, and up to five toppings served in a soft or hard-shell tortilla."
+  },
+  {
+    "_id": {
+      "$oid": "4b3mgi5ulpcf98xdtyqwkw"
+    },
+    "name": "Balanced Macros Bowl",
+    "price": "$15.00",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "beans",
+      "lettuce",
+      "guacamole",
+      "salsa",
+      "fajita veggies",
+      "tomato"
+    ],
+    "tags": [
+      "VGO"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "LIFESTYLE BOWLS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegetarian",
+      "balanced"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Light Rice, Black Beans, Chicken, Fajita Veggies, Fresh Tomato Salsa, Guacamole, and Extra Romaine Lettuce."
+  },
+  {
+    "_id": {
+      "$oid": "d5ke28xf7qok4mzknpm1an"
+    },
+    "name": "Go Half Veggie Bowl",
+    "price": "$11.50",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
+    "ingredients": [
+      "chicken",
+      "sofritas",
+      "rice",
+      "lettuce",
+      "salsa",
+      "sour cream",
+      "fajita veggies",
+      "corn",
+      "tomato"
+    ],
+    "tags": [
+      "VGO"
+    ],
+    "spiceLevel": "Medium",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "LIFESTYLE BOWLS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegetarian"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "½ Chicken, ½ Sofritas, Lettuce White Rice, Fajita Veggies, Fresh Tomato Salsa, Roasted Chili-Corn Salsa, and Sour Cream"
+  },
+  {
+    "_id": {
+      "$oid": "l7yyrsab97sm6ptfm3d78"
+    },
+    "name": "Wholesome Bowl",
+    "price": "$15.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f139f9e371440944b6d063d8cd841a32/0fb376d1da56c05644450062d25c5c84.jpeg",
+    "ingredients": [
+      "chicken",
+      "salsa",
+      "fajita veggies",
+      "tomato"
+    ],
+    "tags": [
+      "VGO",
+      "GFO"
+    ],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "LIFESTYLE BOWLS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegetarian",
+      "keto",
+      "paleo",
+      "gluten free option"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Salad Blend, Chicken, Fajita Veggies, Fresh Tomato Salsa, and Guac. The Wholesome Bowl is Paleo, Whole30®, Grain Free, Gluten Free, and Keto."
+  },
+  {
+    "_id": {
+      "$oid": "x9ztvr9myx66d0fwaqeb8"
+    },
+    "name": "High Protein Bowl",
+    "price": "$16.20",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/04d933f49db6824b2a867df5dba21a45/a19bb09692310dfd41e49a96c424b3a6.jpeg",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "beans",
+      "lettuce",
+      "salsa",
+      "cheese"
+    ],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "LIFESTYLE BOWLS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "high protein"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "White Rice, Black Beans, Double Chicken, Red Chili Salsa, Cheese, and Shredded Romaine Lettuce"
+  },
+  {
+    "_id": {
+      "$oid": "b63l9m01rsp40fdxmsenl"
+    },
+    "name": "Veggie Full Bowl",
+    "price": "$11.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9ee4fcead8abc88f69cbe53f4144f91a/a19bb09692310dfd41e49a96c424b3a6.jpeg",
+    "ingredients": [
+      "rice",
+      "beans",
+      "guacamole",
+      "salsa",
+      "fajita veggies",
+      "corn",
+      "tomato"
+    ],
+    "tags": [
+      "VGO"
+    ],
+    "spiceLevel": "Medium",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "LIFESTYLE BOWLS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [
+      "vegetarian"
+    ],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "White Rice, Black Beans, Fajita Veggies, Fresh Tomato Salsa, Roasted Chili-Corn Salsa, and Guacamole"
+  },
+  {
+    "_id": {
+      "$oid": "8mnh8mjtvhj2wqa7i12gnj"
+    },
+    "name": "Kid's Quesadilla",
+    "price": "$5.60",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/77e2b0592d66d2dde7517fe70eb42dcf/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "rice",
+      "beans",
+      "chips"
+    ],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "KID'S MEAL",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "With a side of rice and beans. Includes fruit or kid's chips and organic juice or milk."
+  },
+  {
+    "_id": {
+      "$oid": "ahbd7la1kx68c9plbcezis"
+    },
+    "name": "Kid's Build Your Own",
+    "price": "$7.15",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/823c029fa7a2ccbab07e6eeecd42577c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [
+      "guacamole",
+      "queso",
+      "tortilla",
+      "chips",
+      "corn"
+    ],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [
+      {
+        "name": "Protein | Choose One",
+        "options": [
+          {
+            "name": "Chicken",
+            "price": "+$70.00"
+          },
+          {
+            "name": "Steak",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Barbacoa",
+            "price": "+$85.00"
+          },
+          {
+            "name": "Carnitas",
+            "price": "+$78.00"
+          },
+          {
+            "name": "Sofritas (Plant-Based Protein)",
+            "price": "+$70.00"
+          }
+        ]
+      },
+      {
+        "name": "Rice | Choose One",
+        "options": [
+          {
+            "name": "White Rice",
+            "price": ""
+          },
+          {
+            "name": "Brown Rice",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Beans | Choose One",
+        "options": [
+          {
+            "name": "Black Beans",
+            "price": ""
+          },
+          {
+            "name": "Pinto Beans",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Included Sides | Choose up to 4",
+        "options": [
+          {
+            "name": "Cheese",
+            "price": ""
+          },
+          {
+            "name": "Romaine Lettuce",
+            "price": ""
+          },
+          {
+            "name": "Large Chips (2)",
+            "price": ""
+          },
+          {
+            "name": "Soft Flour Tortillas (8)",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "More Sides | Up to Three",
+        "options": [
+          {
+            "name": "Large Sour Cream",
+            "price": ""
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": ""
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Premium Sides | Up to One",
+        "options": [
+          {
+            "name": "Large Guacamole",
+            "price": ""
+          },
+          {
+            "name": "Large Queso Blanco",
+            "price": ""
+          }
+        ]
+      },
+      {
+        "name": "Add-Ons",
+        "options": [
+          {
+            "name": "Large Side of Guacamole",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Side of Queso Blanco",
+            "price": "+$7.00"
+          },
+          {
+            "name": "Large Fresh Tomato Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Red Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Tomatillo-Green Chili Salsa",
+            "price": "+$3.00"
+          },
+          {
+            "name": "Large Roasted Chili-Corn Salsa",
+            "price": "+$3.00"
+          }
+        ]
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "KID'S MEAL",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    },
+    "description": "Your choice of meat, guacamole or queso, and two toppings to go with a pair of crispy corn or soft flour Tortillas.Includes fruit or kid's chips and organic juice or milk."
+  },
+  {
+    "_id": {
+      "$oid": "nxc30dstp1w3agt9jhtli"
+    },
+    "name": "Chips",
+    "price": "$2.40",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9069a3e69da7073693b4d6ab143d4387/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "mqsdmstbmpgplnizwng64"
+    },
+    "name": "Large Chips",
+    "price": "$3.40",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/21ef713a3892402aa11c1e5663514cb7/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ybhp4pwi0g55c1serkrtf"
+    },
+    "name": "Chips & Tomatillo-Green Chili Salsa",
+    "price": "$2.85",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/87fe20468321285c2bd69e76f19a1718/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9cewgkvxbzwj1mfrrhkzif"
+    },
+    "name": "Chips & Tomatillo-Red Chili Salsa",
+    "price": "$2.85",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/87fe20468321285c2bd69e76f19a1718/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88gg50b9uketa7cg1s8x9k"
+    },
+    "name": "Chips & Roasted Chili-Corn Salsa",
+    "price": "$2.85",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/87fe20468321285c2bd69e76f19a1718/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "406ljsav2bhhbkgtx5of4i"
+    },
+    "name": "Chips & Fresh Tomato Salsa",
+    "price": "$2.85",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1ba59482a1ebefdf2bb5f22a53707583/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ptt9cqi7sg6mzx0o4pa0d"
+    },
+    "name": "Tortilla on the Side",
+    "price": "$0.65",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/28917f02d0d32be02e2f9245c9795be4/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7tjfcmcc8tb8zg582zhh9n"
+    },
+    "name": "Side of Queso Blanco",
+    "price": "$3.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5997f476cc0e8a0f5172ea406f5dbb4e/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ro3izg3qsgjtzgqt41ahp"
+    },
+    "name": "Chips & Guacamole",
+    "price": "$5.90",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9069a3e69da7073693b4d6ab143d4387/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "z11n1lc733s4z747futco9"
+    },
+    "name": "Side of Adobo Ranch",
+    "price": "$1.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/370f0e5cd1feef4d37aa5e02aa85f0d4/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "10y1dkq7zc8mjcmvm6wx7"
+    },
+    "name": "Large Tomatillo-Green Chili Salsa",
+    "price": "$3.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1323d33f3f70030ce13953fb887439a7/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "atf87qkws7i49ws5y4f67v"
+    },
+    "name": "Large Fresh Tomato Salsa",
+    "price": "$3.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/6ebf2c5dbb288aad8ff61f87025d11bd/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "vh5kh3dpx6sghnlwkq9wrr"
+    },
+    "name": "Large Roasted Chili-Corn Salsa",
+    "price": "$3.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/918d83fd1bf964463b8cdc6c2415e578/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "sd5dx5frn8qlnu552gcy8r"
+    },
+    "name": "Large Tomatillo-Red Chili Salsa",
+    "price": "$3.00",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/04584d2b5da039cdf3ac8754c8b3a2b0/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Medium",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "blvhmbv7neu2qzeuwhfteb"
+    },
+    "name": "Side of Guacamole",
+    "price": "$3.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/b0596744f7f501c80e814bd15c8fb7ed/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "lx51a1tkb8q60jfulacpn7"
+    },
+    "name": "Chips & Queso Blanco",
+    "price": "$5.90",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2f141b5ba6edb8126394c320c8e1205d/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": "Mild",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "SIDES",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ydy4sqps0fv76zt2vsvc"
+    },
+    "name": "Poppi Orange",
+    "price": "$4.15",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/32490a93b69f5eba6e47e1afba3459d1/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a4bf0oth5oph5ann2wa9r"
+    },
+    "name": "Poppi Strawberry Lemon",
+    "price": "$4.15",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d100b3a65ea314defd384d61592826c3/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "yws0vknad9eq7d8t7i3h"
+    },
+    "name": "Open Water Still",
+    "price": "$4.10",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/bf02a6f1c30a09aaec52b16ca14a5ee4/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "metoflq41wd0k5a9vgl7do"
+    },
+    "name": "Coke Zero",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1c5f99bba20b346e98ffefb384407e92/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8xhl20xuv4rmkzx3rghf19"
+    },
+    "name": "Apple Juice",
+    "price": "$4.55",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3816b6e8b0aa8536790a4ef53bc41457/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aicdsws6255d6o5s7zvr9n"
+    },
+    "name": "Tractor Organic Lemonade",
+    "price": "$4.55",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c93e70d7f840f4f65ea4cc6fb6278f67/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "m9qef8wtdcgg1jhjp8hrxm"
+    },
+    "name": "Blackberry Izze",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/22f5c5de068747ecfafd8954acebf542/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eo30tgt6cduk4wjj26pb3e"
+    },
+    "name": "Grapefruit Izze",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/33545d5e2a8a2a1d930d90c0d42b77f3/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "gykytwjewu90t34h7wjy"
+    },
+    "name": "Mexican Coca-Cola",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/79a1e73b751a95252f8e57193b74477b/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "p91nvy0mftb6m6xy1m8hlo"
+    },
+    "name": "Mexican Sprite",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/8642d9772d50e6522cdf1f5c4527b617/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "p4w7592h28i46aiwv5fam"
+    },
+    "name": "Topo Chico Mineral Water",
+    "price": "$4.50",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/20e34496942e951b26be9e3c749c142d/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+    "ingredients": [],
+    "tags": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
+    "category": "DRINKS",
+    "restaurant": "Chipotle Mexican Grill (22704 SE 4th St Ste 210)",
+    "dietary": [],
+    "brandId": {
+      "$oid": "66vr18w3hnbiinxu3dep"
+    }
+  }
+]
