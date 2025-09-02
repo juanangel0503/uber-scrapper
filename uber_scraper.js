@@ -257,7 +257,8 @@ async function uberScraper(targetUrl = null) {
     // Launch browser
     console.log("🌐 Launching browser...");
     browser = await puppeteer.launch({
-      headless: false, // Set to true for production
+      headless: true,
+      executablePath: "/usr/bin/chromium-browser", // Set to true for production
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
@@ -1154,7 +1155,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.error("1. Check if the Uber Eats URL is accessible");
     console.error("2. Verify your internet connection");
     console.error("3. The page structure might have changed - check selectors");
-    console.error("4. Try running with headless: false to see what's happening");
+    console.error("4. Try running with headless: true to see what's happening");
     console.error("5. Make sure to provide a valid UberEats restaurant URL as an argument");
     process.exit(1);
   });

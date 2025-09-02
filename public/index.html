@@ -282,22 +282,6 @@
                 </div>
             </div>
 
-            <!-- Scrapers Overview -->
-            <div class="api-section">
-                <div class="section-header">
-                    <h3>📚 Available Scrapers</h3>
-                    <p>View all available scrapers and their endpoints</p>
-                </div>
-                <div class="section-content">
-                    <div class="button-group">
-                        <button class="btn btn-primary" id="get-scrapers-btn">Get Scrapers</button>
-                    </div>
-                    <div class="loading" id="scrapers-loading">
-                        <div class="spinner"></div>Loading...
-                    </div>
-                    <div class="json-display" id="scrapers-result"></div>
-                </div>
-            </div>
 
             <!-- Menu Data -->
             <div class="api-section">
@@ -317,7 +301,7 @@
                     </div>
                     <div class="button-group">
                         <button class="btn btn-primary" id="get-menu-btn">Get Menu</button>
-                        <button class="btn btn-secondary" id="get-categories-btn">Get Categories</button>
+                        
                     </div>
                     <div class="loading" id="menu-loading">
                         <div class="spinner"></div>Loading...
@@ -326,49 +310,6 @@
                 </div>
             </div>
 
-            <!-- Search & Filter -->
-            <div class="api-section">
-                <div class="section-header">
-                    <h3>🔍 Search & Filter</h3>
-                    <p>Search and filter menu items with advanced options</p>
-                </div>
-                <div class="section-content">
-                    <div class="controls">
-                        <div class="control-group">
-                            <label for="search-query">Search Query:</label>
-                            <input type="text" id="search-query" placeholder="e.g., pizza, pasta, burger">
-                        </div>
-                        <div class="control-group">
-                            <label for="search-scraper">Scraper:</label>
-                            <select id="search-scraper">
-                                <option value="">All Scrapers</option>
-                                <option value="ilcaminetto">Il Caminetto</option>
-                                <option value="uber">Uber Eats</option>
-                            </select>
-                        </div>
-                        <div class="control-group">
-                            <label for="search-category">Category:</label>
-                            <input type="text" id="search-category" placeholder="e.g., PIZZE, PASTE">
-                        </div>
-                        <div class="control-group">
-                            <label for="search-price">Max Price:</label>
-                            <input type="text" id="search-price" placeholder="e.g., 25.00">
-                        </div>
-                        <div class="control-group">
-                            <label for="search-dietary">Dietary:</label>
-                            <input type="text" id="search-dietary" placeholder="e.g., vegetarian, vegan">
-                        </div>
-                    </div>
-                    <div class="button-group">
-                        <button class="btn btn-primary" id="search-menu-btn">Search Menu</button>
-                        <button class="btn btn-secondary" id="clear-search-btn">Clear Search</button>
-                    </div>
-                    <div class="loading" id="search-loading">
-                        <div class="spinner"></div>Searching...
-                    </div>
-                    <div class="json-display" id="search-result"></div>
-                </div>
-            </div>
 
             <!-- Run Scrapers -->
             <div class="api-section">
@@ -384,6 +325,11 @@
                                 <option value="ilcaminetto">Il Caminetto Italian Restaurant</option>
                                 <option value="uber">Uber Eats</option>
                             </select>
+                        </div>
+                        <div class="control-group">
+                            <label for="scraper-url">Target URL (optional):</label>
+                            <input type="url" id="scraper-url" placeholder="e.g., https://www.ubereats.com/store/restaurant-name/..." style="width: 100%;">
+                            <small style="color: #6c757d; font-size: 0.8rem; display: block; margin-top: 4px;">Leave empty to use default URLs for each scraper</small>
                         </div>
                     </div>
                     <div class="button-group">

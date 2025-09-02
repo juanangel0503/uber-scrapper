@@ -1,20 +1,32 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 
-async function ilcaminettoScraper() {
-  const targetUrl = 'https://orders.ilcaminetto.com.au/';
+async function ilcaminettoScraper(targetUrl = null) {
+  const TARGET_URL = targetUrl || process.argv[2] || 'https://orders.ilcaminetto.com.au/';
   
   console.log("🚀 Starting Il Caminetto Italian Restaurant scraper...");
-  console.log(`📍 Target URL: ${targetUrl}`);
+  console.log(`📍 Target URL: ${TARGET_URL}`);
   
   let browser;
   
   try {
-    browser = await puppeteer.launch({ headless: false });
+    browser = await puppeteer.launch({ 
+      headless: true,
+      executablePath: "/usr/bin/chromium-browser",
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-accelerated-2d-canvas",
+        "--no-first-run",
+        "--no-zygote",
+        "--disable-gpu"
+      ]
+    });
     const page = await browser.newPage();
     
     console.log("🍕 Navigating to Il Caminetto...");
-    await page.goto(targetUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
     await page.waitForTimeout(3000);
     
     console.log("📸 Taking screenshot for debugging...");

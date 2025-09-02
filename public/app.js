@@ -102,18 +102,6 @@ async function checkHealth() {
     }
 }
 
-// Scrapers Functions
-async function getScrapers() {
-    showLoading('scrapers-loading');
-    try {
-        const data = await apiCall(`${API_BASE_URL}/api/v1/scrapers`);
-        displayResult('scrapers-result', data);
-    } catch (error) {
-        displayError('scrapers-result', error);
-    } finally {
-        hideLoading('scrapers-loading');
-    }
-}
 
 // Menu Functions
 async function getMenu() {
@@ -130,71 +118,23 @@ async function getMenu() {
     }
 }
 
-async function getCategories() {
-    const scraper = document.getElementById('menu-scraper').value;
-    showLoading('menu-loading');
-    
-    try {
-        const data = await apiCall(`${API_BASE_URL}/api/v1/categories/${scraper}`);
-        displayResult('menu-result', data);
-    } catch (error) {
-        displayError('menu-result', error);
-    } finally {
-        hideLoading('menu-loading');
-    }
-}
-
-// Search Functions
-async function searchMenu() {
-    const query = document.getElementById('search-query').value;
-    const scraper = document.getElementById('search-scraper').value;
-    const category = document.getElementById('search-category').value;
-    const maxPrice = document.getElementById('search-price').value;
-    const dietary = document.getElementById('search-dietary').value;
-    
-    // Build query parameters
-    const params = new URLSearchParams();
-    if (query) params.append('query', query);
-    if (scraper) params.append('scraper', scraper);
-    if (category) params.append('category', category);
-    if (maxPrice) params.append('maxPrice', maxPrice);
-    if (dietary) params.append('dietary', dietary);
-    
-    showLoading('search-loading');
-    
-    try {
-        const data = await apiCall(`${API_BASE_URL}/api/v1/search?${params.toString()}`);
-        displayResult('search-result', data);
-    } catch (error) {
-        displayError('search-result', error);
-    } finally {
-        hideLoading('search-loading');
-    }
-}
-
-function clearSearch() {
-    document.getElementById('search-query').value = '';
-    document.getElementById('search-scraper').value = '';
-    document.getElementById('search-category').value = '';
-    document.getElementById('search-price').value = '';
-    document.getElementById('search-dietary').value = '';
-    document.getElementById('search-result').textContent = '';
-}
-
 // Scraper Execution Functions
 async function runScraper() {
-    const scraper = document.getElementById('scraper-select').value;
-    showLoading('scraper-loading');
+    const scraper = document.getElementById("scraper-select").value;
+    const url = document.getElementById("scraper-url").value.trim();
+    showLoading("scraper-loading");
     
     try {
+        const requestBody = url ? { url } : {};
         const data = await apiCall(`${API_BASE_URL}/api/v1/scrapers/${scraper}/scrape`, {
-            method: 'POST'
+            method: "POST",
+            body: JSON.stringify(requestBody)
         });
-        displayResult('scraper-result', data);
+        displayResult("scraper-result", data);
     } catch (error) {
-        displayError('scraper-result', error);
+        displayError("scraper-result", error);
     } finally {
-        hideLoading('scraper-loading');
+        hideLoading("scraper-loading");
     }
 }
 
@@ -229,11 +169,6 @@ function setupEventListeners() {
         checkHealthBtn.addEventListener('click', checkHealth);
     }
     
-    // Scrapers button
-    const getScrapersBtn = document.getElementById('get-scrapers-btn');
-    if (getScrapersBtn) {
-        getScrapersBtn.addEventListener('click', getScrapers);
-    }
     
     // Menu buttons
     const getMenuBtn = document.getElementById('get-menu-btn');
@@ -241,44 +176,11 @@ function setupEventListeners() {
         getMenuBtn.addEventListener('click', getMenu);
     }
     
-    const getCategoriesBtn = document.getElementById('get-categories-btn');
-    if (getCategoriesBtn) {
-        getCategoriesBtn.addEventListener('click', getCategories);
-    }
-    
-    // Search buttons
-    const searchMenuBtn = document.getElementById('search-menu-btn');
-    if (searchMenuBtn) {
-        searchMenuBtn.addEventListener('click', searchMenu);
-    }
-    
-    const clearSearchBtn = document.getElementById('clear-search-btn');
-    if (clearSearchBtn) {
-        clearSearchBtn.addEventListener('click', clearSearch);
-    }
-    
     // Run scraper button
     const runScraperBtn = document.getElementById('run-scraper-btn');
     if (runScraperBtn) {
         runScraperBtn.addEventListener('click', runScraper);
     }
-    
-    // Add Enter key support for search inputs
-    const searchInputs = [
-        'search-query', 'search-scraper', 'search-category', 
-        'search-price', 'search-dietary'
-    ];
-    
-    searchInputs.forEach(inputId => {
-        const input = document.getElementById(inputId);
-        if (input) {
-            input.addEventListener('keypress', function(e) {
-                if (e.key === 'Enter') {
-                    searchMenu();
-                }
-            });
-        }
-    });
 }
 
 // Initialize dashboard
@@ -290,20 +192,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Start health monitoring
     startHealthMonitoring();
-    
-    // Add keyboard shortcuts
-    document.addEventListener('keydown', function(e) {
-        // Ctrl/Cmd + Enter to search
-        if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-            const activeElement = document.activeElement;
-            if (activeElement && activeElement.closest('.api-section')) {
-                const section = activeElement.closest('.api-section');
-                if (section.querySelector('#search-query')) {
-                    searchMenu();
-                }
-            }
-        }
-    });
     
     // Add click-to-copy functionality to JSON displays
     document.querySelectorAll('.json-display').forEach(element => {
@@ -317,27 +205,11 @@ document.addEventListener('DOMContentLoaded', function() {
         element.style.cursor = 'pointer';
         element.title = 'Click to copy JSON to clipboard';
     });
-    
-    // Add auto-complete suggestions for search
-    const searchInput = document.getElementById('search-query');
-    if (searchInput) {
-        const suggestions = [
-            'pizza', 'pasta', 'burger', 'salad', 'chicken', 'beef', 
-            'vegetarian', 'vegan', 'gluten free', 'dessert', 'appetizer'
-        ];
-        
-        searchInput.addEventListener('input', function() {
-            // Simple autocomplete could be added here
-        });
-    }
 });
 
 // Export functions for global access
 window.checkHealth = checkHealth;
-window.getScrapers = getScrapers;
+
 window.getMenu = getMenu;
-window.getCategories = getCategories;
-window.searchMenu = searchMenu;
-window.clearSearch = clearSearch;
 window.runScraper = runScraper;
 window.copyToClipboard = copyToClipboard;

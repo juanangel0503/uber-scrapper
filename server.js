@@ -60,32 +60,6 @@ app.use('*', (req, res) => {
 function createApiRoutes() {
   const router = express.Router();
 
-  // Get all available scrapers
-  router.get('/scrapers', (req, res) => {
-    res.json({
-      scrapers: [
-        {
-          id: 'ilcaminetto',
-          name: 'Il Caminetto Italian Restaurant',
-          description: 'Italian restaurant menu scraper',
-          endpoints: {
-            menu: '/api/v1/scrapers/ilcaminetto/menu',
-            scrape: '/api/v1/scrapers/ilcaminetto/scrape'
-          }
-        },
-        {
-          id: 'uber',
-          name: 'Uber Eats',
-          description: 'Uber Eats restaurant menu scraper',
-          endpoints: {
-            menu: '/api/v1/scrapers/uber/menu',
-            scrape: '/api/v1/scrapers/uber/scrape'
-          }
-        }
-      ]
-    });
-  });
-
   // Il Caminetto routes
   router.get('/scrapers/ilcaminetto/menu', (req, res) => {
     try {
@@ -116,7 +90,8 @@ function createApiRoutes() {
   router.post('/scrapers/ilcaminetto/scrape', async (req, res) => {
     try {
       const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
-      const result = await ilcaminettoScraper();
+      const { url } = req.body;
+      const result = await ilcaminettoScraper(url);
       res.json({
         success: true,
         message: 'Scraping completed successfully',
@@ -161,7 +136,8 @@ function createApiRoutes() {
   router.post('/scrapers/uber/scrape', async (req, res) => {
     try {
       const { uberScraper } = await import('./uber_scraper.js');
-      const result = await uberScraper();
+      const { url } = req.body;
+      const result = await uberScraper(url);
       res.json({
         success: true,
         message: 'Scraping completed successfully',
@@ -171,113 +147,6 @@ function createApiRoutes() {
       res.status(500).json({
         success: false,
         error: 'Scraping failed',
-        message: error.message
-      });
-    }
-  });
-
-  // Search and filter endpoints
-  router.get('/search', (req, res) => {
-    try {
-      const { query, scraper, category, maxPrice, dietary } = req.query;
-      
-      // Determine which menu to search
-      let menuPath;
-      if (scraper === 'uber') {
-        menuPath = path.join(__dirname, 'uber_menu.json');
-      } else {
-        menuPath = path.join(__dirname, 'ilcaminetto_menu.json');
-      }
-
-      if (!fs.existsSync(menuPath)) {
-        return res.status(404).json({
-          success: false,
-          error: 'Menu data not found'
-        });
-      }
-
-      let menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
-
-      // Apply filters
-      if (query) {
-        const searchTerm = query.toLowerCase();
-        menuData = menuData.filter(item => 
-          item.name.toLowerCase().includes(searchTerm) ||
-          (item.description && item.description.toLowerCase().includes(searchTerm))
-        );
-      }
-
-      if (category) {
-        menuData = menuData.filter(item => 
-          item.category.toLowerCase() === category.toLowerCase()
-        );
-      }
-
-      if (maxPrice) {
-        const maxPriceNum = parseFloat(maxPrice.replace('$', ''));
-        menuData = menuData.filter(item => {
-          const itemPrice = parseFloat(item.price.replace('$', ''));
-          return itemPrice <= maxPriceNum;
-        });
-      }
-
-      if (dietary) {
-        const dietaryTerms = dietary.toLowerCase().split(',');
-        menuData = menuData.filter(item => 
-          item.dietary && item.dietary.some(diet => 
-            dietaryTerms.some(term => diet.toLowerCase().includes(term))
-          )
-        );
-      }
-
-      res.json({
-        success: true,
-        data: menuData,
-        totalResults: menuData.length,
-        filters: { query, scraper, category, maxPrice, dietary }
-      });
-
-    } catch (error) {
-      res.status(500).json({
-        success: false,
-        error: 'Search failed',
-        message: error.message
-      });
-    }
-  });
-
-  // Get categories
-  router.get('/categories/:scraper', (req, res) => {
-    try {
-      const { scraper } = req.params;
-      let menuPath;
-      
-      if (scraper === 'uber') {
-        menuPath = path.join(__dirname, 'uber_menu.json');
-      } else {
-        menuPath = path.join(__dirname, 'ilcaminetto_menu.json');
-      }
-
-      if (!fs.existsSync(menuPath)) {
-        return res.status(404).json({
-          success: false,
-          error: 'Menu data not found'
-        });
-      }
-
-      const menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
-      const categories = [...new Set(menuData.map(item => item.category))];
-
-      res.json({
-        success: true,
-        data: categories,
-        totalCategories: categories.length
-      });
-
-    } catch (error) {
-      res.status(500).json({
-        success: false,
-        error: 'Failed to get categories',
         message: error.message
       });
     }
