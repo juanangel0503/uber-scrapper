@@ -152,7 +152,7 @@ Each menu item follows this structure:
   "_id": { "$oid": "unique_id" },
   "name": "Item Name",
   "price": "$17.00",
-  "image": "https://example.com/image.jpg",
+  "image": "http://example.com/image.jpg",
   "tags": ["pizza", "main"],
   "category": "PIZZE",
   "restaurant": "Restaurant Name",
@@ -187,7 +187,7 @@ Each menu item follows this structure:
 ## 🌐 Supported Platforms
 
 ### Il Caminetto Italian Restaurant
-- **URL**: https://orders.ilcaminetto.com.au/
+- **URL**: http://orders.ilcaminetto.com.au/
 - **Features**: Full menu, dietary tags, real images
 - **Categories**: Appetizers, Pasta, Pizza, Main Courses, Desserts
 

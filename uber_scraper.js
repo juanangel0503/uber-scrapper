@@ -20,34 +20,34 @@ function getChipotleImage(itemName, category) {
   
   // Build Your Own items
   if (name.includes('build your own')) {
-    if (name.includes('chicken')) return "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
-    if (name.includes('steak')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-    if (name.includes('barbacoa')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-    if (name.includes('carnitas')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-    if (name.includes('sofritas')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-    return "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+    if (name.includes('chicken')) return "http://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+    if (name.includes('steak')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    if (name.includes('barbacoa')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    if (name.includes('carnitas')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    if (name.includes('sofritas')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    return "http://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
   }
   
   // Entrees
-  if (name.includes('burrito')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  if (name.includes('bowl')) return "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
-  if (name.includes('taco')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  if (name.includes('quesadilla')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  if (name.includes('salad')) return "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+  if (name.includes('burrito')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('bowl')) return "http://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+  if (name.includes('taco')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('quesadilla')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('salad')) return "http://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
   
   // Sides
-  if (name.includes('chips')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  if (name.includes('guacamole')) return "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
-  if (name.includes('salsa')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  if (name.includes('queso')) return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('chips')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('guacamole')) return "http://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+  if (name.includes('salsa')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  if (name.includes('queso')) return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
   
   // Drinks
   if (name.includes('coke') || name.includes('sprite') || name.includes('juice') || name.includes('water')) {
-    return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
   }
   
   // Default fallback
-  return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
 }
 
 // Transform menu data to new schema
@@ -247,7 +247,7 @@ function transformToNewSchema(restaurantData, menuData) {
 
 async function uberScraper(targetUrl = null) {
   // Get target URL from parameter or command line arguments or use default
-  const TARGET_URL = targetUrl || process.argv[2] || "https://www.ubereats.com/store/chipotle-mexican-grill-22704-se-4th-st-ste-210/YGSzD0qzRAqRseL06YFbYg";
+  const TARGET_URL = targetUrl || process.argv[2] || "http://www.ubereats.com/store/chipotle-mexican-grill-22704-se-4th-st-ste-210/YGSzD0qzRAqRseL06YFbYg";
   
   console.log("🚀 Starting Uber Eats scraper...");
   console.log("📍 Target URL:", TARGET_URL);

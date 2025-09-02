@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 
 async function ilcaminettoScraper(targetUrl = null) {
-  const TARGET_URL = targetUrl || process.argv[2] || 'https://orders.ilcaminetto.com.au/';
+  const TARGET_URL = targetUrl || process.argv[2] || 'http://orders.ilcaminetto.com.au/';
   
   console.log("🚀 Starting Il Caminetto Italian Restaurant scraper...");
   console.log(`📍 Target URL: ${TARGET_URL}`);
@@ -280,18 +280,18 @@ function getItalianRestaurantImage(itemName, category) {
   const name = itemName.toLowerCase();
   
   if (name.includes('pizza') || name.includes('margherita') || name.includes('capricciosa')) {
-    return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+    return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
   }
   
   if (name.includes('pasta') || name.includes('tortelloni') || name.includes('gnocchi')) {
-    return "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop";
+    return "http://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop";
   }
   
   if (name.includes('risotto')) {
-    return "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop";
+    return "http://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop";
   }
   
-  return "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+  return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
 }
 
 // Export for API usage

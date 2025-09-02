@@ -209,7 +209,7 @@ GET /api/v1/categories/ilcaminetto
   "_id": { "$oid": "unique_id" },
   "name": "Item Name",
   "price": "$17.00",
-  "image": "https://example.com/image.jpg",
+  "image": "http://example.com/image.jpg",
   "tags": ["pizza", "main"],
   "category": "PIZZE",
   "restaurant": "Restaurant Name",
