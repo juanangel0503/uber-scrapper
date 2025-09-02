@@ -18,7 +18,7 @@ app.use(helmet({
     directives: {
       defaultSrc: ["'self'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
-      scriptSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:", "https:"],
     },
   },
@@ -157,9 +157,9 @@ function createApiRoutes() {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 API Server running on port ${PORT}`);
-  console.log(`📚 API Documentation: http://localhost:${PORT}/api/v1/scrapers`);
-  console.log(`🔍 Health Check: http://localhost:${PORT}/health`);
+  console.log(` API Server running on port ${PORT}`);
+  console.log(` API Documentation: http://localhost:${PORT}/api/v1/scrapers`);
+  console.log(` Health Check: http://localhost:${PORT}/health`);
 });
 
 export default app;
