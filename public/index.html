@@ -325,7 +325,7 @@
                         </div>
                         <div class="control-group">
                             <label for="scraper-url">Target URL (optional):</label>
-                            <input type="url" id="scraper-url" placeholder="e.g., http://www.ubereats.com/store/restaurant-name/..." style="width: 100%;">
+                            <input type="url" id="scraper-url" placeholder="e.g., https://www.ubereats.com/store/restaurant-name/..." style="width: 100%;">
                             <small style="color: #6c757d; font-size: 0.8rem; display: block; margin-top: 4px;">Leave empty to use default URLs for each scraper</small>
                         </div>
                     </div>
@@ -349,7 +349,7 @@
         // BrightData Scraper API Dashboard JavaScript
 
         // Fix for protocol mismatch - use current protocol and host
-        const API_BASE_URL = `http://${window.location.host}`;
+        const API_BASE_URL = `${window.location.protocol}//${window.location.host}`;
 
         // Utility function to format JSON for display
         function formatJSON(data) {
