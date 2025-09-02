@@ -348,7 +348,8 @@
     <script>
         // BrightData Scraper API Dashboard JavaScript
 
-        const API_BASE_URL = window.location.origin;
+        // Fix for protocol mismatch - use current protocol and host
+        const API_BASE_URL = `${window.location.protocol}//${window.location.host}`;
 
         // Utility function to format JSON for display
         function formatJSON(data) {
@@ -532,6 +533,7 @@
         // Initialize dashboard
         document.addEventListener('DOMContentLoaded', function() {
             console.log('🚀 BrightData Scraper API Dashboard loaded');
+            console.log('API Base URL:', API_BASE_URL);
             
             // Add event listeners for buttons
             setupEventListeners();
