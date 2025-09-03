@@ -87,6 +87,68 @@ function createApiRoutes() {
     }
   });
 
+  // Il Caminetto JSON Download
+  router.get('/scrapers/ilcaminetto/download', (req, res) => {
+    try {
+      const menuPath = path.join(__dirname, 'ilcaminetto_menu.json');
+      if (fs.existsSync(menuPath)) {
+        const menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `ilcaminetto-menu-${timestamp}.json`;
+        
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json(menuData);
+      } else {
+        res.status(404).json({
+          success: false,
+          error: 'Menu data not found. Run the scraper first.'
+        });
+      }
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        error: 'Error downloading menu data',
+        message: error.message
+      });
+    }
+  });
+
+  // Il Caminetto Direct Scrape & Download
+  router.post('/scrapers/ilcaminetto/scrape-download', async (req, res) => {
+    try {
+      const { url } = req.body;
+      if (!url) {
+        return res.status(400).json({
+          success: false,
+          error: 'URL is required',
+          message: 'Please provide a URL in the request body'
+        });
+      }
+
+      const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
+      const result = await ilcaminettoScraper(url);
+      
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const filename = `ilcaminetto-${timestamp}.json`;
+      
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+      res.json({
+        success: true,
+        scraped_url: url,
+        scraped_at: new Date().toISOString(),
+        data: result
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        error: 'Scraping failed',
+        message: error.message
+      });
+    }
+  });
+
   router.post('/scrapers/ilcaminetto/scrape', async (req, res) => {
     try {
       const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
@@ -133,6 +195,68 @@ function createApiRoutes() {
     }
   });
 
+  // Uber JSON Download
+  router.get('/scrapers/uber/download', (req, res) => {
+    try {
+      const menuPath = path.join(__dirname, 'uber_menu.json');
+      if (fs.existsSync(menuPath)) {
+        const menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `uber-menu-${timestamp}.json`;
+        
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json(menuData);
+      } else {
+        res.status(404).json({
+          success: false,
+          error: 'Menu data not found. Run the scraper first.'
+        });
+      }
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        error: 'Error downloading menu data',
+        message: error.message
+      });
+    }
+  });
+
+  // Uber Direct Scrape & Download
+  router.post('/scrapers/uber/scrape-download', async (req, res) => {
+    try {
+      const { url } = req.body;
+      if (!url) {
+        return res.status(400).json({
+          success: false,
+          error: 'URL is required',
+          message: 'Please provide a URL in the request body'
+        });
+      }
+
+      const { uberScraper } = await import('./uber_scraper.js');
+      const result = await uberScraper(url);
+      
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const filename = `uber-${timestamp}.json`;
+      
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+      res.json({
+        success: true,
+        scraped_url: url,
+        scraped_at: new Date().toISOString(),
+        data: result
+      });
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        error: 'Scraping failed',
+        message: error.message
+      });
+    }
+  });
+
   router.post('/scrapers/uber/scrape', async (req, res) => {
     try {
       const { uberScraper } = await import('./uber_scraper.js');
@@ -152,6 +276,42 @@ function createApiRoutes() {
     }
   });
 
+  // Combined JSON Download (All scrapers)
+  router.get('/download/all', (req, res) => {
+    try {
+      const ilcaminettoPath = path.join(__dirname, 'ilcaminetto_menu.json');
+      const uberPath = path.join(__dirname, 'uber_menu.json');
+      
+      const combinedData = {
+        scraped_at: new Date().toISOString(),
+        scrapers: {}
+      };
+
+      // Add Il Caminetto data if exists
+      if (fs.existsSync(ilcaminettoPath)) {
+        combinedData.scrapers.ilcaminetto = JSON.parse(fs.readFileSync(ilcaminettoPath, 'utf8'));
+      }
+
+      // Add Uber data if exists
+      if (fs.existsSync(uberPath)) {
+        combinedData.scrapers.uber = JSON.parse(fs.readFileSync(uberPath, 'utf8'));
+      }
+
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const filename = `all-menus-${timestamp}.json`;
+      
+      res.setHeader('Content-Type', 'application/json');
+      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+      res.json(combinedData);
+    } catch (error) {
+      res.status(500).json({
+        success: false,
+        error: 'Error downloading combined menu data',
+        message: error.message
+      });
+    }
+  });
+
   return router;
 }
 
@@ -159,7 +319,9 @@ function createApiRoutes() {
 app.listen(PORT, () => {
   console.log(` API Server running on port ${PORT}`);
   console.log(` API Documentation: http://localhost:${PORT}/api/v1/scrapers`);
-  console.log(` Health Check: http://localhost:${PORT}/health`);
+  console.log(`❤️  Health Check: http://localhost:${PORT}/health`);
+  console.log(`📥 JSON Downloads: http://localhost:${PORT}/api/v1/download/all`);
+  console.log(`⚡ Direct Scrape & Download APIs added!`);
 });
 
 export default app;
