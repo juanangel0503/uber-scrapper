@@ -126,21 +126,45 @@ function createApiRoutes() {
         });
       }
 
+      console.log(`🚀 Starting Il Caminetto scraping for URL: ${url}`);
       const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
       const result = await ilcaminettoScraper(url);
       
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-      const filename = `ilcaminetto-${timestamp}.json`;
-      
-      res.setHeader('Content-Type', 'application/json');
-      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
-      res.json({
-        success: true,
-        scraped_url: url,
-        scraped_at: new Date().toISOString(),
-        data: result
-      });
+      // Check if the scraper saved the data to file
+      const menuPath = path.join(__dirname, 'ilcaminetto_menu.json');
+      if (fs.existsSync(menuPath)) {
+        const menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `ilcaminetto-${timestamp}.json`;
+        
+        console.log(`✅ Scraping completed. Downloading ${filename}`);
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json({
+          success: true,
+          scraped_url: url,
+          scraped_at: new Date().toISOString(),
+          filename: filename,
+          total_items: menuData.length,
+          data: menuData
+        });
+      } else {
+        // If file wasn't created, return the result directly
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `ilcaminetto-${timestamp}.json`;
+        
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json({
+          success: true,
+          scraped_url: url,
+          scraped_at: new Date().toISOString(),
+          filename: filename,
+          data: result
+        });
+      }
     } catch (error) {
+      console.error('❌ Scraping failed:', error.message);
       res.status(500).json({
         success: false,
         error: 'Scraping failed',
@@ -234,21 +258,45 @@ function createApiRoutes() {
         });
       }
 
+      console.log(` Starting Uber Eats scraping for URL: ${url}`);
       const { uberScraper } = await import('./uber_scraper.js');
       const result = await uberScraper(url);
       
-      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-      const filename = `uber-${timestamp}.json`;
-      
-      res.setHeader('Content-Type', 'application/json');
-      res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
-      res.json({
-        success: true,
-        scraped_url: url,
-        scraped_at: new Date().toISOString(),
-        data: result
-      });
+      // Check if the scraper saved the data to file
+      const menuPath = path.join(__dirname, 'uber_menu.json');
+      if (fs.existsSync(menuPath)) {
+        const menuData = JSON.parse(fs.readFileSync(menuPath, 'utf8'));
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `uber-${timestamp}.json`;
+        
+        console.log(`✅ Scraping completed. Downloading ${filename}`);
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json({
+          success: true,
+          scraped_url: url,
+          scraped_at: new Date().toISOString(),
+          filename: filename,
+          total_items: menuData.length,
+          data: menuData
+        });
+      } else {
+        // If file wasn't created, return the result directly
+        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+        const filename = `uber-${timestamp}.json`;
+        
+        res.setHeader('Content-Type', 'application/json');
+        res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
+        res.json({
+          success: true,
+          scraped_url: url,
+          scraped_at: new Date().toISOString(),
+          filename: filename,
+          data: result
+        });
+      }
     } catch (error) {
+      console.error('❌ Scraping failed:', error.message);
       res.status(500).json({
         success: false,
         error: 'Scraping failed',
@@ -321,7 +369,8 @@ app.listen(PORT, () => {
   console.log(` API Documentation: http://localhost:${PORT}/api/v1/scrapers`);
   console.log(`❤️  Health Check: http://localhost:${PORT}/health`);
   console.log(`📥 JSON Downloads: http://localhost:${PORT}/api/v1/download/all`);
-  console.log(`⚡ Direct Scrape & Download APIs added!`);
+  console.log(`⚡ Direct Scrape & Download APIs ready!`);
+  console.log(` Scrapers will save data to JSON files and then download them`);
 });
 
 export default app;
