@@ -114,15 +114,15 @@ function createApiRoutes() {
     }
   });
 
-  // Il Caminetto Direct Scrape & Download
-  router.post('/scrapers/ilcaminetto/scrape-download', async (req, res) => {
+  // Il Caminetto Direct Scrape & Download (GET method)
+  router.get('/scrapers/ilcaminetto/scrape-download', async (req, res) => {
     try {
-      const { url } = req.body;
+      const { url } = req.query;
       if (!url) {
         return res.status(400).json({
           success: false,
           error: 'URL is required',
-          message: 'Please provide a URL in the request body'
+          message: 'Please provide a URL as query parameter: ?url=YOUR_URL'
         });
       }
 
@@ -222,15 +222,15 @@ function createApiRoutes() {
     }
   });
 
-  // Uber Direct Scrape & Download
-  router.post('/scrapers/uber/scrape-download', async (req, res) => {
+  // Uber Direct Scrape & Download (GET method)
+  router.get('/scrapers/uber/scrape-download', async (req, res) => {
     try {
-      const { url } = req.body;
+      const { url } = req.query;
       if (!url) {
         return res.status(400).json({
           success: false,
           error: 'URL is required',
-          message: 'Please provide a URL in the request body'
+          message: 'Please provide a URL as query parameter: ?url=YOUR_URL'
         });
       }
 
