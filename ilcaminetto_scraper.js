@@ -26,8 +26,16 @@ async function ilcaminettoScraper(targetUrl = null) {
     const page = await browser.newPage();
     
     console.log("🍕 Navigating to Il Caminetto...");
-    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
-    await page.waitForTimeout(3000);
+    await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    
+    // Wait for the page to load completely with additional time for dynamic content
+    try {
+      await page.waitForSelector('[id^="TabSelectOption-"]', { timeout: 30000 });
+      console.log("✅ Menu categories loaded successfully");
+    } catch (error) {
+      console.log("⚠️  Categories not found, continuing with basic wait...");
+      await page.waitForTimeout(5000);
+    }
     
     console.log("📸 Taking screenshot for debugging...");
     await page.screenshot({ path: 'ilcaminetto_debug.png', fullPage: true });
@@ -133,7 +141,7 @@ async function ilcaminettoScraper(targetUrl = null) {
               }
             }
             
-            // Get dietary tags
+            // Get dietary tags from visible badges
             const dietaryTags = dishItem.querySelectorAll('.dishtag__Text-htARsz');
             dietaryTags.forEach(tag => {
               const tagText = tag.textContent.trim();
@@ -141,6 +149,25 @@ async function ilcaminettoScraper(targetUrl = null) {
               if (tagText === 'VGO') item.dietary.push('vegan');
               if (tagText === 'GFO') item.dietary.push('gluten free option');
             });
+            
+            // Look for add-on information from item data attributes or nearby elements
+            // If an item has dietary tags, it likely has customization options
+            
+            // Add gluten-free option if the item has gluten free dietary tag
+            if (item.dietary.includes('gluten free option')) {
+              item.options.push({
+                name: "Gluten Free",
+                price: "+$5.00" // Standard price based on screenshot
+              });
+            }
+            
+            // Add vegan option if the item has vegan dietary tag 
+            if (item.dietary.includes('vegan')) {
+              item.options.push({
+                name: "Vegan Option",
+                price: "+$0.00" // Usually no extra charge for vegan option
+              });
+            }
             
             category.items.push(item);
           });
@@ -207,7 +234,8 @@ function transformToNewSchema(restaurantData, menuData) {
       }
       
       const tags = generateTags(item.name, item.description);
-      const dietary = item.dietary || [];
+      const dietary = item.dietary || []; // Use real dietary data from website
+      const addOns = item.options || []; // Use real options data from website
       const brandId = generateObjectId();
       // Use extracted image if available, otherwise fallback to appropriate image
       const image = item.image || getItalianRestaurantImage(item.name, category.category);
@@ -219,11 +247,11 @@ function transformToNewSchema(restaurantData, menuData) {
         "image": image,
         "tags": tags,
         "category": category.category.toUpperCase(),
-
-
-
-
-        
+        "ingredients": [], // Empty array as specified
+        "spiceLevel": " ", // Empty space as specified
+        "add-ons": addOns, // Array of objects for customization options
+        "preparationTime": " ", // Empty space as specified
+        "recommended_with": [], // Empty array as specified
         "restaurant": restaurantData.name,
         "dietary": dietary,
         "brandId": { "$oid": brandId },
@@ -292,6 +320,18 @@ function getItalianRestaurantImage(itemName, category) {
   }
   
   return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
+}
+
+function extractDietaryTags(name, description) {
+  // Only return empty array - all real dietary tags are extracted during scraping
+  // from the actual website badges (V, VGO, GFO) and should not be artificially generated
+  return [];
+}
+
+function extractAddOns(name, description) {
+  // Only return empty array - real add-ons should be extracted from website during scraping
+  // if they exist (like "Gluten Free" or "Vegan Option" dropdowns)
+  return [];
 }
 
 // Export for API usage

@@ -1,13 +1,27 @@
 [
   {
     "_id": {
-      "$oid": "2kud8ifadegdscp4mewxs6"
+      "$oid": "m3vf34lchglfcw2hgqkha4"
     },
     "name": "FOCACCIA garlic herbs and salt",
     "price": "$17.00",
     "image": "https://ucarecdn.com/bee9ffab-bcdf-43f5-885b-851d28390003/-/resize/x400/-/format/auto/-/progressive/yes/aea5282a_1421_4bbc_92f7_5bcf0355a511.JPG",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -15,19 +29,33 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "nectgo8htj7y9987551z5"
+      "$oid": "fo0ek0ag5ra000odihwf"
     },
     "description": "focaccia with garlic, herbs and salt"
   },
   {
     "_id": {
-      "$oid": "9g7xhdxenl2kh624c8zka"
+      "$oid": "x4mu9duo5kxa9pzu8d9qg"
     },
     "name": "FOCACCIA GARLIC, HERBS AND CHEESE",
     "price": "$20.00",
     "image": "https://ucarecdn.com/7444cfda-a135-4d4c-85ac-8ccf3998bb0c/-/resize/x400/-/format/auto/-/progressive/yes/094abec2_36bc_46d2_b23a_dbefb8476493__1_.jpg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -35,19 +63,33 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "1qstgx5n6seu4flpbn9t2"
+      "$oid": "b0lks0708mumxbe6uat65"
     },
     "description": "Garlic and mozzarella cheese focaccia"
   },
   {
     "_id": {
-      "$oid": "k29202k6r59m4l7cn9e2nl"
+      "$oid": "0j5osg4lr98hrrbxes9wm"
     },
     "name": "PANE E OLIVE",
     "price": "$13.00",
     "image": "https://ucarecdn.com/4fdda8cf-fed1-4712-a203-c40ca89ccb65/-/resize/x400/-/format/auto/-/progressive/yes/tempImageTK5Wdb.heic",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -55,19 +97,33 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "izf83f9ylennhdhkdnzp"
+      "$oid": "783dujnxd7lh4x5t8z8oi6"
     },
     "description": "Warm mixed olives served with home made bread"
   },
   {
     "_id": {
-      "$oid": "h5esekwrqx58recgpflvhg"
+      "$oid": "eech47irknh3vh29y5ol2c"
     },
     "name": "CAPONATA PALERMITANA",
     "price": "$19.00",
     "image": "https://ucarecdn.com/f7503c79-5b99-4747-a4a7-f42393d85f55/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0583.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -75,50 +131,69 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "lcj3y29eepmp056zh4nywd"
+      "$oid": "pkuz7co1bfk0tbxepgimcca"
     },
     "description": "Eggplant, onion, green olives, diced fresh tomato,capers, basil in sweet and sour served with home made bread"
   },
   {
     "_id": {
-      "$oid": "ej81ntktr8embb6ofc343j"
+      "$oid": "2oougn4b3sn2txl86rpr8"
     },
     "name": "POLPETTE DI CARNE",
     "price": "$20.00",
     "image": "https://ucarecdn.com/e2823c04-6d57-45c3-adab-25aa56c05bf9/-/crop/240x219/0,101/-/preview//-/resize/x400/-/format/auto/-/progressive/yes/IMG_0580.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "55iy5u0ucagjmatghulnx"
+      "$oid": "umabxi5x1zumrnocbn3w"
     },
     "description": "Home made beef meatballs served with napoli sauce, basil and shaved pasresan"
   },
   {
     "_id": {
-      "$oid": "bm7336kj3m5itn7ls5i9lc"
+      "$oid": "atpsx45vj8lgwb6d4sk4n"
     },
     "name": "ARANCINI ALLA ZUCCA",
     "price": "$20.00",
     "image": "https://ucarecdn.com/4cae5bb3-cf77-45f7-b0c9-462f724eb737/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0598.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "zdzmgmh216p8h3wjwk6g"
+      "$oid": "uxks5r22heqy8etd68h1"
     },
     "description": "Rice balls with zucchini sauce, filled with zucchini, mint, Provolone Valpadana DOP cheese, served with parmesan sauce"
   },
   {
     "_id": {
-      "$oid": "pgeuce1wtnyksxcs0a5vp"
+      "$oid": "13wstezdt2xcq92bfgwcon"
     },
     "name": "FRITTATINA DI PASTA CACIO E PEPE",
     "price": "$16.00",
@@ -127,56 +202,85 @@
       "pasta"
     ],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "v7cgjs8ezajm59kxf4yx2f"
+      "$oid": "8ifqmnnvqqa3hrejwnd2m1"
     },
     "description": "Deep fried pasta croquettes with cacio cheese and black pepper served with Pecorino sauce"
   },
   {
     "_id": {
-      "$oid": "hib2dv6ciworjgurdrxie"
+      "$oid": "nnk320nxmjmnp9z2tlzrq"
     },
     "name": "WARM BURRATA",
     "price": "$21.00",
     "image": "https://ucarecdn.com/65eaa69a-4239-4500-9c59-897f46104495/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0595.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "smewl9wxytx28cpip2ysc"
+      "$oid": "7xfsvmpnm9lyusxnv47l7"
     },
     "description": "Burrata 125gr served with smoked eggplant pureè, eggplant chips, basil oil reduction and tomato powder"
   },
   {
     "_id": {
-      "$oid": "w6g6w4cvgnbygq5efnxd6d"
+      "$oid": "k8ke0l9mur7nnazdlxa5h"
     },
     "name": "CALAMARI FRITTI",
     "price": "$24.00",
     "image": "https://ucarecdn.com/31233665-b205-4d94-8caa-81a679e3a5fd/-/resize/x400/-/format/auto/-/progressive/yes/IMG_2433.jpg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "oz44dwuz1me1n2t7uhny5v"
+      "$oid": "h0gh74ht2v13zxx9psu0i"
     },
     "description": "Deep fried calamari with  aioli"
   },
   {
     "_id": {
-      "$oid": "two9ahb30zsjp66a488i2g"
+      "$oid": "524foqoembaok0upl4er8"
     },
     "name": "BEANS SOUP",
     "price": "$16.00",
     "image": "https://ucarecdn.com/9968e27d-1d64-4fed-96f8-b7580b6fd244/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0607.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -184,32 +288,42 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "g7flusjwfjlywdypbj31cs"
+      "$oid": "jhoevacr5cinljk3rg660b"
     },
     "description": "Beans cooked with carrots, celery, onions, garlic, tomatoes and touch of chilli and olive oil served with toasted bread"
   },
   {
     "_id": {
-      "$oid": "c07n5fff23dlfbkaxg91l"
+      "$oid": "yq2bfcexpoirwhflnctbti"
     },
     "name": "BRUSCHETTA",
     "price": "$14.00",
     "image": "https://ucarecdn.com/74a6cdb0-1f52-474e-b5dd-dceb0a6d6583/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0582.jpeg",
     "tags": [],
     "category": "STUZZICHINI E ANTIPASTI",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
       "vegan"
     ],
     "brandId": {
-      "$oid": "qjoug58wfgn27xnunfgk"
+      "$oid": "5fi0l38dh3jaxvho8ih5k"
     },
     "description": "2 piece of home made bread served with roasted cherry tomatoes"
   },
   {
     "_id": {
-      "$oid": "7ckqz0oz6jah7384kadx9p"
+      "$oid": "d6gwl6sqxtthv9qdg50kx6"
     },
     "name": "TORTELLONI DI MELANZANE",
     "price": "$34.00",
@@ -218,16 +332,21 @@
       "pasta"
     ],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "piosvbpuz9jfwvqjtku8h"
+      "$oid": "7xjmerq36vemgzvavrrpxn"
     },
     "description": "Home made tortelloni filled with eggplant and scamorza cheese served with zucchine mint sauce, topped with roasted cupsicum, basil oil and olive’s dust"
   },
   {
     "_id": {
-      "$oid": "ap2pkctcnpn8lzq4cx2vqo"
+      "$oid": "7j920desvdnt1120zg16r"
     },
     "name": "CALAMARATA AL SUGO DI CAPRETTO",
     "price": "$32.00",
@@ -236,32 +355,42 @@
       "pasta"
     ],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "6jvx2rqihn5a3m3kjlrk3"
+      "$oid": "i6pep4fvz0eitlx8lhmiuq"
     },
     "description": "Calamarata pasta (short ring) served with a slow cooked goat in a rich napoli sauce and topped with grated pecorino romano DOP cheese"
   },
   {
     "_id": {
-      "$oid": "t7eh70f9dhqs3ehike3kc"
+      "$oid": "a0t0uqclup5yrlej714zho"
     },
     "name": "PESCATORA DI MARE",
     "price": "$44.00",
     "image": "https://ucarecdn.com/01aaeb87-c948-4602-9bcb-66c29f4ddbfa/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0608.jpg",
     "tags": [],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "a6w6jlg3ekmy7pd7q9pw"
+      "$oid": "xhc85i67oonvq4f91ydxo"
     },
     "description": "Linguine served with bisque, clams, mixed fish, prawns, rich napoli sauce, and parsley"
   },
   {
     "_id": {
-      "$oid": "9o1fh67amen9ef1lr2snb"
+      "$oid": "1c34y9m83o93n4zmtdq8p9"
     },
     "name": "RISOTTO FUNGHI E ZAFFERANO",
     "price": "$31.00",
@@ -270,22 +399,41 @@
       "risotto"
     ],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "of9hz90cwvf7ke3gglem7"
+      "$oid": "4y08fr2nhnf2nih4c5eol"
     },
     "description": "Saffron risotto served with kings and enoki mushrooms, topped with fried leeks and parsley oil"
   },
   {
     "_id": {
-      "$oid": "d7vuc6rdeo4u6b9vg2s2cf"
+      "$oid": "pha1lzavlz7h2r6xp9hel"
     },
     "name": "PARMIGIANA DELLA NONNA",
     "price": "$30.00",
     "image": "https://ucarecdn.com/28d336b0-3ed8-43be-9e55-14f832be3d85/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0834.jpg",
     "tags": [],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -293,31 +441,41 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "dvezslcwypaxe4s27i52yn"
+      "$oid": "1ora5tmjwgra5jm6b5mvti"
     },
     "description": "Layers of fried eggplants, napoli sauce, parmesan and basil"
   },
   {
     "_id": {
-      "$oid": "jq40vq6g1xhdlw8adc5k9"
+      "$oid": "tlnv4kskfrxdnc6j6yc4p"
     },
     "name": "LASAGNA CLASSICA",
     "price": "$30.00",
     "image": "https://ucarecdn.com/9828929e-6713-4341-8b18-49ae9852e15d/-/resize/x400/-/format/auto/-/progressive/yes/Il-Caminetto-Uber-2.jpg",
     "tags": [],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan"
     ],
     "brandId": {
-      "$oid": "q6gbgzam6l9p76xtezxah"
+      "$oid": "sic10hf1zt6ghtga76mjc"
     },
     "description": "Home made lasagna with béchamel and beef bolognese sauce"
   },
   {
     "_id": {
-      "$oid": "46rxdcbqeqod1gd7whg5s"
+      "$oid": "letgfcbt4ptdzuana9gnoq"
     },
     "name": "GNOCCHI BOLOGNESE",
     "price": "$30.00",
@@ -326,19 +484,33 @@
       "pasta"
     ],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "cw816t09oive0lu9yfdpgu"
+      "$oid": "e02rxxxlo3udsfp4q7ah3b"
     },
     "description": "Home made potato gnocchi served with beef ragu' sauce"
   },
   {
     "_id": {
-      "$oid": "dgbh0ubwf7wdjt2wxf9ym4"
+      "$oid": "jtipvs84f39kn9gqu7sfjb"
     },
     "name": "TAGLIATELLE ALLA BOSCAIOLA",
     "price": "$35.00",
@@ -347,16 +519,21 @@
       "pasta"
     ],
     "category": "PASTE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "yyowf5qc9ei5yf4jtwtrk"
+      "$oid": "hp6l2e5xuqeuuf1rqj8ig"
     },
     "description": "Home made tagliatelle served with taleggio cheese sauce, porcinimushrooms, 'nduja, truffle oil, crispy guanciale(pork's cheek)"
   },
   {
     "_id": {
-      "$oid": "36g0z324ruf0qqce0o4399e"
+      "$oid": "4gdvdu7yxfleyvlfg4k0o"
     },
     "name": "MARGHERITA",
     "price": "$24.00",
@@ -365,6 +542,20 @@
       "pizza"
     ],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -372,29 +563,34 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "3kl5d9dlvlc5gx8akyhxsn"
+      "$oid": "il35evkb3fevad5gnelp6"
     },
     "description": "Pomodoro, mozzarella and basilico"
   },
   {
     "_id": {
-      "$oid": "l05ef3lhv2is60m52igyd"
+      "$oid": "o966si09vuberdn2erfl49"
     },
     "name": "PROVOLA E PEPE",
     "price": "$25.00",
     "image": "https://ucarecdn.com/2a9d7e2b-7e0f-48ca-8b79-a2c2eed88f24/-/resize/x400/-/format/auto/-/progressive/yes/tempImage7GzLWF.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "yu72viwejw9mklmxi991u"
+      "$oid": "lmzt5gkxk6oh6gqqitblh9"
     },
     "description": "Pomodoro, smoked provola, parmesan cheese, basil and black cracked pepper"
   },
   {
     "_id": {
-      "$oid": "k8c9vt5d579t5fksf240ar"
+      "$oid": "69x775v3tf27lrfn32k2gt"
     },
     "name": "CAPRICCIOSA",
     "price": "$28.00",
@@ -403,171 +599,253 @@
       "pizza"
     ],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "fuaf1nf1oeowxeh5gblvp"
+      "$oid": "5iwqlljjbtqzlz60kcfns"
     },
     "description": "Pomodoro, mozzarella, ham,  mushroom  and olives"
   },
   {
     "_id": {
-      "$oid": "qdxu8zn0u9pnenkv8rj3lh"
+      "$oid": "79ozgj705bj1g2gm4hofvy"
     },
     "name": "HAWAIIAN",
     "price": "$27.00",
     "image": "https://ucarecdn.com/56195453-77d9-4a2a-8c19-2e84fff105b2/-/resize/x400/-/format/auto/-/progressive/yes/Hawaiian.jpg",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "pt0ziodsky9ge5qxkbxdsp"
+      "$oid": "ne85fijx18h0pkppsfzp72"
     },
     "description": "Pomodoro, mozzarella, ham and pineapple"
   },
   {
     "_id": {
-      "$oid": "js5hmw100gl99co0jlkkj"
+      "$oid": "3c9pxych14yjkt7rh9ri8g"
     },
     "name": "PARMA",
     "price": "$30.00",
     "image": "https://ucarecdn.com/b20ede2c-d5d1-4316-95a1-3e8b2c351f6c/-/resize/x400/-/format/auto/-/progressive/yes/tempImagefH3PjZ.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "22h40k95l36wzwyxu1fiv"
+      "$oid": "3ugdhm6z5xsiw2j3fn0igs"
     },
     "description": "Pomodoro, mozzarella, Prosciutto di Parma, roquette"
   },
   {
     "_id": {
-      "$oid": "qg1oi39eh8u8m26zotyd"
+      "$oid": "ymk2m1mb1jfezhsexuimzi"
     },
     "name": "CALABRESE",
     "price": "$28.00",
     "image": "https://ucarecdn.com/0a6bd4a6-190e-4438-8ee4-d75455137593/-/resize/x400/-/format/auto/-/progressive/yes/tempImageBUv3ju.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "tdnu2ubq0citwyyhgfse7"
+      "$oid": "xghcwwy3iwr2rpuodgwr5i"
     },
     "description": "Pomodoro, mozzarella, mild salami, chilli flakes, olives and basil puree"
   },
   {
     "_id": {
-      "$oid": "ggwfqyfqv8kdind3ldtgw"
+      "$oid": "2xw3d8veuesxfs36l66q6"
     },
     "name": "UMBRA",
     "price": "$29.00",
     "image": "https://ucarecdn.com/499f21fb-d7d6-4362-9e48-dfb8875a00f2/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0835.jpg",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "wglh5t3wkal36xcixg1y9"
+      "$oid": "1f9ebi6eewqs0if71w5a2p"
     },
     "description": "Truffle paste base, smoked provola, mozzarella, mushrooms and truffle oil"
   },
   {
     "_id": {
-      "$oid": "5evrxk5dzdv7utyxeah7hv"
+      "$oid": "ob2w07unjdlk1ohh9j44fc"
     },
     "name": "VEGETARIANA",
     "price": "$28.00",
     "image": "https://ucarecdn.com/98c9b44f-e2c8-4116-af2a-d01fb79c0e0a/-/resize/x400/-/format/auto/-/progressive/yes/tempImage8IrZVJ.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "wemi2z1aecx8xn8p1a3pd"
+      "$oid": "7v8uufz6j6mnulw2c8oxg"
     },
     "description": "Yellow tomato sauce, mozzarella, zucchini, roasted potatoes, capsicum and crispy shallots"
   },
   {
     "_id": {
-      "$oid": "oshlpzsgh8gl4bxyfhmc0f"
+      "$oid": "2bwprhjak7f8irtbm3lhf"
     },
     "name": "SICILIANA",
     "price": "$28.00",
     "image": "https://ucarecdn.com/aac1bf6d-4ede-4086-b6b1-2fe62add32a0/-/resize/x400/-/format/auto/-/progressive/yes/tempImageoaWfKk.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "ew4d4j34d8vb2605et8lv"
+      "$oid": "fhbzbjtafc95xcljxy8hec"
     },
     "description": "Spinach puree, mozzarella, ricotta, pancetta, crispy shallots"
   },
   {
     "_id": {
-      "$oid": "wv8sqrrd5tkowv8ztbj7i"
+      "$oid": "dyfc1gvf5ws24jabum2o57"
     },
     "name": "SALSICCIA E ZUCCA",
     "price": "$29.00",
     "image": "https://ucarecdn.com/b7b63fe0-bb67-465c-811c-eba49873d846/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0575.jpg",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "qc2vevfvv09zaivy73vkki"
+      "$oid": "hizfc8x51llu9ib3e0plzk"
     },
     "description": "Pumpkin puree, smoked scamorza, italian sausages and  pumpkin seeds"
   },
   {
     "_id": {
-      "$oid": "ih71acatxm4zhnmxyp3x4"
+      "$oid": "z9vfh0zflwr39chz4hhfqn"
     },
     "name": "SALSICCIA E PATATA",
     "price": "$29.00",
     "image": "https://ucarecdn.com/0b0fc545-bf75-4fed-8f9f-469c9f924a0f/-/resize/x400/-/format/auto/-/progressive/yes/Patate_e_salsiccia.jpg",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "r2bx2z7619bw4vczsc55t"
+      "$oid": "me1d3j7mn3j7116lzald39"
     },
     "description": "Mozzarella, sausage, potatoes"
   },
   {
     "_id": {
-      "$oid": "plshfoor8u7pv1iwkn5wh"
+      "$oid": "nqap5l47wsogqi1dki6k9"
     },
     "name": "LIGURE",
     "price": "$30.00",
     "image": "https://ucarecdn.com/c6dd6d4f-6098-4455-ab15-d50f7b8c2763/-/resize/x400/-/format/auto/-/progressive/yes/tempImagejyHaJk.heic",
     "tags": [],
     "category": "PIZZE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "k54rk4d6e7dk0d7f9mbx7"
+      "$oid": "70tver078x356ffgaab4jv"
     },
     "description": "Yellow tomato sauce, mozzarella, zucchini, prawns, chilly oil and tomato coulis"
   },
   {
     "_id": {
-      "$oid": "6q7zp67hnqvilhb10uiu9"
+      "$oid": "w31dc8yfljmmurz5j2bkag"
     },
     "name": "CALAMARI FRITTI MAIN",
     "price": "$39.00",
@@ -576,57 +854,91 @@
       "main course"
     ],
     "category": "MAIN",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "11uxoanre5odjf1e0fc3ks"
+      "$oid": "aaint4yso69hcx4rywhesu"
     },
     "description": "Deep fried calamari with roquette and aioli"
   },
   {
     "_id": {
-      "$oid": "8fz9maqmsvr6q7fste48q4"
+      "$oid": "j2ocmb1c1w32hgycz9e0o"
     },
     "name": "AGNELLO ARROSTO",
     "price": "$44.00",
     "image": "https://ucarecdn.com/05fc9401-d9d7-43f1-bf00-004f795ad5f9/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0602.jpg",
     "tags": [],
     "category": "MAIN",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "b7hwvjea7gv0oz90zjpyg"
+      "$oid": "t5wky5knz3l5by4di3ge8w"
     },
     "description": "Slow cooked lamb, served with, smashed potato puree, asparagus and reduced lamb’s sauce"
   },
   {
     "_id": {
-      "$oid": "jedj9900wpkobpctkgtf"
+      "$oid": "4xw4zkzo1fkq6fjbr81o2"
     },
     "name": "PATATE FRITTE",
     "price": "$14.00",
     "image": "https://ucarecdn.com/6b2a63da-a81d-4210-8a8e-fdfdbf23c3a0/-/resize/x400/-/format/auto/-/progressive/yes/french-fries.jpg",
     "tags": [],
     "category": "CONTORNI E INSALATE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
       "vegan"
     ],
     "brandId": {
-      "$oid": "v54aq7d9vtmldz9gv4328d"
+      "$oid": "xhkp46lr88mmc7zig0hte"
     },
     "description": "Deep fried potatoes"
   },
   {
     "_id": {
-      "$oid": "g80db1inbkawln4ctefq7"
+      "$oid": "bh2qfih3uhp5rui72g3als"
     },
     "name": "INSALATA MISTA",
     "price": "$15.00",
     "image": "https://ucarecdn.com/ecf606e5-f94b-40de-8e39-d4ec9b58c13c/-/resize/x400/-/format/auto/-/progressive/yes/radiccio-salad.jpeg",
     "tags": [],
     "category": "CONTORNI E INSALATE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -634,38 +946,62 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "ud5d50yl1ez6vfkym422d"
+      "$oid": "e8jn0x3vq6wr4iafc2po"
     },
     "description": "Mixed leaves salad, shaved parmesan and balsamic dressing"
   },
   {
     "_id": {
-      "$oid": "d6qjtp1qc1kqfszavrb9w"
+      "$oid": "nva1nsq707nfcn1n7cs7rf"
     },
     "name": "INSALATA CAPRESE",
     "price": "$20.00",
     "image": "https://ucarecdn.com/2376634d-ac83-47b2-9373-2d10afa0aaa7/-/resize/x400/-/format/auto/-/progressive/yes/IMG_5704.jpg",
     "tags": [],
     "category": "CONTORNI E INSALATE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "zt0dt34m6jmi6hfun48pk"
+      "$oid": "2bm5zlzaybcx2mxpenm7l"
     },
     "description": "Mixed cherry tomatoes with Buffalo mozzarella and basil"
   },
   {
     "_id": {
-      "$oid": "x5t1yoglysfh9nhxbstcp7"
+      "$oid": "bgqe8iwyluk81gl7rtc3ww"
     },
     "name": "BROCCOLINI SCOTTATI",
     "price": "$14.00",
     "image": "https://ucarecdn.com/d1aaaa99-5644-4a91-b5c3-ef4e8d1d9a42/-/resize/x400/-/format/auto/-/progressive/yes/IMG_0599.jpg",
     "tags": [],
     "category": "CONTORNI E INSALATE",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -673,13 +1009,13 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "l3pgw3dn2f8wyd43im8s8"
+      "$oid": "q8zb9pahdua5xgi5fhnyse"
     },
     "description": "Steamed broccolini served with garlic tomatoes confit"
   },
   {
     "_id": {
-      "$oid": "cbz2624115oeebv2gr2ts"
+      "$oid": "rksv9tl48yahx1qsrrn6co"
     },
     "name": "TIRAMISU'",
     "price": "$17.00",
@@ -688,16 +1024,21 @@
       "dessert"
     ],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "ls044stz2samlnlp14eem"
+      "$oid": "7ll2tgfrg8eiasmc69t9zj"
     },
     "description": "Home-made traditional Italian tiramisu' with coffee, savoiardi biscuits and mascarpone cream"
   },
   {
     "_id": {
-      "$oid": "m4ymlna3kvhg4qow5zcyl"
+      "$oid": "suz2e4nnpf1lwlampoxhs"
     },
     "name": "VEGAN TIRAMISU",
     "price": "$17.00",
@@ -706,18 +1047,28 @@
       "dessert"
     ],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan"
     ],
     "brandId": {
-      "$oid": "v7vwv6tjqgg7rqy16pkxf5"
+      "$oid": "nd9eyyorlplk0x6gflyy"
     },
     "description": "Vegan biscuits, coffee and vegan cream"
   },
   {
     "_id": {
-      "$oid": "o03giyssse9b43g729uwhj"
+      "$oid": "hvr98xtiyw92ys9l47xnc"
     },
     "name": "CANNOLO SICILIANO",
     "price": "$7.00",
@@ -726,16 +1077,21 @@
       "dessert"
     ],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "m8yxhwtupaptdo6il7pz"
+      "$oid": "71qiayc6zwhdtrz87r1315"
     },
     "description": "Traditional sicilian ricotta, chocolate and pistacchio cannolo"
   },
   {
     "_id": {
-      "$oid": "368qfvm5tbjufsynvum98k"
+      "$oid": "3wwo872bu2m3ztchxx4slu"
     },
     "name": "PIZZA Nutella",
     "price": "$19.00",
@@ -744,6 +1100,20 @@
       "pizza"
     ],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -751,13 +1121,13 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "l97fe6jhgwssvagnuauud8"
+      "$oid": "kllabldsyd967pufwn4tg"
     },
     "description": "Small pizza topped with Nutella,  shredded coconut and icing sugar"
   },
   {
     "_id": {
-      "$oid": "g0nqjx6n9ptmr5dlhkreo"
+      "$oid": "jiijyfsru5h0ttj0smnwg"
     },
     "name": "CALZONCINO PISTACCHIO",
     "price": "$21.00",
@@ -766,79 +1136,131 @@
       "pizza"
     ],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "ejkbnhgx2tku87w3de2k2"
+      "$oid": "fb4lbmq762fsrleq7hjdn"
     },
     "description": "Small folded pizza dough filled with pistacchio spread and finished with icing sugar"
   },
   {
     "_id": {
-      "$oid": "19i0gcddig2ovp3jw8d2qi"
+      "$oid": "oqit4426ojobxhbfex5acl"
     },
     "name": "PANNA COTTA  AL FRUTTO DELLA PASSIONE",
     "price": "$16.00",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
     "tags": [],
     "category": "DESSERT",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan",
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "96w1v723go9d1oja5ybqyw"
+      "$oid": "nn2d3b04roe1gndfkr14t"
     },
     "description": "Passion fruit pannacotta served with passion fruit jel"
   },
   {
     "_id": {
-      "$oid": "xxgotzod0shdj2qxmhx12d"
+      "$oid": "0nfs80kst6yug1vvplbxv"
     },
     "name": "SOFT DRINKS",
     "price": "$0.00",
     "image": "https://ucarecdn.com/892bfa12-1672-4a31-be56-1e410f1e8888/-/resize/x400/-/format/auto/-/progressive/yes/IMG_4221.jpg",
     "tags": [],
     "category": "DRINK LIST",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "ahfzw5ccghukc4rbnpffv"
+      "$oid": "i111ry1rggijhemfgqzr2d"
     },
     "description": "$0.00"
   },
   {
     "_id": {
-      "$oid": "90po5v0a9z5wdyj5pk771k"
+      "$oid": "ejk9lc2ecdqdq3a4xc1eaa"
     },
     "name": "SPARKLING WATER 750ML",
     "price": "$5.00",
     "image": "https://ucarecdn.com/9c5b9284-439c-4fce-a832-13b764059407/-/resize/x400/-/format/auto/-/progressive/yes/water.jpeg",
     "tags": [],
     "category": "DRINK LIST",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [],
     "brandId": {
-      "$oid": "bezsjzkebzgj1yhpznskh"
+      "$oid": "hqb74qvehtiigb45t7bn2"
     },
     "description": "$5.00"
   },
   {
     "_id": {
-      "$oid": "vm92227s1ir3z58c3zaepx"
+      "$oid": "8p0khtciv2c9x4ct347k3g"
     },
     "name": "KIDS CCASARECCE ( short pasta )",
     "price": "$20.00",
-    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
     "tags": [
       "pasta",
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -846,22 +1268,36 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "8xosrvc6juxb6wtmrc6tr4"
+      "$oid": "ozbv4tvftdnkd7ceytwe"
     },
     "description": "Penne with a choice of bolognese sauce or napoli sauce"
   },
   {
     "_id": {
-      "$oid": "b2v09xpjg6hvflanj2q33m"
+      "$oid": "6yclz3c7g6us4qy8jxgj6"
     },
     "name": "KIDS GNOCCHI DI PATATE",
     "price": "$20.00",
-    "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
     "tags": [
       "pasta",
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -869,42 +1305,66 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "6hyd4leuqfde2nli21lon"
+      "$oid": "i6v04fin1gewe6acjj6l"
     },
     "description": "Home made gnocchi served with a choice of bolognese sauce or napoli sauce"
   },
   {
     "_id": {
-      "$oid": "pfash2h741vom9a64g48i"
+      "$oid": "yea6nlbj3bg1hjx0kx6hr"
     },
     "name": "KIDS LASAGNA",
     "price": "$20.00",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
     "tags": [
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegan"
     ],
     "brandId": {
-      "$oid": "r8krgammbfa84qt4s90nyh"
+      "$oid": "ix8p6upiu49bysfn2ugib"
     },
     "description": "$20.00"
   },
   {
     "_id": {
-      "$oid": "fpz5vy9k4fv7zu4a5jtox"
+      "$oid": "5orjife7l05362guo5fj27"
     },
     "name": "KIDS MARGHERITA",
     "price": "$19.00",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
     "tags": [
       "pizza",
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -912,22 +1372,36 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "44epe2mthkkt3hfx6kvp9k"
+      "$oid": "rlbyz7wll4as5aarpp19x"
     },
     "description": "Tomato and mozzarella cheese"
   },
   {
     "_id": {
-      "$oid": "yy8q1is9rabvmtczxt8qi"
+      "$oid": "mnoi1e4b72bdwibm883fil"
     },
     "name": "KIDS CAPRICCIOSA",
     "price": "$21.00",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
     "tags": [
       "pizza",
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -935,21 +1409,35 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "wtbb0j300fcs5gebcfexc"
+      "$oid": "o6pq12cdaanz41yxxok28"
     },
     "description": "Pomodoro, mozzarella, ham, mushroom and olives"
   },
   {
     "_id": {
-      "$oid": "j9hg4rr0yplnef4q3mhir"
+      "$oid": "74g6xolt53xwr0vuaz85qh"
     },
     "name": "KIDS HAWAIIAN",
     "price": "$21.00",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+    "image": "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
     "tags": [
       "kids menu"
     ],
     "category": "KIDS OPTIONS",
+    "ingredients": [],
+    "spiceLevel": " ",
+    "add-ons": [
+      {
+        "name": "Gluten Free",
+        "price": "+$5.00"
+      },
+      {
+        "name": "Vegan Option",
+        "price": "+$0.00"
+      }
+    ],
+    "preparationTime": " ",
+    "recommended_with": [],
     "restaurant": "Il Caminetto Italian Restaurant",
     "dietary": [
       "vegetarian",
@@ -957,7 +1445,7 @@
       "gluten free option"
     ],
     "brandId": {
-      "$oid": "amvpxt01g1lfz32pcwao8"
+      "$oid": "m6c003kc569m7mpfdd4yd"
     },
     "description": "Tomato, mozzarella cheese, ham and pinapple"
   }
