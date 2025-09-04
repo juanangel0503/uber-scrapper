@@ -28,23 +28,40 @@ async function ilcaminettoScraper(targetUrl = null) {
     };
     
     try {
-      // First try: Use Puppeteer's bundled Chrome
+      // First try: Use Puppeteer's bundled Chrome (most reliable)
       browser = await puppeteer.launch(launchOptions);
+      console.log("✅ Using Puppeteer's bundled Chrome");
     } catch (error) {
-      console.log("⚠️  Bundled Chrome failed, trying system Chrome...");
-      try {
-        // Second try: Use system Chrome
-        browser = await puppeteer.launch({
-          ...launchOptions,
-          executablePath: '/usr/bin/google-chrome'
-        });
-      } catch (error2) {
-        console.log("⚠️  System Chrome failed, trying Chromium...");
-        // Third try: Use system Chromium
-        browser = await puppeteer.launch({
-          ...launchOptions,
-          executablePath: '/usr/bin/chromium-browser'
-        });
+      console.log("⚠️  Bundled Chrome failed, trying system browsers...");
+      
+      // Amazon Linux 2023 browser fallback strategy
+      const browserPaths = [
+        '/usr/bin/google-chrome',
+        '/usr/bin/google-chrome-stable', 
+        '/snap/bin/chromium',
+        '/usr/bin/chromium',
+        '/usr/bin/chromium-browser'
+      ];
+      
+      let browserLaunched = false;
+      for (const browserPath of browserPaths) {
+        try {
+          console.log(`🔍 Trying browser: ${browserPath}`);
+          browser = await puppeteer.launch({
+            ...launchOptions,
+            executablePath: browserPath
+          });
+          console.log(`✅ Successfully launched: ${browserPath}`);
+          browserLaunched = true;
+          break;
+        } catch (browserError) {
+          console.log(`❌ Failed to launch ${browserPath}: ${browserError.message}`);
+          continue;
+        }
+      }
+      
+      if (!browserLaunched) {
+        throw new Error('Failed to launch any browser. Please install Chrome or Chromium.');
       }
     }
     const page = await browser.newPage();

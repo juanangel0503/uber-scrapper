@@ -1,7 +1,7 @@
 [
   {
     "_id": {
-      "$oid": "bw7ng820ytavlbv1bfpu7"
+      "$oid": "2cul9r6lu3jalqu5yvwjw5"
     },
     "name": "Italian Steak & Mozz",
     "price": "$12.89",
@@ -47,13 +47,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1040 Cal.), Half (520 Cal.) Tender, marinated sliced steak with melty fresh mozzarella, vine-ripened tomato, chopped basil, fresh arugula, salt and pepper, Italian dressing and garlic aioli drizzle on our Black Pepper Focaccia. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "h9dp1tsdlypjl0d5adgu9g"
+      "$oid": "zbx4q6tydgpdoghei9sjk9"
     },
     "name": "Italian Market Salad",
     "price": "$12.19",
@@ -82,13 +82,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (680 Cal.), Half (340 Cal.) Mixed greens and arugula tossed in Italian dressing, topped with soppressata, shredded asiago cheese, chopped basil, chickpeas and black pepper and sea salt croutons. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "632rsvc9ymgd3ibeyltqf"
+      "$oid": "kjadl33adlu3eyyvf67w8"
     },
     "name": "Strawberry Basil Lemonade Fresca",
     "price": "$5.39",
@@ -103,13 +103,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (150 Cal.), Large (220 Cal.) Our refreshing Agave Lemonade with strawberry puree fruit blend, infused with fresh strawberries and basil. Nutrition reflects beverage with ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "mg1wqiyyhbdmh19v2ga4oh"
+      "$oid": "gjfolqpjtwh7729lt2nz"
     },
     "name": "Brownie Bite",
     "price": "$2.49",
@@ -124,13 +124,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. A mini chocolate fudge brownie topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "ee7nkdc17mckhozl8eciqr"
+      "$oid": "cmxknl22i6t9vmdp9gmzgj"
     },
     "name": "Brownie Bites 3-Pack",
     "price": "$6.29",
@@ -145,13 +145,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. Three mini chocolate fudge brownies topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "0wyikcq17s1mwtvx40sbic"
+      "$oid": "u3vv3q2078pbtlb1woyzqq"
     },
     "name": "Strawberry Chicken Caprese Salad",
     "price": "$12.39",
@@ -180,13 +180,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (600 Cal.), Half (300 Cal.) Mixed greens and arugula tossed in balsamic vinaigrette, topped with grilled chicken, strawberries, fresh mozzarella, basil and toasted pecan pieces. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "7kbdd5uj4lb3mtl4ygvxv1"
+      "$oid": "oxrjq8un3c3zrpqwa0rfn"
     },
     "name": "Strawberry Caprese Salad",
     "price": "$10.29",
@@ -215,13 +215,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (460 Cal.), Half (230 Cal.) Mixed greens and arugula tossed in balsamic vinaigrette, topped with strawberries, fresh mozzarella, basil and toasted pecan pieces. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "g1zzco0syfgs97habhpwp"
+      "$oid": "kkek4b5kbdf8bwvyk3lng"
     },
     "name": "NEW Ranch Parm BLT Salad",
     "price": "$10.29",
@@ -250,13 +250,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (650 Cal.), Half (330 Cal.) Mixed greens and crisp romaine tossed in ranch dressing, topped with grape tomatoes, applewood smoked bacon, shaved parmesan, black pepper and sea salt croutons, and drizzled with Green Goddess dressing. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "6aipcc5i8rw3f5shawhe42"
+      "$oid": "dzxr55ald6o9xnjg7fsnub"
     },
     "name": "Strawberry Poppyseed Chicken Salad",
     "price": "$12.49",
@@ -285,13 +285,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (380 Cal.), Half (190 Cal.) Crisp romaine tossed in poppyseed dressing, topped with mandarin oranges, fresh strawberries, blueberries, pineapple, and toasted pecan pieces. Allergens: Contains Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "l3hsaui3vzh8fzifk4poi"
+      "$oid": "qqjvb6ktwbh67ryrvbehg"
     },
     "name": "Strawberry Poppyseed Salad",
     "price": "$10.29",
@@ -320,13 +320,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (240 Cal.), Half (120 Cal.) Crisp romaine tossed in poppyseed dressing, topped with mandarin oranges, fresh strawberries, blueberries, pineapple, and toasted pecan pieces. Allergens: Contains Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "zgmkw8a73va83k0q3wlfo6"
+      "$oid": "se2g72ycb6sozvkksfu5jq"
     },
     "name": "Mexican Street Corn Chowder",
     "price": "$9.99",
@@ -481,13 +481,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (360 Cal.), Cup (230 Cal.), Bread Bowl (880 Cal.) Sweet corn, fire-roasted poblano peppers, russet potatoes, chile powder, lime juice and cilantro in a creamy broth topped with blue corn tortilla strips. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "22cmft32xgtiamz3arzm5"
+      "$oid": "29ibtq0nbamte7spolvpl"
     },
     "name": "Frozen Strawberry Lemonade",
     "price": "$4.99",
@@ -502,13 +502,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Strawberry fruit blend, our Agave Lemonade blend and fresh strawberries blended with ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "02uoofub55xutyb326v0fh"
+      "$oid": "fes7oej7rekcfkx7yfrakr"
     },
     "name": "NEW Summer Sprinkle Cookie 6-Pack",
     "price": "$14.89",
@@ -523,13 +523,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. Six deliciously crafted shortbread cookies with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "jwe61jsltsh950ajgfd10s"
+      "$oid": "0htowb72l316u9cy22yyc8"
     },
     "name": "NEW Summer Sprinkle Cookie",
     "price": "$4.49",
@@ -544,16 +544,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. A deliciously crafted shortbread cookie with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "w9bo66s3ekkx63dauyoqa"
+      "$oid": "b0a6dmt2eczwjn13dv55b"
     },
     "name": "Sandwich and Soup/Mac",
-    "price": "$0.00",
+    "price": "$16.28",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5a3ff06811fd9b0766318273fdd5d150/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -583,16 +583,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of a half soup and a half sandwich"
   },
   {
     "_id": {
-      "$oid": "gnxou4yuovwdp76bjcleto"
+      "$oid": "irdsgu1uodlecpjb6p1dr8"
     },
     "name": "Sandwich and Salad",
-    "price": "$0.00",
+    "price": "$15.98",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1e3f4e8c2de08fec948b6d5c27728042/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -604,16 +604,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of a half sandwich and a half salad"
   },
   {
     "_id": {
-      "$oid": "ctcru2ppv8wf5ybp6h8nlk"
+      "$oid": "hydxkby5rjgl5c66jrmyuf"
     },
     "name": "Soup/Mac and Salad",
-    "price": "$0.00",
+    "price": "$16.48",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5a3ff06811fd9b0766318273fdd5d150/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -643,16 +643,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of a half soup and a half salad"
   },
   {
     "_id": {
-      "$oid": "qck5n9avl8t9zr935jqaj"
+      "$oid": "ek7ykvqirupi7v7dxh3ib"
     },
     "name": "Soup/Mac and Soup/Mac",
-    "price": "$0.00",
+    "price": "$16.78",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0b444ac34741311e6d4e76bdd8715d8c/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -682,16 +682,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of any two Soup/Mac."
   },
   {
     "_id": {
-      "$oid": "a2jo6go6foafh4gk494z7g"
+      "$oid": "244rv7yx0cgjpgd15akuzb"
     },
     "name": "Sandwich and Sandwich",
-    "price": "$0.00",
+    "price": "$15.78",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5a3ff06811fd9b0766318273fdd5d150/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -703,16 +703,16 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of any two half sandwiches"
   },
   {
     "_id": {
-      "$oid": "nbptqxwh8kfuhphd5sw899"
+      "$oid": "5fpaskietl47mi86c7go9"
     },
     "name": "Salad and Salad",
-    "price": "$0.00",
+    "price": "$16.18",
     "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1e3f4e8c2de08fec948b6d5c27728042/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
     "ingredients": [],
     "tags": [],
@@ -724,13 +724,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Selection of any two half salads"
   },
   {
     "_id": {
-      "$oid": "8xl4xauxf1g5axqnf82jly"
+      "$oid": "q7wo9q08icmj104xuryqm"
     },
     "name": "Toasted Frontega Chicken®",
     "price": "$11.29",
@@ -759,13 +759,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (880 Cal.), Half (440 Cal.) Smoked, pulled chicken with melted fresh mozzarella, vine-ripened tomatoes, red onion, fresh basil, and chipotle aioli drizzle on our Black Pepper Focaccia. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "cmvb2mrjf29cuwpxl3j2z"
+      "$oid": "qld8xxtbd09utwgbuq7sg"
     },
     "name": "Grilled Cheese",
     "price": "$9.79",
@@ -794,13 +794,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (810 Cal.), Half (400 Cal.) American cheese melted on our thick-sliced Classic White Miche. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "25rrah82gmb3e8bj0et2rv"
+      "$oid": "iui1cxqp6du4ri50jpe5"
     },
     "name": "Bacon Turkey Bravo®",
     "price": "$11.29",
@@ -829,13 +829,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (840 Cal.), Half (420 Cal.) Our take on a club starts with oven roasted turkey breast, applewood smoked bacon, aged white cheddar, crisp mixed greens, vine-ripened tomatoes, with salt and pepper, and drizzled with our Signature Bravo sauce on our Tomato Basil Miche. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "8omnt9crktayfsj040hjfr"
+      "$oid": "dqgq7mtfabixx86cvkjp9i"
     },
     "name": "Tuna Salad Sandwich",
     "price": "$10.99",
@@ -864,13 +864,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (600 Cal.), Half (300 Cal.) Tuna salad with crisp mixed greens, vine-ripened tomatoes, with salt and pepper, on our Country Rustic Sourdough. Allergens: Contains Wheat, Egg, Fish. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "54c78lillurntsacf94ikg"
+      "$oid": "vwwb2cpzg8e73g5tn1690x"
     },
     "name": "Grilled Cheese & Creamy Tomato Soup",
     "price": "$11.29",
@@ -903,13 +903,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Grilled Cheese served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "cmia4sqnfbwxn252bsui7g"
+      "$oid": "1ksfkzg1ofjwb690kz17zg"
     },
     "name": "Mediterranean Veggie",
     "price": "$9.79",
@@ -942,13 +942,13 @@
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (490 Cal.), Half (250 Cal.) Zesty sweet peppers, feta, sliced cucumbers, crisp mixed greens, vine-ripened tomatoes, red onions, hummus, with salt and pepper on our Tomato Basil Miche. Allergens: Contains Wheat, Sesame, Milk"
   },
   {
     "_id": {
-      "$oid": "r45lyt9walj3sh3f4k5"
+      "$oid": "rwluozr7v5g71eptu10psv"
     },
     "name": "Family Feast",
     "price": "$41.29",
@@ -963,13 +963,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A meal to feed the whole family, including 4 half sandwiches, 1 whole salad, 1 group soup and 1 whole French baguette. Serves 4-6."
   },
   {
     "_id": {
-      "$oid": "h0z898q97dcpf37vbjgx4"
+      "$oid": "uhbutytikijck6gpcew549"
     },
     "name": "Premium Family Feast with Cookies",
     "price": "$52.59",
@@ -984,13 +984,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A meal to feed the whole family. Includes 4 Half Sandwiches, 1 Whole Salad, 1 Quart of Soup, 1 Whole French Baguette, and 4 Chocolate Chippers. Serves 4-6."
   },
   {
     "_id": {
-      "$oid": "7rxe69e6omks4wugmllpi"
+      "$oid": "1uo6rkwx6z2gosata3pw8e"
     },
     "name": "Family Feast with Cookies",
     "price": "$46.29",
@@ -1005,13 +1005,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A meal to feed the whole family, including 4 half sandwiches, 1 whole salad, 1 group soup, 1 whole French baguette and 4 Chocolate Chipper Cookies. Serves 4-6."
   },
   {
     "_id": {
-      "$oid": "55p07g5gwqi2d7573d7wh"
+      "$oid": "znhttqni759t5uwnt5jvx"
     },
     "name": "Premium Family Feast",
     "price": "$47.59",
@@ -1026,13 +1026,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A meal to feed the whole family. Includes 4 Half Sandwiches, 1 Whole Salad, 1 Quart of Soup, and 1 Whole French Baguette. Serves 4-6."
   },
   {
     "_id": {
-      "$oid": "ut00cur7kt4oha617ur13"
+      "$oid": "ex85cjoi2zevwtkpyedix"
     },
     "name": "Tuna Salad Sandwich & Creamy Tomato Soup",
     "price": "$11.29",
@@ -1065,13 +1065,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Tuna Salad Sandwich served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "7drruhhys44u99rdhimpa"
+      "$oid": "kuyebconphmi1wj6bhddya"
     },
     "name": "Smokehouse BBQ Chicken & Creamy Tomato Soup",
     "price": "$11.29",
@@ -1104,13 +1104,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Smokehouse BBQ Chicken Sandwich served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "kg3c9ujs5qo0zpqcgbtsad"
+      "$oid": "2tocmfxdtdzuydlrvmykd"
     },
     "name": "Italian Steak & Mozz",
     "price": "$12.89",
@@ -1156,13 +1156,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1040 Cal.), Half (520 Cal.) Tender, marinated sliced steak with melty fresh mozzarella, vine-ripened tomato, chopped basil, fresh arugula, salt and pepper, Italian dressing and garlic aioli drizzle on our Black Pepper Focaccia. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "5s31pnt6pesrdzetpnex3s"
+      "$oid": "l93o8ugu0a81lz8ll1zcqj"
     },
     "name": "Chicken Bacon Rancher",
     "price": "$11.29",
@@ -1191,13 +1191,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (990 Cal.), Half (500 Cal.) Grilled chicken and applewood smoked bacon with melted  aged white cheddar, and ranch dressing drizzle on our Black Pepper Focaccia. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "pgjbsvharp9i2l3dfkw77n"
+      "$oid": "223q7588cqe4ebyo1qrpv5"
     },
     "name": "Ciabatta Cheesesteak",
     "price": "$12.89",
@@ -1243,13 +1243,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1160 Cal.), Half (580 Cal.) Tender, marinated sliced steak with melty provolone, caramelized onions, zesty sweet peppers, and garlic aioli drizzle on our Ciabatta. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "en6n9uzqmsqbca2xs1gue4"
+      "$oid": "nquxilll08axgqwa7onyh"
     },
     "name": "Chipotle Chicken Avo Melt",
     "price": "$11.29",
@@ -1278,13 +1278,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1010 Cal.), Half (510 Cal.) Smoked, pulled chicken with melty aged white cheddar, fresh avocado, fresh cilantro, zesty sweet peppers, and chipotle aioli drizzle on our Black Pepper Focaccia. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "1kllz33fk7nfs0s4ldqza6"
+      "$oid": "617tee4r8dskmknphx4q2"
     },
     "name": "Toasted Italiano",
     "price": "$12.89",
@@ -1313,13 +1313,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1340 Cal.), Half (670 Cal.) Black Forest ham and soppressata with melty provolone, romaine, red onions, sliced pepperoncini peppers, and Greek dressing and garlic aioli drizzle on our French Baguette. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xob3zcja08mcavfx0i6qv"
+      "$oid": "zb135j0j89g21l0u97cfzk"
     },
     "name": "Spicy Fiesta Chicken",
     "price": "$11.29",
@@ -1348,13 +1348,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (950 Cal.), Half (480 Cal.) Grilled chicken and creamy salsa verde spread with melty aged white cheddar, zesty sweet peppers, roasted corn, and cilantro on our Ciabatta. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "odxqblhdskf866oxd9h9"
+      "$oid": "xt9dibc99q0fypc00w5ixe"
     },
     "name": "Toasted Garden Caprese",
     "price": "$10.79",
@@ -1383,13 +1383,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1000 Cal.), Half (500 Cal.) Melty fresh mozzarella, vine-ripened tomatoes, chopped basil, fresh arugula, with salt and pepper, and balsamic vinaigrette and garlic aioli drizzle on our Ciabatta. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "1x1pkfrjf3mnxvqdeb0p"
+      "$oid": "uvdtdflkkilwtgw853cm2m"
     },
     "name": "Smokehouse BBQ Chicken",
     "price": "$11.29",
@@ -1418,13 +1418,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (840 Cal.), Half (420 Cal.) Smoked, pulled chicken with melty aged white cheddar, red onions, and BBQ sauce drizzle on our Ciabatta. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "lvgdad2zqdm5v5xvpjjww"
+      "$oid": "33m8s7vquiqry2h8t0g839"
     },
     "name": "Cranberry Walnut Chicken Salad Sandwich",
     "price": "$10.29",
@@ -1453,13 +1453,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (700 Cal.), Half (350 Cal.) Chicken salad made with diced chicken, dried cranberries, and walnuts tossed with creamy dressing, topped with crisp mixed greens and vine-ripened tomatoes on our Country Rustic Sourdough. Allergens: Contains Wheat, Egg, Tree Nuts. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "vman56dqefl3x3gxgezm"
+      "$oid": "5m02v5skdj86vzzvegm4n"
     },
     "name": "Grilled Chicken & Avo BLT",
     "price": "$13.39",
@@ -1488,13 +1488,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (950 Cal.), Half (480 Cal.) Grilled chicken with applewood smoked bacon, crisp mixed greens, vine-ripened tomatoes, aged white cheddar, fresh avocado, with salt and pepper, and garlic aioli drizzle on our Country Rustic Sourdough. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "x4yjpexme6vi6xlrqq4ja"
+      "$oid": "n065whkgqlor255zxjga1c"
     },
     "name": "Turkey & Cheddar Sandwich",
     "price": "$11.29",
@@ -1523,13 +1523,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (840 Cal.), Half (420 Cal.) Oven roasted turkey breast, aged white cheddar, crisp mixed greens, vine-ripened tomatoes, red onions, mayo, salt and pepper on our Country Rustic Sourdough. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "s7mbb9gfvnfs4ttut0emeg"
+      "$oid": "s4ofzuteargczfwxt4i7sp"
     },
     "name": "Tomato Basil BLT",
     "price": "$10.39",
@@ -1558,13 +1558,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (760 Cal.), Half (380 Cal.) Applewood smoked bacon with crisp mixed greens, vine-ripened tomatoes, mayo, salt and pepper on our Tomato Basil Miche. Allergens: Contains Wheat, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "1nexgg5bn9kjjs0zmu0uw"
+      "$oid": "n6prd5pcjwlufzg1ipmx"
     },
     "name": "Turkey & Cheddar Sandwich & Cream of Chicken & Wild Rice Soup",
     "price": "$11.29",
@@ -1597,13 +1597,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Turkey &amp; Cheddar Sandwich served with a cup of Cream of Chicken &amp; Wild Rice Soup."
   },
   {
     "_id": {
-      "$oid": "888fyk2e7ywzu053i6po8"
+      "$oid": "t8fik0m3eb4jwio8q5r4t"
     },
     "name": "Mediterranean Veggie & Creamy Tomato Soup",
     "price": "$11.29",
@@ -1640,13 +1640,13 @@
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Mediterranean Veggie served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "33un263i5qiyhkb1wjkoyj"
+      "$oid": "zczl6h5xe2dlalwu03aze8"
     },
     "name": "Mac & Cheese",
     "price": "$10.79",
@@ -1801,13 +1801,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (960 Cal.), Cup (480 Cal.), Bread Bowl (1130 Cal.) Tender shell pasta in a blend of rich cheeses including our tangy aged white cheddar cheese sauce. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xrzp2bc33if94vls96v71j"
+      "$oid": "1dyw4crbql6qopappj0y7r"
     },
     "name": "Broccoli Cheddar Soup",
     "price": "$9.99",
@@ -1840,13 +1840,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (360 Cal.), Cup (240 Cal.), Bread Bowl (890 Cal.) Chopped broccoli, shredded carrots and select seasonings simmered in a velvety smooth cheese sauce. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "lucq2holnsql61i5p9qaiq"
+      "$oid": "165okj9o438o3vef1boqvf"
     },
     "name": "Creamy Tomato Soup",
     "price": "$9.99",
@@ -1879,13 +1879,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (370 Cal.), Cup (250 Cal.), Bread Bowl (900 Cal.) Vine-ripened pear tomatoes pureed with fresh cream for a velvety smooth flavor accented by hints of red pepper and oregano and topped with black pepper and sea salt croutons. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "257mnxouekbn8uz3yh7tc"
+      "$oid": "d924q8ccqzehp8arv1y6w"
     },
     "name": "Homestyle Chicken Noodle Soup",
     "price": "$9.99",
@@ -1918,13 +1918,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (180 Cal.), Cup (120 Cal.), Bread Bowl (770 Cal.) Tender pieces of white-meat chicken simmered in a rich, perfectly seasoned homestyle chicken bone broth with curly egg noodles, sliced carrots, celery and herbs. Allergens: Contains Wheat, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "6ofo5lcj4qme5xacvlc8j7"
+      "$oid": "60rgnwif0tp85qhbr513o"
     },
     "name": "Bistro French Onion Soup",
     "price": "$9.99",
@@ -1957,13 +1957,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (290 Cal.), Cup (190 Cal.), Bread Bowl (840 Cal.) Sweet caramelized onions in a savory broth with a sherry wine vinegar gastrique, sea salt, topped with cheese and black pepper and sea salt croutons. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "kkpm37csmkonacn5wj0l8"
+      "$oid": "i0xikwtw0adtzxdqn7hdoh"
     },
     "name": "Cream of Chicken & Wild Rice Soup",
     "price": "$9.99",
@@ -1996,13 +1996,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (280 Cal.), Cup (190 Cal.), Bread Bowl (830 Cal.) Diced chicken, long grain and wild rice, celery, onion and carrots simmered in chicken stock with cream and select herbs. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "47hi22crcwl2071vmdmt9r"
+      "$oid": "hg5em80fftjsx0kczwxpzl"
     },
     "name": "Bacon Mac & Cheese",
     "price": "$11.89",
@@ -2157,13 +2157,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (1050 Cal.), Cup (520 Cal.), Bread Bowl (1170 Cal.) Tender shell pasta in a blend of rich cheeses including our tangy aged white cheddar sauce, topped with applewood smoked bacon. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "96s69e4qfwldgpq757dpkh"
+      "$oid": "3217rmv4qqcxa1fg6zyfh"
     },
     "name": "Mexican Street Corn Chowder",
     "price": "$9.99",
@@ -2318,13 +2318,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (360 Cal.), Cup (230 Cal.), Bread Bowl (880 Cal.) Sweet corn, fire-roasted poblano peppers, russet potatoes, chile powder, lime juice and cilantro in a creamy broth topped with blue corn tortilla strips. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "1rzgxynwby217y9betenea"
+      "$oid": "2irhgbsimoizcfe5c79gar"
     },
     "name": "Greek Salad",
     "price": "$8.99",
@@ -2353,13 +2353,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (420 Cal.), Half (210 Cal.) Crisp romaine tossed in Greek dressing, topped with grape tomatoes, feta, sliced cucumbers, red onions, kalamata olives, sliced pepperoncini peppers, with salt and pepper. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "ll7s79w47ox3ld2xllz2f"
+      "$oid": "8vu4vqv2unudqoq86qvkd"
     },
     "name": "Caesar Salad with Chicken",
     "price": "$12.19",
@@ -2388,13 +2388,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (550 Cal.), Half (270 Cal.) Crisp romaine tossed in Caesar dressing, topped with grilled chicken, shaved parmesan, and black pepper and sea salt croutons. Allergens: Contains Wheat, Milk, Egg, Fish"
   },
   {
     "_id": {
-      "$oid": "r37h87mtda9f2haly7oabs"
+      "$oid": "om9h2bwjdd802vvku8n8zpa"
     },
     "name": "Caesar Salad",
     "price": "$8.99",
@@ -2423,13 +2423,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (410 Cal.), Half (210 Cal.) Crisp romaine tossed in Caesar dressing, topped with shaved parmesan, and black pepper and sea salt croutons. Allergens: Contains Wheat, Milk, Egg, Fish"
   },
   {
     "_id": {
-      "$oid": "z8jabg7t5akscou8nl0wyn"
+      "$oid": "2rawathyfus9cbvhih1qz5"
     },
     "name": "Greek Salad & Creamy Tomato Soup",
     "price": "$11.29",
@@ -2462,13 +2462,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Greek Salad served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "68lbx1e3jjcep11enscsvr"
+      "$oid": "ra8vhr7vcbvb5dgkdbql"
     },
     "name": "Caesar Salad & Homestyle Chicken Noodle Soup",
     "price": "$11.29",
@@ -2501,13 +2501,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Caesar Salad served with a cup of Homestyle Chicken Noodle Soup."
   },
   {
     "_id": {
-      "$oid": "ejmotzbqicthlojqdfb4p"
+      "$oid": "v7si11xs6dix0okhugcs"
     },
     "name": "Italian Market Salad",
     "price": "$12.19",
@@ -2536,13 +2536,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (680 Cal.), Half (340 Cal.) Mixed greens and arugula tossed in Italian dressing, topped with soppressata, shredded asiago cheese, chopped basil, chickpeas and black pepper and sea salt croutons. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "4y1k61xwvce9ooeexctg5r"
+      "$oid": "yy516q2rgvcohlhm8rha9r"
     },
     "name": "NEW Ranch Parm BLT Salad",
     "price": "$10.29",
@@ -2571,13 +2571,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (650 Cal.), Half (330 Cal.) Mixed greens and crisp romaine tossed in ranch dressing, topped with grape tomatoes, applewood smoked bacon, shaved parmesan, black pepper and sea salt croutons, and drizzled with Green Goddess dressing. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "vajcmx9a7xhpll6jobf4a"
+      "$oid": "cf7138ag2fttzcucqqy3ri"
     },
     "name": "Strawberry Poppyseed Chicken Salad",
     "price": "$12.49",
@@ -2606,13 +2606,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (380 Cal.), Half (190 Cal.) Crisp romaine tossed in poppyseed dressing, topped with mandarin oranges, fresh strawberries, blueberries, pineapple, and toasted pecan pieces. Allergens: Contains Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "kgpr9t6a5rm9azfoicpz"
+      "$oid": "hagk9e8zikwe9krgumk6vj"
     },
     "name": "Strawberry Chicken Caprese Salad",
     "price": "$12.39",
@@ -2641,13 +2641,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (600 Cal.), Half (300 Cal.) Mixed greens and arugula tossed in balsamic vinaigrette, topped with grilled chicken, strawberries, fresh mozzarella, basil and toasted pecan pieces. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "cs316ng3fqy5yubkitcd"
+      "$oid": "awlsqvr7ln8ldubfs4m3z"
     },
     "name": "Fuji Apple Chicken Salad",
     "price": "$12.49",
@@ -2676,13 +2676,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (560 Cal.), Half (280 Cal.) Mixed greens and crisp romaine tossed in a sweet white balsamic vinaigrette, topped with grilled chicken, grape tomatoes, red onions, toasted pecan pieces, feta, and apple chips. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "k63q73bmbmlzblh2w6fd"
+      "$oid": "owp97nteqhlsjls99t7kkh"
     },
     "name": "Asian Sesame Chicken Salad",
     "price": "$12.19",
@@ -2711,13 +2711,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (450 Cal.), Half (220 Cal.) Crisp romaine topped with grilled chicken, crunchy wonton strips, sesame seeds, sliced almonds, and fresh cilantro with sesame vinaigrette. Allergens: Contains Wheat, Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "athnejdxxdm5z59hbs3ph8"
+      "$oid": "vo0iifx03tt6cdan98i7"
     },
     "name": "Green Goddess Chicken Cobb Salad",
     "price": "$12.89",
@@ -2746,13 +2746,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (510 Cal.), Half (250 Cal.) Mixed greens and crisp romaine tossed in Green Goddess dressing, topped with grilled chicken, grape tomatoes, pickled red onions, fresh avocado, applewood smoked bacon and a hard-boiled egg. Allergens: Contains Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "icduhce3mxcc41ps59qyic"
+      "$oid": "seyn79cc5rfydmou9bqy0j"
     },
     "name": "Southwest Chicken Ranch Salad",
     "price": "$12.79",
@@ -2781,13 +2781,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (680 Cal.), Half (340 Cal.) Crisp romaine tossed in ranch dressing, topped with grilled chicken, fresh avocado, grape tomatoes, roasted corn, fresh cilantro, blue corn tortilla strips, and drizzled with chipotle aioli. Allergens: Contains Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "zjzbteh9y7sp2rmtj3wtq"
+      "$oid": "f9vlmxbi4jfehpslvoelu9"
     },
     "name": "Mediterranean Chicken Greens with Grains",
     "price": "$12.49",
@@ -2816,13 +2816,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (680 Cal.), Half (340 Cal.) Mixed greens and crisp romaine tossed in Greek Dressing, topped with our whole grain blend, grilled chicken, hummus, feta, red onions, zesty sweet peppers, sliced cucumbers, and sprinkled with shawarma seasoning. Allergens: Contains Wheat, Sesame, Milk"
   },
   {
     "_id": {
-      "$oid": "hia4qm79hxkut2hrwg6kba"
+      "$oid": "a80le4uay1aiwkdxor5d39"
     },
     "name": "Mediterranean Greens with Grains",
     "price": "$10.29",
@@ -2851,13 +2851,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (540 Cal.), Half (270 Cal.) Mixed greens and crisp romaine tossed in Greek Dressing, topped with our whole grain blend, hummus, feta, red onions, zesty sweet peppers, sliced cucumbers, and sprinkled with shawarma seasoning. Allergens: Contains Wheat, Sesame, Milk"
   },
   {
     "_id": {
-      "$oid": "pd9dr5x2l8f8ve3r25s8o"
+      "$oid": "zessgac8f9lrtj43yznnpf"
     },
     "name": "Greek Salad with Chicken",
     "price": "$12.29",
@@ -2886,13 +2886,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (550 Cal.), Half (270 Cal.) Crisp romaine tossed in Greek dressing, topped with grilled chicken, grape tomatoes, feta, sliced cucumbers, red onions, kalamata olives, sliced pepperoncini peppers, with salt and pepper. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "kky6boupmhn1u326s4v7cw"
+      "$oid": "sv67kt7z7wq5x77o1qtfgo"
     },
     "name": "Strawberry Poppyseed Salad",
     "price": "$10.29",
@@ -2921,13 +2921,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (240 Cal.), Half (120 Cal.) Crisp romaine tossed in poppyseed dressing, topped with mandarin oranges, fresh strawberries, blueberries, pineapple, and toasted pecan pieces. Allergens: Contains Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "tj8rmt9l4boupzn9ey4bnj"
+      "$oid": "f1r2048igi4n0kvjahfrad"
     },
     "name": "Strawberry Caprese Salad",
     "price": "$10.29",
@@ -2956,13 +2956,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (460 Cal.), Half (230 Cal.) Mixed greens and arugula tossed in balsamic vinaigrette, topped with strawberries, fresh mozzarella, basil and toasted pecan pieces. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "crfl13t259i7jn47i8xk5"
+      "$oid": "j3atb3vjf7p2smkjw57h"
     },
     "name": "Balsamic Greens with Grains",
     "price": "$10.29",
@@ -2991,13 +2991,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (470 Cal.), Half (230 Cal.) Mixed greens and crisp romaine tossed in balsamic vinaigrette, topped with our whole grain blend, sliced cucumbers, sliced pepperoncini peppers, fresh avocado, feta, pumpkin seeds, and drizzled with Green Goddess dressing. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "p9h5zavy042845m4okzn3"
+      "$oid": "injg1umkd2mpqlku9h5fgc"
     },
     "name": "Balsamic Chicken Greens with Grains",
     "price": "$12.79",
@@ -3026,13 +3026,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (600 Cal.), Half (300 Cal.) Mixed greens and crisp romaine tossed in balsamic vinaigrette, topped with our whole grain blend, grilled chicken, sliced cucumbers, sliced pepperoncini peppers, fresh avocado, feta, pumpkin seeds, and drizzled with Green Goddess dressing. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "cfo4jtc06vjiq5rsxrh8tn"
+      "$oid": "3282jq030be4qx756vcx5t"
     },
     "name": "Chocolate Chipper Cookie",
     "price": "$4.19",
@@ -3047,13 +3047,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. A traditional favorite, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "cy4eg0yexeirp9x63firyh"
+      "$oid": "ivhxdpfx8oa6351fl9gqnc"
     },
     "name": "Kitchen Sink Cookie",
     "price": "$7.49",
@@ -3068,13 +3068,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "820 Cal. A salty, chocolaty, caramel confection big enough to share.  A large cookie with semi-sweet chocolate, milk chocolate, caramel pieces, pretzels and then topped with flake salt. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "6yzyfa34xtvpew2kn47be"
+      "$oid": "d6f6v3yeenp5n50lwuytcw"
     },
     "name": "Candy Cookie",
     "price": "$4.19",
@@ -3089,13 +3089,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. Deliciously crafted sugar cookie topped with semi-sweet chocolate candies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "1hb5mxcn8ps20yysvd4vpy"
+      "$oid": "chtiy7lysqnbsaazfyvg"
     },
     "name": "Brownie",
     "price": "$5.69",
@@ -3110,13 +3110,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "550 Cal. Rich, fudgy soft chocolate brownie dusted with powdered sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "ju3ujdbddqifuop6fgf7pp"
+      "$oid": "o6xtxvb2jhduglihoz9ib"
     },
     "name": "Oatmeal Raisin with Berries Cookie",
     "price": "$4.19",
@@ -3131,13 +3131,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. A chewy oatmeal raisin cookie with sweetened, dried cranberries and infused, dried strawberries and blueberries. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "fzm43n29fzhxvwoyokic6g"
+      "$oid": "qg5iqv4hpxbb47k15p935"
     },
     "name": "Asiago Bagel",
     "price": "$2.49",
@@ -3152,13 +3152,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel made with chunks of asiago cheese baked inside and topped with more asiago. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "qp33akte6r4o3fe6ljlcd"
+      "$oid": "xoenmr7dvzd34ggivgv8ep"
     },
     "name": "Cinnamon Crunch Bagel",
     "price": "$2.49",
@@ -3173,13 +3173,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "320 Cal. Bagel made with cinnamon and vanilla flavored chips and topped with our sweet cinnamon crunch topping. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "dxyrqjw3g8nbnp8i2qymq"
+      "$oid": "qsbr8ly1all8zc1lwwb1a"
     },
     "name": "Half Dozen Bagels",
     "price": "$12.49",
@@ -3194,13 +3194,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "6 bagels. Cream Cheese tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "14btlald99se7tufux0mtg2"
+      "$oid": "x6zep1jox1ghzcunt310f"
     },
     "name": "Plain Bagel",
     "price": "$2.49",
@@ -3215,13 +3215,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel lightly sweetened with brown sugar. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "kyjagehhjso8xoemdqj4i"
+      "$oid": "onzhu4cjqgssb77lxi0gr"
     },
     "name": "Bagel Pack",
     "price": "$23.89",
@@ -3236,13 +3236,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Your choice of 13 bagels served with two tubs of cream cheese spreads. Serves 13."
   },
   {
     "_id": {
-      "$oid": "tury7sjfjvfnhmoqnup4v"
+      "$oid": "np8sz1gn5w85yhcw9eau9"
     },
     "name": "Baker's Dozen Bagels",
     "price": "$17.99",
@@ -3257,13 +3257,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "13 bagels. Cream Cheese Spread tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "p992qjwf6pmjjhy7camwfm"
+      "$oid": "dh1pkgaocwvdj549vc1rwo"
     },
     "name": "Everything Bagel",
     "price": "$2.49",
@@ -3278,13 +3278,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with sesame seeds, poppy seeds, dried garlic, toasted onion &amp; kosher salt. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "bmrsm5eo9lh485srtwbgr"
+      "$oid": "hmg8navep1quhnm11wne6c"
     },
     "name": "Cinnamon Swirl & Raisin Bagel",
     "price": "$2.49",
@@ -3299,13 +3299,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Sourdough bagel swirled with cinnamon and cinnamon flavored chips, brown sugar and raisins. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "mcdbj941wr27w3eaguei"
+      "$oid": "iwiccj7uihh7299qnaoi4n"
     },
     "name": "Multigrain Bagel Flat",
     "price": "$2.49",
@@ -3320,13 +3320,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. Multigrain bagel flat featuring whole wheat, rye, seeds and topped with oats. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "bf9tzci3b1sj8e09fu5s"
+      "$oid": "5xgm59za2eo29qtamik8yx"
     },
     "name": "Dozen & a Half Bagels",
     "price": "$22.19",
@@ -3341,13 +3341,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "18 bagels. Cream Cheese tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "35c2ry7nh6rxrxhe75v1th"
+      "$oid": "ciz1oez4u7wfxlhabj1a1d"
     },
     "name": "Blueberry Bagel",
     "price": "$2.49",
@@ -3362,13 +3362,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel made with a mix of dried infused blueberries and blueberry flavors. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "mlkho7qekhcdcqe3xcvrg"
+      "$oid": "jo0tnxpr9hcjtn65mby4q"
     },
     "name": "Sesame Bagel",
     "price": "$2.49",
@@ -3383,13 +3383,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with nutty sesame seeds. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "wwu8qjh9cyw3fcsfqjwz"
+      "$oid": "p3yw16ei7rbezx5a80i"
     },
     "name": "Brownie Bite",
     "price": "$2.49",
@@ -3404,13 +3404,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. A mini chocolate fudge brownie topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "jxwyi0sc8kq6v5z8v7yrr"
+      "$oid": "ahgjl76ao3ftnewqmzdhb"
     },
     "name": "Chocolate Coconut Macaroon",
     "price": "$2.49",
@@ -3425,13 +3425,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. A deliciously crafted chocolate coconut macaroon cookie finished with a chocolatey dip. Allergens: Contains Wheat, Soy, Milk, Egg, Tree Nuts. May contain Peanuts"
   },
   {
     "_id": {
-      "$oid": "n9h09s7xudr0x3xm7kv0e9"
+      "$oid": "f31lruka7mop22pzy9krsn"
     },
     "name": "Brownie Bites 3-Pack",
     "price": "$6.29",
@@ -3446,13 +3446,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. Three mini chocolate fudge brownies topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "pbielmcspofsggd62runbg"
+      "$oid": "xpbz0765wwh5odt1ml2qo3"
     },
     "name": "Macaroon 3-Pack",
     "price": "$6.29",
@@ -3467,13 +3467,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Three deliciously crafted macaroons. Pick from Coconut Macaroon and Chocolate Coconut Macaroon flavors."
   },
   {
     "_id": {
-      "$oid": "xwe8srf2kphl7cl58go2m"
+      "$oid": "xqnnqaehmzih4dtxnv75k"
     },
     "name": "One Dozen Chocolate Chipper Cookies",
     "price": "$27.89",
@@ -3488,13 +3488,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. 12 Chocolate Chipper cookies, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "15rxco54nxlo0of5ytndua"
+      "$oid": "qkhzkqsfi6m3mgk9pp76hu"
     },
     "name": "One Dozen Mixed Cookies",
     "price": "$27.89",
@@ -3509,13 +3509,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "4830 Cal. 12 deliciously crafted cookies, made with 6 Chocolate Chipper Cookies, 3 Candy Cookies, and 3 Oatmeal Raisin with Berries Cookies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "c6ggw9sqm649obfouai1jv"
+      "$oid": "dfdod5xwvpu7f0rlnrrg8s"
     },
     "name": "Chocolate Chipper Cookie 4-Pack",
     "price": "$10.89",
@@ -3530,13 +3530,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. A traditional favorite, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "sdm4alij1nc4apa8xjipej"
+      "$oid": "c2l3sg9pg9qmicazs7u4sm"
     },
     "name": "NEW Summer Sprinkle Cookie 6-Pack",
     "price": "$14.89",
@@ -3551,13 +3551,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. Six deliciously crafted shortbread cookies with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "o5tr5b24d3zqkrvv8g6in"
+      "$oid": "wvdl752an4c10ry0nofml5"
     },
     "name": "Candy Cookie 4-Pack",
     "price": "$10.89",
@@ -3572,13 +3572,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. Deliciously crafted sugar cookie topped with semi-sweet chocolate candies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "6ehnep5qgcoo3z9uz2cfc"
+      "$oid": "fcn74a0uuulo6x0lko69u"
     },
     "name": "Oatmeal Raisin with Berries Cookie 4-Pack",
     "price": "$10.89",
@@ -3593,13 +3593,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. A chewy oatmeal raisin cookie with sweetened, dried cranberries and infused, dried strawberries and blueberries. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "fzzfit2wwdu8b1q3ts3pe3"
+      "$oid": "8utqfq4pwa2f5ts8us8a1"
     },
     "name": "Cinnamon Roll",
     "price": "$5.99",
@@ -3614,13 +3614,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "520 Cal. A deliciously crafted roll made with our sweet dough, stuffed with cinnamon-sugar filling and topped with decadent icing. Allergens: Contains Wheat, Milk, Egg. May contain Sesame, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "uyetvvn1sxd68nfjchltdf"
+      "$oid": "nau5qo9jir9smr1a6bonef"
     },
     "name": "Almond Pastry",
     "price": "$5.69",
@@ -3635,13 +3635,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. A buttery, flaky pastry with sweet almond filling, drizzled with icing and topped with sliced almonds. Allergens: Contains Wheat, Soy, Milk, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "11n4m6j2dd45vgfhs8f57f"
+      "$oid": "2v579jbs9k630g4oh7n6zi"
     },
     "name": "Cherry Pastry",
     "price": "$5.69",
@@ -3656,13 +3656,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. A buttery, flaky pastry baked to perfection with tart cherry filling and drizzled with icing. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "82bn6xsjdss1u013jjze85"
+      "$oid": "n08g6ixzop4a9gtlmsk1y"
     },
     "name": "Cranberry Orange Slice",
     "price": "$5.59",
@@ -3677,13 +3677,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "380 Cal. A flavorful slice of cake with whole cranberries and sweet orange flavor, sour cream, and sprinkled with coarse sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "u27ivdy13in5khzvj5amdr"
+      "$oid": "qrv1i9v3m74hwymk10i3e"
     },
     "name": "Pecan Braid",
     "price": "$5.69",
@@ -3698,13 +3698,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "450 Cal. Our pastry dough, twisted and braided made with butter and pecan filling topped with toasted pecan pieces and icing for sweetness. Allergens: Contains Wheat, Milk, Egg, Tree Nuts. May contain Sesame, Soy"
   },
   {
     "_id": {
-      "$oid": "dtf70b3iefhe28p0mkfrp9"
+      "$oid": "nd4bhtik2maqbnzfl2pvke"
     },
     "name": "Chocolate Croissant",
     "price": "$5.69",
@@ -3719,13 +3719,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "410 Cal. A delicate, perfectly flaky butter croissant filled with semi-sweet chocolate, topped with chocolatey drizzle and powdered sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "oouu7b657gfm5r1w3ml5q"
+      "$oid": "fdx4kh3zyayvifgbx9zeq"
     },
     "name": "Baked Goods Feast",
     "price": "$20.49",
@@ -3740,13 +3740,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Six deliciously crafted pastries perfect for a group."
   },
   {
     "_id": {
-      "$oid": "sjc9p91ii7mng12jm5f3e"
+      "$oid": "5hc7sooboe8z726iz57ou"
     },
     "name": "Cinnamon Roll 4-Pack",
     "price": "$14.59",
@@ -3761,13 +3761,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "520 Cal. A four pack of Cinnamon Rolls. Allergens: Contains Wheat, Milk, Egg. May contain Sesame, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "ku1aqr2much575766on4ht"
+      "$oid": "g60eofi4snjb1ydr9cz6e"
     },
     "name": "Blueberry Muffin",
     "price": "$5.19",
@@ -3782,13 +3782,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "510 Cal. Deliciously crafted muffin with blueberries and topped with streusel. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "dxb5jlfm42tp2azim77xh"
+      "$oid": "fehkttxlj6hjbxxyqut8r"
     },
     "name": "Chocolate Chip Muffie",
     "price": "$4.39",
@@ -3803,13 +3803,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. Deliciously crafted muffie flavored with semisweet chocolate chips. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "gl3k4i5mmhglbel78a2w49"
+      "$oid": "i71gdc88bvewzr35cccscd"
     },
     "name": "Mini Orange Scone 9-Pack",
     "price": "$12.29",
@@ -3824,13 +3824,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "180 Cal. Nine deliciously crafted Mini Orange Scones. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "b6g2swiq0vk60b3g0h49e"
+      "$oid": "6ggjnb7t0d5jrbr0wv1lb"
     },
     "name": "French Baguette Loaf",
     "price": "$5.69",
@@ -3845,13 +3845,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "150 Cal. A crispy, classic baguette with a slightly blistered crust and soft interior. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "fwrhrhdznrujmu5ao42wi"
+      "$oid": "wpaz5ofk6wd2sideujasnb"
     },
     "name": "Country Rustic Sourdough",
     "price": "$11.69",
@@ -3866,13 +3866,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. A classic sourdough with a soft, tender crumb. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "zsa9q62lanxe1v6xim6o8"
+      "$oid": "lk89wwb2hwakx8t9gsqs39"
     },
     "name": "Sourdough Bread Bowl",
     "price": "$4.09",
@@ -4027,13 +4027,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "650 Cal. A bread bowl made from a classic sourdough with a soft crumb. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "i0jubjge9k7sxcmhwt26f"
+      "$oid": "9rdta8rrua6hq2yu985b8f"
     },
     "name": "Sourdough Bread Bowl 2-Pack",
     "price": "$6.19",
@@ -4188,13 +4188,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "650 Cal. A bread bowl made from a classic sourdough with a soft crumb. Pack of 2. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "iycudne2uxhft7j6tiplc"
+      "$oid": "1ov47kql85puspayd52yl"
     },
     "name": "Classic White Miche",
     "price": "$14.29",
@@ -4209,13 +4209,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. A classic, soft and tender white sandwich loaf. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "juw7bk6akdxvsst0i1je"
+      "$oid": "9y6q3322ty8nwib9qyefqg"
     },
     "name": "Tomato Basil Bread",
     "price": "$11.19",
@@ -4230,13 +4230,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. A twist on the classic sourdough, with tomatoes, dried basil and a sweet crumb topping. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "lvnm4a8r1psttgyo82f6pk"
+      "$oid": "at2u97e7kw4gndbtxow9b"
     },
     "name": "Black Pepper Focaccia",
     "price": "$5.89",
@@ -4251,13 +4251,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "170 Cal. Italian-style loaf made with an olive oil blend and coarse ground black pepper. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "jfiigcqomfod7bxlwkxjbq"
+      "$oid": "3p2xyduv3zlfji18npjhfu"
     },
     "name": "Artisan Ciabatta Loaf",
     "price": "$5.99",
@@ -4272,13 +4272,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "150 Cal. A classic ciabatta with a crisp crust and soft interior. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "uqiz1vyisghk4o4vlowwno"
+      "$oid": "ymzq9l7scbcb65umcm3faj"
     },
     "name": "Greek Yogurt with Mixed Berries Parfait",
     "price": "$8.49",
@@ -4293,13 +4293,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. Greek yogurt with honey, maple butter pecan granola with whole grain oats, and fresh strawberries and blueberries. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "lwu711x4lvb6lpk422yepa"
+      "$oid": "bh502u2av8cyq00cbetwg"
     },
     "name": "Fruit Cup",
     "price": "$5.59",
@@ -4314,13 +4314,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "60 Cal. Fresh pineapple, cantaloupe, strawberries and blueberries. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "qmm7uek0mflzwxkrcghli"
+      "$oid": "gvyr1yw3nmvya2b5x5mr2m"
     },
     "name": "Plain Cream Cheese",
     "price": "$2.49",
@@ -4335,13 +4335,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "180 Cal. Plain Cream Cheese Spread - Individual Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "wh0dqctxcnijivmekyfcj"
+      "$oid": "mathpxhnut4n7gvdihbmq"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese",
     "price": "$2.49",
@@ -4356,13 +4356,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Individual 1.75oz Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "dpwfcxtyedfyph6f3iu36t"
+      "$oid": "0fer9t4p6nyg69n3mz8acys"
     },
     "name": "Plain Cream Cheese Spread Tub",
     "price": "$6.19",
@@ -4377,13 +4377,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "110 Cal. Plain Cream Cheese Spread - Tub Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "vl3itl4xrcrmvlrmlhxmhd"
+      "$oid": "tt3ylbyvyeg5pm6iuoud5s"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese Tub",
     "price": "$6.19",
@@ -4398,13 +4398,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "80 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Tub (Serves 8) Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "cnn9g70ufysa6gmt0pe43o"
+      "$oid": "k4wnphy5f1fanueglnnqg7"
     },
     "name": "NEW Summer Sprinkle Cookie",
     "price": "$4.49",
@@ -4419,13 +4419,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. A deliciously crafted shortbread cookie with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "hhcdtdmybpraejirzfaekp"
+      "$oid": "ektav2gazedyny0s86ww7"
     },
     "name": "Diet Pepsi",
     "price": "$4.89",
@@ -4440,13 +4440,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (0 Cal.) Diet Pepsi. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "q31lqklhuhpf84nxrckr"
+      "$oid": "adqz6hroqywu3v8x1l6nq9"
     },
     "name": "Strawberry Banana Smoothie",
     "price": "$9.09",
@@ -4461,13 +4461,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. A mix of fruit purees and juice concentrates, blended with a banana and plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "r7w8wfpi74qek8j3uc63r"
+      "$oid": "ov3b7uobkgxryf45mx0l"
     },
     "name": "Passion Papaya Iced Green Tea - Naturally Flavored",
     "price": "$4.69",
@@ -4500,13 +4500,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (140 Cal.), Large (220 Cal.) Naturally flavored, green iced tea with flavors of passion fruit and ripe papaya. Nutrition reflects beverage with no ice. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "y653zztf1sg3vhlmaq117"
+      "$oid": "7rwi18i34y7lmxitwn9gb"
     },
     "name": "Dr. Pepper",
     "price": "$4.89",
@@ -4521,13 +4521,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (240 Cal.), Large (360 Cal.) Dr. Pepper. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "9hdbqqseakff3te6kv69fj"
+      "$oid": "gepn8c2epqspia4qvxa67"
     },
     "name": "Tropical Green Smoothie",
     "price": "$9.09",
@@ -4542,13 +4542,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "200 Cal. Guava and mango puree concentrates, with white grape, pineapple, and passionfruit juice concentrates blended with spinach and ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "88brd386g0wwssscp8qgu"
+      "$oid": "19ca17gtzml63wpkbo3m4k"
     },
     "name": "Strawberry Smoothie",
     "price": "$9.09",
@@ -4563,13 +4563,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "260 Cal. A mix of fruit purees and juice concentrates, blended with plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "sq5h9vwfifmthihujh86d"
+      "$oid": "51e4cgzc27ulbm765z49a"
     },
     "name": "Mango Smoothie",
     "price": "$9.09",
@@ -4584,13 +4584,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Mango fruit base mixed with orange juice and banana puree blended with plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "tf49oy9iaasqma03pl0ge"
+      "$oid": "n0bq7eyrg4nwkj0he094b"
     },
     "name": "Agave Lemonade",
     "price": "$4.69",
@@ -4605,13 +4605,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (210 Cal.), Large (320 Cal.) Crisp lemonade made with lemon juice, sugar, agave nectar and water. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "bl8iqgtndugqv57d5g2zs"
+      "$oid": "re40bynj62qdyy0mg6z4oj"
     },
     "name": "Orange Juice",
     "price": "$4.99",
@@ -4626,13 +4626,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "160 Cal. Premium orange juice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "3fk8lt4bfnqkdll3ioex"
+      "$oid": "uwxu40clsrjkmi7ldr88j"
     },
     "name": "Pepsi",
     "price": "$4.89",
@@ -4647,13 +4647,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (250 Cal.), Large (380 Cal.) Pepsi. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "wvdcmkrsf4qbfthgnooes"
+      "$oid": "thebdjh0djgqhr943w661c"
     },
     "name": "Diet Pepsi Can",
     "price": "$3.09",
@@ -4668,13 +4668,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. A 12 fl. oz. can of Diet Pepsi. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "3dykbx5mh9srzvzjcn51zm"
+      "$oid": "f2wbdh5xt9z40dod53hoc"
     },
     "name": "Mountain Dew",
     "price": "$4.89",
@@ -4689,13 +4689,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (280 Cal.), Large (420 Cal.) Mountain Dew. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "496eut43vr6kyr63tbz9p"
+      "$oid": "5xajbj2joj5l2rq65kf8lt"
     },
     "name": "Bottled Water",
     "price": "$3.99",
@@ -4710,13 +4710,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. Individual bottle of water. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "3b7z6x0i0et8ekpmll9mj4"
+      "$oid": "0a30vzs60f3fzy7ya7jme7"
     },
     "name": "Canada Dry Ginger Ale",
     "price": "$4.89",
@@ -4731,13 +4731,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (230 Cal.), Large (340 Cal.) Canada Dry Ginger Ale Allergens: none"
   },
   {
     "_id": {
-      "$oid": "o4m9e1rvhjrgu5f7ik5fs"
+      "$oid": "8hc92qt0fvqsrnp9h85f3"
     },
     "name": "Organic Apple Juice",
     "price": "$3.59",
@@ -4752,13 +4752,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "100 Cal. Organic Apple Juice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "mz4cxbvozvgcb83dkhs70p"
+      "$oid": "yxpoubuov9dd25q4jj9kmp"
     },
     "name": "Brisk Raspberry Tea",
     "price": "$4.89",
@@ -4791,13 +4791,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (120 Cal.), Large (170 Cal.) Brisk Raspberry Tea. Nutrition reflects beverage with no ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "9pb7xpip1k84m3tn4s2kxw"
+      "$oid": "v5xfulla7rfchovw9uc1aj"
     },
     "name": "Iced Chai Tea Latte",
     "price": "$7.49",
@@ -4830,13 +4830,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "230 Cal. Freshly brewed black tea with honey, vanilla, cardamom, cinnamon, ginger and foamed milk served over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "x2k9e32jk9a87eisdq2wog"
+      "$oid": "t9li515t0o4ptg5rgijfi"
     },
     "name": "Bottled Passion Fruit Papaya Green Tea",
     "price": "$5.49",
@@ -4869,13 +4869,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. Our green tea is infused with passion fruit and papaya flavors. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "mm09qvte8sq22gq5v01189"
+      "$oid": "vim1pir3ebfdh2d3ckpzp"
     },
     "name": "Horizon Reduced Fat Organic Chocolate Milk",
     "price": "$3.59",
@@ -4890,13 +4890,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "150 Cal. Organic Chocolate Milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "kjytvmpwyt8mjgga2peqp"
+      "$oid": "a7lihd6x2ct8m3th53e4j"
     },
     "name": "Pepsi Can",
     "price": "$3.09",
@@ -4911,13 +4911,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "150 Cal. A 12 fl. oz. can of Pepsi. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "tnwf2tvdahgx44gd4xo9p"
+      "$oid": "itt0643nwdpin4lsiked"
     },
     "name": "Cafe Blend Dark Roast Coffee",
     "price": "$4.59",
@@ -4950,13 +4950,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "nfsu4resg4iddhvfjjqcqq"
+      "$oid": "78rg5zjtff432r17aoty9u"
     },
     "name": "Madagascar Vanilla Latte",
     "price": "$7.49",
@@ -4989,13 +4989,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (250 Cal.), Large (300 Cal.) Freshly brewed espresso with foamed milk and Madagascar vanilla syrup, topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "qf70ndo13ubvqpkh7x1ppd"
+      "$oid": "of1atkcbeaco5jeg0orwxo"
     },
     "name": "Iced Unsweet Tea",
     "price": "$4.69",
@@ -5028,13 +5028,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (5 Cal.), Large (10 Cal.) Freshly brewed black iced tea. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "8u35u47noysydo9dk9pzab"
+      "$oid": "x9a8vzflguq6odw9dkjqor"
     },
     "name": "Iced Madagascar Vanilla Latte",
     "price": "$7.49",
@@ -5067,13 +5067,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "280 Cal. Freshly brewed espresso with foamed milk and Madagascar vanilla syrup, served over ice and topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "mh8pyj1xau1qwdabpvj"
+      "$oid": "dljdwe9ni7r923f2oiwvfl"
     },
     "name": "Starry",
     "price": "$4.89",
@@ -5088,13 +5088,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (250 Cal.), Large (370 Cal.) Starry. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "geiotsp0eu3wxlco5bb18"
+      "$oid": "urml8uql6pc86adikklvg"
     },
     "name": "Caramel Latte",
     "price": "$7.49",
@@ -5127,13 +5127,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (320 Cal.), Large (400 Cal.) Espresso, foamed milk &amp; caramel, topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "whlabxizlhou8czfrd7k9"
+      "$oid": "o49x0i2xvcijjw2uyz9p"
     },
     "name": "Caffe Latte",
     "price": "$6.99",
@@ -5166,13 +5166,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (130 Cal.), Large (160 Cal.) Espresso with foamed milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "1ypn8drqbmq1jjzr0gcl3y"
+      "$oid": "o7cnze0yysb70p5ees9pv4"
     },
     "name": "Cappuccino",
     "price": "$6.99",
@@ -5187,13 +5187,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (130 Cal.), Large (160 Cal.) Espresso with steamed milk, topped with a cap of foam. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "f4z4w3quz1nkyllesjbh2i"
+      "$oid": "ycvduppil7nfxyoyqczmj"
     },
     "name": "Cafe Blend Dark Roast Coffee Tote",
     "price": "$27.39",
@@ -5226,13 +5226,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "jk97x8cvhi4prslz0svts"
+      "$oid": "t55boxms7oaq812hau6pg"
     },
     "name": "Hazelnut Coffee",
     "price": "$4.59",
@@ -5265,13 +5265,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Smooth and sweet with a buttery toasted hazelnut flavor. 100% Arabica coffee balanced with the flavor of buttery, toasted hazelnuts. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "ngcr85dpgdv32p95l8fzs"
+      "$oid": "lvr12bes4im3tft57fv58r"
     },
     "name": "Iced Cafe Blend Dark Roast Coffee",
     "price": "$4.39",
@@ -5304,13 +5304,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "t0qpgy2xazsc84nej7g6pc"
+      "$oid": "r3xbse8xv49h72t90heuu"
     },
     "name": "Iced Caffe Latte",
     "price": "$7.29",
@@ -5343,13 +5343,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "160 Cal. Freshly brewed espresso and milk served over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "y4yywlj6vu0wtr3ysc1lir"
+      "$oid": "lzmiyzxa6b9do1pgxjkf"
     },
     "name": "Bubly Lime",
     "price": "$4.89",
@@ -5364,13 +5364,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Bubly Lime Allergens: none"
   },
   {
     "_id": {
-      "$oid": "wo4ezsvwn0i79kjpv59yfr"
+      "$oid": "ybap3osf1x4vvs7ifjunp"
     },
     "name": "Hot Tea",
     "price": "$4.39",
@@ -5403,13 +5403,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. Hot Teas. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "wj81nosof5difek6owfm"
+      "$oid": "foonk6i2oy4ju20wmsk9h"
     },
     "name": "Hazelnut Coffee Tote",
     "price": "$27.39",
@@ -5442,13 +5442,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Subtle nutty tones with wonderful coffee flavor. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "u30p0ojc8rg4cmcld1he9"
+      "$oid": "w69u8fyt5ghwn6m6pq8y2q"
     },
     "name": "Horizon Reduced Fat Organic White Milk",
     "price": "$3.59",
@@ -5463,13 +5463,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "110 Cal. Organic White Milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "eqvwjf5tloet6rq32zobpp"
+      "$oid": "m7s4kqzxa39f9ydi5wcarb"
     },
     "name": "Cafe Blend Light Roast Coffee Tote",
     "price": "$27.39",
@@ -5502,13 +5502,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Carefully roasted from Arabica beans. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "4z8h3hffwilexvnqlpszm"
+      "$oid": "bqmkw56u43t5i8adm7a2lg"
     },
     "name": "Decaf Coffee Tote",
     "price": "$27.39",
@@ -5541,13 +5541,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "15 Cal. Perfectly balanced with a clean finish. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "boczh1ylmyrpgj0eoru6g"
+      "$oid": "5s1xl9s8xat61s0rfelkss"
     },
     "name": "Hot Tea Tote",
     "price": "$27.39",
@@ -5580,13 +5580,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. Hot tea. A variety of offerings:  British Breakfast 100mg caffeine, Honey Ginseng 50mg caffeine, and Orange Ginger Mint 0mg caffeine per 16 fl oz. Please note, this beverage is self-serve upon pickup. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "d9e9kvvoc8ifnb0zp03z4s"
+      "$oid": "vqidm8uieyxt3jpoki45j"
     },
     "name": "Americano",
     "price": "$5.09",
@@ -5601,13 +5601,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "5 Cal. Two shots of espresso made with our favorite espresso beans combined with hot water. Served hot. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "e7ulng8n1ma647hpkl5xd"
+      "$oid": "j86ean8mbqfment3mgmbmq"
     },
     "name": "Espresso",
     "price": "$3.49",
@@ -5622,13 +5622,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "5 Cal. A double espresso shot made with our favorite espresso beans. Served hot. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "oi1f9zq7kmdd24ortezamu"
+      "$oid": "unsc74j0ejlxpzqe02lwo"
     },
     "name": "Iced Caramel Latte",
     "price": "$7.49",
@@ -5661,13 +5661,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. Freshly brewed espresso, caramel, and milk over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "8q6it2p0qmkwt01ett911m"
+      "$oid": "vx5zp2rdppjp9uo44rtkl7"
     },
     "name": "Strawberry Basil Lemonade Fresca",
     "price": "$5.39",
@@ -5682,13 +5682,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (150 Cal.), Large (220 Cal.) Our refreshing Agave Lemonade with strawberry puree fruit blend, infused with fresh strawberries and basil. Nutrition reflects beverage with ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "63l163me9lo83cmgzv9j0f"
+      "$oid": "3ro5df9w2qwbsrhhg2apov"
     },
     "name": "Blueberry Lavender Lemonade - Naturally Flavored",
     "price": "$5.39",
@@ -5703,13 +5703,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (250 Cal.), Large (380 Cal.) Refreshing lemonade naturally flavored with blueberry and lavender. Nutrition reflects beverage with no ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "4fsusoo3jji5sjdu6m7xvj"
+      "$oid": "rjpkipalzqrxa445hka4a"
     },
     "name": "Citrus Punch - Naturally Flavored",
     "price": "$5.39",
@@ -5724,13 +5724,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (290 Cal.), Large (430 Cal.) A delightful citrus punch naturally flavored with lemon, mango, pineapple, and blood orange yuzu. Nutrition reflects beverage with no ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "7r578g0i8vrha7xe90h0fe"
+      "$oid": "pg47uporx9itw6y8d727g"
     },
     "name": "Pomegranate Hibiscus Tea - Naturally Flavored Herbal Tea",
     "price": "$5.39",
@@ -5763,13 +5763,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (15 Cal.), Large (20 Cal.) A caffeine-free naturally flavored herbal tea infusion of hibiscus and pomegranate juice. Nutrition reflects beverage with no ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "sxnmpvk462x0w1mv74mv"
+      "$oid": "xsdsj8jwhno9sc0w4vk1o9"
     },
     "name": "Frozen Strawberry Lemonade",
     "price": "$4.99",
@@ -5784,13 +5784,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Strawberry fruit blend, our Agave Lemonade blend and fresh strawberries blended with ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "7ae34m2p8fyz44232wh3"
+      "$oid": "t2kni3qpf4i5w70uqo3m"
     },
     "name": "Chai Tea Latte",
     "price": "$7.49",
@@ -5823,13 +5823,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (230 Cal.), Large (280 Cal.) Brewed with black tea, honey, vanilla, cardamom, cinnamon, ginger &amp; foamed milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "eifq71ak35d3o3s07omqmj"
+      "$oid": "qsa03nax4tme6mqx0hhhm"
     },
     "name": "Plain Cream Cheese Spread Tub",
     "price": "$6.19",
@@ -5844,13 +5844,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "110 Cal. Plain Cream Cheese Spread - Tub Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "0l9te0rsckkfq6t095bw2tm"
+      "$oid": "lvnqouh4o9neesxfdjmq4v"
     },
     "name": "Cinnamon Roll",
     "price": "$5.99",
@@ -5865,13 +5865,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "520 Cal. A deliciously crafted roll made with our sweet dough, stuffed with cinnamon-sugar filling and topped with decadent icing. Allergens: Contains Wheat, Milk, Egg. May contain Sesame, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "hw9a2wucqt7opoay319gkl"
+      "$oid": "nzbsm9ymb4iuoma9qxqxfb"
     },
     "name": "Asiago Bagel",
     "price": "$2.49",
@@ -5886,13 +5886,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel made with chunks of asiago cheese baked inside and topped with more asiago. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "xqnd4wkk5hs4be8k76tf"
+      "$oid": "ms2bob00ejiwq0h1tgp0h8"
     },
     "name": "Greek Yogurt with Mixed Berries Parfait",
     "price": "$8.49",
@@ -5907,13 +5907,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. Greek yogurt with honey, maple butter pecan granola with whole grain oats, and fresh strawberries and blueberries. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "wi7y3ug5vlna2ol83ic3t7"
+      "$oid": "8otfqu8xeajjizx2e5o2"
     },
     "name": "Chocolate Croissant",
     "price": "$5.69",
@@ -5928,13 +5928,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "410 Cal. A delicate, perfectly flaky butter croissant filled with semi-sweet chocolate, topped with chocolatey drizzle and powdered sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "ouzhfsk8z58k6bul8cb0g"
+      "$oid": "uieigcylasgyhb2dupqj1"
     },
     "name": "Pecan Braid",
     "price": "$5.69",
@@ -5949,13 +5949,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "450 Cal. Our pastry dough, twisted and braided made with butter and pecan filling topped with toasted pecan pieces and icing for sweetness. Allergens: Contains Wheat, Milk, Egg, Tree Nuts. May contain Sesame, Soy"
   },
   {
     "_id": {
-      "$oid": "5uj472hrgehq636wg18r"
+      "$oid": "5ai29ntc6jkbp2d6pwuzwc"
     },
     "name": "Cafe Blend Dark Roast Coffee",
     "price": "$4.59",
@@ -5988,13 +5988,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "3lhi6jcrdpcr9xmebcn38"
+      "$oid": "uj75v8ekx2a289fwgaan"
     },
     "name": "Blueberry Muffin",
     "price": "$5.19",
@@ -6009,13 +6009,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "510 Cal. Deliciously crafted muffin with blueberries and topped with streusel. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "60ymq8yi7vvyrw6y97ydy"
+      "$oid": "70m2l6yhxhws4a0tc22rk"
     },
     "name": "Cinnamon Crunch Bagel",
     "price": "$2.49",
@@ -6030,13 +6030,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "320 Cal. Bagel made with cinnamon and vanilla flavored chips and topped with our sweet cinnamon crunch topping. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "lcrdz6uagwifrclq3509c"
+      "$oid": "9i9wusngxv6i8qj5nymwq"
     },
     "name": "Half Dozen Bagels",
     "price": "$12.49",
@@ -6051,13 +6051,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "6 bagels. Cream Cheese tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "5xqm6txq2o53sxit1zgxcm"
+      "$oid": "36c17zoynm7vc2gpjd1hg"
     },
     "name": "Iced Madagascar Vanilla Latte",
     "price": "$7.49",
@@ -6090,13 +6090,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "280 Cal. Freshly brewed espresso with foamed milk and Madagascar vanilla syrup, served over ice and topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "284m6alf2wpdm1esm6domk"
+      "$oid": "6bccw516nyucpdfvxt3upd"
     },
     "name": "Baker's Dozen Bagels",
     "price": "$17.99",
@@ -6111,13 +6111,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "13 bagels. Cream Cheese Spread tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "e0rc140fuvi9uzuymwpofl"
+      "$oid": "qa68lw07e5a22ms72485u"
     },
     "name": "Madagascar Vanilla Latte",
     "price": "$7.49",
@@ -6150,13 +6150,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (250 Cal.), Large (300 Cal.) Freshly brewed espresso with foamed milk and Madagascar vanilla syrup, topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "3kexcrzog6e1fd5y6gh2na"
+      "$oid": "ite8v299g5syp085dk9am"
     },
     "name": "Iced Chai Tea Latte",
     "price": "$7.49",
@@ -6189,13 +6189,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "230 Cal. Freshly brewed black tea with honey, vanilla, cardamom, cinnamon, ginger and foamed milk served over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "qwqbyfxvwfrv7vx9e6v9"
+      "$oid": "x6r84tcw6tl6vnmqt4gis"
     },
     "name": "Hazelnut Coffee",
     "price": "$4.59",
@@ -6228,13 +6228,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Smooth and sweet with a buttery toasted hazelnut flavor. 100% Arabica coffee balanced with the flavor of buttery, toasted hazelnuts. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "891ruwge6gfxsakp8m7mfn"
+      "$oid": "hn4le1man1v62qm2elf2"
     },
     "name": "Cinnamon Roll 4-Pack",
     "price": "$14.59",
@@ -6249,13 +6249,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "520 Cal. A four pack of Cinnamon Rolls. Allergens: Contains Wheat, Milk, Egg. May contain Sesame, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "n7v9wf3idyftujk6w25jjq"
+      "$oid": "biuol8cxistjz40ci6rauq"
     },
     "name": "Bagel Pack",
     "price": "$23.89",
@@ -6270,13 +6270,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Your choice of 13 bagels served with two tubs of cream cheese spreads. Serves 13."
   },
   {
     "_id": {
-      "$oid": "a71udh7etggtxwwn0ock7"
+      "$oid": "iiu1sx421yznincbr6cf"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese",
     "price": "$2.49",
@@ -6291,13 +6291,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Individual 1.75oz Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "pmbrwcqju1avjungtq64o"
+      "$oid": "u8dtnj5cjykld5og3eqvqk"
     },
     "name": "Plain Bagel",
     "price": "$2.49",
@@ -6312,13 +6312,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel lightly sweetened with brown sugar. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "q7jvgu23zu1ydlo3b8dii"
+      "$oid": "hkh7yiewxx8d92dbscjr3"
     },
     "name": "Iced Caffe Latte",
     "price": "$7.29",
@@ -6351,13 +6351,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "160 Cal. Freshly brewed espresso and milk served over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "t6ocaov0uhqrljywtwoov"
+      "$oid": "ud92888x7dsu0ajffxww"
     },
     "name": "Cinnamon Swirl & Raisin Bagel",
     "price": "$2.49",
@@ -6372,13 +6372,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Sourdough bagel swirled with cinnamon and cinnamon flavored chips, brown sugar and raisins. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "19hy3xaih1svta9xknj8a"
+      "$oid": "bkshoxobnw7zrx6i48xgb"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese Tub",
     "price": "$6.19",
@@ -6393,13 +6393,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "80 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Tub (Serves 8) Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "08yhh71vip1jj08dfvirv0i"
+      "$oid": "l0zmpnlxec2jgoued8nyc"
     },
     "name": "Caffe Latte",
     "price": "$6.99",
@@ -6432,13 +6432,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (130 Cal.), Large (160 Cal.) Espresso with foamed milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "vegihrqgl2sei1hby88azo"
+      "$oid": "4zpb7ewnta7kgc1g23ec7k"
     },
     "name": "Caramel Latte",
     "price": "$7.49",
@@ -6471,13 +6471,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (320 Cal.), Large (400 Cal.) Espresso, foamed milk &amp; caramel, topped with whipped cream. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "fyiqjswldd6afxmdvc21vg"
+      "$oid": "lqpqjqmzr45xmt3mijwqm"
     },
     "name": "Chocolate Chip Muffie",
     "price": "$4.39",
@@ -6492,13 +6492,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. Deliciously crafted muffie flavored with semisweet chocolate chips. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "4gziqwzoxyx0qhve66kugyk"
+      "$oid": "m24c81cv0u2umd4qdv1ob"
     },
     "name": "Everything Bagel",
     "price": "$2.49",
@@ -6513,13 +6513,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with sesame seeds, poppy seeds, dried garlic, toasted onion &amp; kosher salt. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "b8o76qsr15osco66was6"
+      "$oid": "t5mfbidpz4mieasrtkbk3j"
     },
     "name": "Plain Cream Cheese",
     "price": "$2.49",
@@ -6534,13 +6534,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "180 Cal. Plain Cream Cheese Spread - Individual Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "gyhe9l5uehw5opr0hopns3"
+      "$oid": "otn526oo7xm111kzmlgc0d"
     },
     "name": "Multigrain Bagel Flat",
     "price": "$2.49",
@@ -6555,13 +6555,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. Multigrain bagel flat featuring whole wheat, rye, seeds and topped with oats. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xhjzxz44wwn1wopcyb98ib"
+      "$oid": "qejen0nouingccsdehlord"
     },
     "name": "Cafe Blend Dark Roast Coffee Tote",
     "price": "$27.39",
@@ -6594,13 +6594,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "ibp86h4i3uqmldfy9lg5"
+      "$oid": "x2yxwjvrzj9f7hz32mlat"
     },
     "name": "Cappuccino",
     "price": "$6.99",
@@ -6615,13 +6615,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (130 Cal.), Large (160 Cal.) Espresso with steamed milk, topped with a cap of foam. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "fv0abjyf6dhvfn9kwv15o"
+      "$oid": "q9xaqeq9rlayczgd2ec8h"
     },
     "name": "Baked Goods Feast",
     "price": "$20.49",
@@ -6636,13 +6636,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Six deliciously crafted pastries perfect for a group."
   },
   {
     "_id": {
-      "$oid": "r8phw1wolebi52vob67h6r"
+      "$oid": "qf9d9xhiuqix2985rgjph"
     },
     "name": "Decaf Coffee Tote",
     "price": "$27.39",
@@ -6675,13 +6675,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "15 Cal. Perfectly balanced with a clean finish. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "dl24wajcwqejf1jp0ppgyb"
+      "$oid": "d6unwxelsvny684idgl0ng"
     },
     "name": "Hazelnut Coffee Tote",
     "price": "$27.39",
@@ -6714,13 +6714,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Subtle nutty tones with wonderful coffee flavor. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "jg5jpl3cc4smnnd6lo4u9"
+      "$oid": "xx4e0uk2kl1uuv5068zmm"
     },
     "name": "Iced Caramel Latte",
     "price": "$7.49",
@@ -6753,13 +6753,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. Freshly brewed espresso, caramel, and milk over ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "xfgkac7dljlkvgadzubyck"
+      "$oid": "pfmw9nfh4nldqyh28z6b4"
     },
     "name": "Iced Cafe Blend Dark Roast Coffee",
     "price": "$4.39",
@@ -6792,13 +6792,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (0 Cal.), Large (5 Cal.) Rich, bold and full-bodied, balanced with a smoky accent and sweet chocolate notes. Harvested from Central and South America. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "xei1ugva2h8ec3vfinzzdo"
+      "$oid": "8309rb7estfks4yj6zcn0h"
     },
     "name": "Hot Tea",
     "price": "$4.39",
@@ -6831,13 +6831,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. Hot Teas. Please note, this beverage is self-serve when ordering In-Cafe Pick-Up or Dine-In. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "1ar6fzitluor9kw50cq8f"
+      "$oid": "bpyv75drotmgaog3t0hlfg"
     },
     "name": "Cafe Blend Light Roast Coffee Tote",
     "price": "$27.39",
@@ -6870,13 +6870,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "35 Cal. Carefully roasted from Arabica beans. Brewed fresh, please allow additional 15 minutes per tote. Serves 7.5/16 fl oz serving. 120 fl oz per tote. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "39mewnrmd2mvnf6d9jl0zb"
+      "$oid": "84mm5v248qrl11dk4hoame"
     },
     "name": "Hot Tea Tote",
     "price": "$27.39",
@@ -6909,13 +6909,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "0 Cal. Hot tea. A variety of offerings:  British Breakfast 100mg caffeine, Honey Ginseng 50mg caffeine, and Orange Ginger Mint 0mg caffeine per 16 fl oz. Please note, this beverage is self-serve upon pickup. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "f3ppsvcx909ka6ie0hsoio"
+      "$oid": "vo43spnemqd47oxtdd9bop"
     },
     "name": "Dozen & a Half Bagels",
     "price": "$22.19",
@@ -6930,13 +6930,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "18 bagels. Cream Cheese tubs sold separately from the Sides menu."
   },
   {
     "_id": {
-      "$oid": "366nhqvfm3uu0s79zaiu9"
+      "$oid": "ztxl4spgwecuzkb19y3bb"
     },
     "name": "Chocolate Chipper Cookie 4-Pack",
     "price": "$10.89",
@@ -6951,13 +6951,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. A traditional favorite, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "qztyuo5p7pg9bdaumro0y"
+      "$oid": "iazdong3w4xb7ld1zysgq"
     },
     "name": "Candy Cookie 4-Pack",
     "price": "$10.89",
@@ -6972,13 +6972,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. Deliciously crafted sugar cookie topped with semi-sweet chocolate candies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "1rnftumgrtuppv0jvi8zr"
+      "$oid": "r1x0je62x4ephp3jl8jv9"
     },
     "name": "Oatmeal Raisin with Berries Cookie 4-Pack",
     "price": "$10.89",
@@ -6993,13 +6993,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. A chewy oatmeal raisin cookie with sweetened, dried cranberries and infused, dried strawberries and blueberries. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "dyfweibo1r8dnxuf9t7moa"
+      "$oid": "h9om5882pnnvjj69zrt0g"
     },
     "name": "Americano",
     "price": "$5.09",
@@ -7014,13 +7014,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "5 Cal. Two shots of espresso made with our favorite espresso beans combined with hot water. Served hot. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "2sgkgjh6x2sw2dwim1ywhr"
+      "$oid": "7o6i8he278qttmfy4nr18p"
     },
     "name": "Espresso",
     "price": "$3.49",
@@ -7035,13 +7035,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "5 Cal. A double espresso shot made with our favorite espresso beans. Served hot. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "udgzdtejmks173w245jkeq"
+      "$oid": "7pi0lgmybills1zy29xjn"
     },
     "name": "Fruit Cup",
     "price": "$5.59",
@@ -7056,13 +7056,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "60 Cal. Fresh pineapple, cantaloupe, strawberries and blueberries. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "cusfry83w5qimq75naqa"
+      "$oid": "lyxr6c7dstlbtzh6qk4cd"
     },
     "name": "Blueberry Bagel",
     "price": "$2.49",
@@ -7077,13 +7077,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel made with a mix of dried infused blueberries and blueberry flavors. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "8reutfsi8hpekb46cbdh5f"
+      "$oid": "1fw59699xdmgycmjnz3v5"
     },
     "name": "Sesame Bagel",
     "price": "$2.49",
@@ -7098,13 +7098,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with nutty sesame seeds. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "yhesjgpkyrrzpx1ci3rqvs"
+      "$oid": "w6b591pltlmext4mdc4r"
     },
     "name": "Almond Pastry",
     "price": "$5.69",
@@ -7119,13 +7119,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. A buttery, flaky pastry with sweet almond filling, drizzled with icing and topped with sliced almonds. Allergens: Contains Wheat, Soy, Milk, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "bts5g9rkmwez90l6a0g3k"
+      "$oid": "2qwo99lomqrz4uir75g2xk"
     },
     "name": "Cherry Pastry",
     "price": "$5.69",
@@ -7140,13 +7140,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. A buttery, flaky pastry baked to perfection with tart cherry filling and drizzled with icing. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "cs03oe3b69atf8a2z49vsd"
+      "$oid": "xh12tvjuizkizzp4fh1yih"
     },
     "name": "Cranberry Orange Slice",
     "price": "$5.59",
@@ -7161,13 +7161,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "380 Cal. A flavorful slice of cake with whole cranberries and sweet orange flavor, sour cream, and sprinkled with coarse sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "uvj5f55xpcfuqkp2ompmyg"
+      "$oid": "rk4orawc0haw0sqt4fcy2"
     },
     "name": "Macaroon 3-Pack",
     "price": "$6.29",
@@ -7182,13 +7182,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Three deliciously crafted macaroons. Pick from Coconut Macaroon and Chocolate Coconut Macaroon flavors."
   },
   {
     "_id": {
-      "$oid": "xi70il1oit8t5b579ytg8s"
+      "$oid": "sc0m4ys6dsaxy6zt6ce65a"
     },
     "name": "Brownie Bites 3-Pack",
     "price": "$6.29",
@@ -7203,13 +7203,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. Three mini chocolate fudge brownies topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "lhmqdu0olz93r13mnkvn4"
+      "$oid": "pveqkvoqqkprvi38zzgjo"
     },
     "name": "NEW Summer Sprinkle Cookie 6-Pack",
     "price": "$14.89",
@@ -7224,13 +7224,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. Six deliciously crafted shortbread cookies with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "llsrkyrp6jqpxbydlyybb"
+      "$oid": "s84t9mzk4ngmjkkve8l2wr"
     },
     "name": "One Dozen Chocolate Chipper Cookies",
     "price": "$27.89",
@@ -7245,13 +7245,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. 12 Chocolate Chipper cookies, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "437fmdtlvrlwtewkbjey3"
+      "$oid": "4tf2y6wjuxiqbb3r2wqyj"
     },
     "name": "One Dozen Mixed Cookies",
     "price": "$27.89",
@@ -7266,13 +7266,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "4830 Cal. 12 deliciously crafted cookies, made with 6 Chocolate Chipper Cookies, 3 Candy Cookies, and 3 Oatmeal Raisin with Berries Cookies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "5ftistfpw4rnr30dp6usdj"
+      "$oid": "a0z6mh42rv7st4t1mwuxo8"
     },
     "name": "Mini Orange Scone 9-Pack",
     "price": "$12.29",
@@ -7287,13 +7287,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "180 Cal. Nine deliciously crafted Mini Orange Scones. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "88iw6hcs5dk3l66iu6kan5"
+      "$oid": "us55gudjfutysd1p9jh5r"
     },
     "name": "Chai Tea Latte",
     "price": "$7.49",
@@ -7326,13 +7326,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Regular (230 Cal.), Large (280 Cal.) Brewed with black tea, honey, vanilla, cardamom, cinnamon, ginger &amp; foamed milk. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "m33lrol5nly8y74poxc8b"
+      "$oid": "fmzd7b2jauldyppe6wvz"
     },
     "name": "Grilled Cheese & Creamy Tomato Soup",
     "price": "$11.29",
@@ -7365,13 +7365,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Grilled Cheese served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "nqwxt3rfm2lo9twp357t6j"
+      "$oid": "lu4ueeaqsde459o7p3s44"
     },
     "name": "Smokehouse BBQ Chicken & Creamy Tomato Soup",
     "price": "$11.29",
@@ -7404,13 +7404,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Smokehouse BBQ Chicken Sandwich served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "tbegh5ag0vcb9kkgfoqy9"
+      "$oid": "gfk6ovdvp851suwonix7np"
     },
     "name": "Tuna Salad Sandwich & Creamy Tomato Soup",
     "price": "$11.29",
@@ -7443,13 +7443,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Tuna Salad Sandwich served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "609sgsa60k24oz8h19d6ts"
+      "$oid": "r3jk4g6v47bq6k6nrl40yl"
     },
     "name": "Greek Salad & Creamy Tomato Soup",
     "price": "$11.29",
@@ -7482,13 +7482,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Greek Salad served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "keygmn5qmjgglp9ms2ucma"
+      "$oid": "5asgyilpngsxj0n7yw3sn"
     },
     "name": "Caesar Salad & Homestyle Chicken Noodle Soup",
     "price": "$11.29",
@@ -7521,13 +7521,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Caesar Salad served with a cup of Homestyle Chicken Noodle Soup."
   },
   {
     "_id": {
-      "$oid": "v16fuwto2hbb21nevewl84"
+      "$oid": "mx04tacyd2potgtlqvzknm"
     },
     "name": "Mediterranean Veggie & Creamy Tomato Soup",
     "price": "$11.29",
@@ -7564,13 +7564,13 @@
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Mediterranean Veggie served with a cup of Creamy Tomato Soup."
   },
   {
     "_id": {
-      "$oid": "y07t5fac47dg3lms1zicrn"
+      "$oid": "4ks93y6tn6f8g2texoh6bb"
     },
     "name": "Turkey & Cheddar Sandwich & Cream of Chicken & Wild Rice Soup",
     "price": "$11.29",
@@ -7603,13 +7603,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "A half portion of our Turkey &amp; Cheddar Sandwich served with a cup of Cream of Chicken &amp; Wild Rice Soup."
   },
   {
     "_id": {
-      "$oid": "ma3c2c5bl2lml2gjm685wd"
+      "$oid": "vzp9ob6nrmf5v87r1fj2g4"
     },
     "name": "Kids Mac & Cheese",
     "price": "$10.69",
@@ -7624,13 +7624,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. Tender shell pasta in a blend of rich cheeses including our tangy aged white cheddar cheese sauce. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "ggijyesr48tsqa3no5hy4r"
+      "$oid": "x2h2djk1rkpazkoqdhvspm"
     },
     "name": "Kids Grilled Cheese",
     "price": "$9.29",
@@ -7645,13 +7645,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "810 Cal. American cheese melted on our thick-sliced Classic White Miche. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "lqa0wmy6nwai7s7qup3bsk"
+      "$oid": "9r028ssxflfltyh63gt1gd"
     },
     "name": "Kids Broccoli Cheddar Soup",
     "price": "$9.99",
@@ -7684,13 +7684,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "240 Cal. Chopped broccoli, shredded carrots and select seasonings simmered in a velvety smooth cheese sauce. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "56s02gn1w4czw0en1opxws"
+      "$oid": "7mpnc43y9938wcbyunoe5n"
     },
     "name": "Kids Turkey & Cheese Sandwich",
     "price": "$10.79",
@@ -7705,13 +7705,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "640 Cal. Oven-roasted turkey breast and American cheese on our thick-sliced Classic White Miche. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "totmqhxtb4hf974zezsx"
+      "$oid": "fzt05yx6x7wwipie2ab7gj"
     },
     "name": "Kids Ham & Cheese Sandwich",
     "price": "$10.79",
@@ -7726,13 +7726,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "640 Cal. Black Forest ham and American cheese on our thick-sliced Classic White Miche. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xcv7d8g8fvjww2zzl2l3a"
+      "$oid": "j60lfv7wcuqlywlk7o7"
     },
     "name": "French Baguette",
     "price": "$1.29",
@@ -7747,13 +7747,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "200 Cal. A side portion of a crispy, classic baguette with a slightly blistered crust and soft interior. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "v2b1vp7caytaca13amd6cs"
+      "$oid": "0xuec54xnykf5kd0g5ngiu"
     },
     "name": "Chips",
     "price": "$1.59",
@@ -7768,13 +7768,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "150 Cal. Panera kettle-cooked potato chips. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "gu42jsouw0f4dl5kqp0ydi"
+      "$oid": "f8f38o4sg3mvjw8cnmle5m"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese",
     "price": "$2.49",
@@ -7789,13 +7789,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Individual 1.75oz Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "zbxvjpqr2lgch9c1izr31j"
+      "$oid": "0l8jjsa7ofgnoxcvcxydno"
     },
     "name": "Greek Yogurt with Mixed Berries Parfait",
     "price": "$8.49",
@@ -7810,13 +7810,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. Greek yogurt with honey, maple butter pecan granola with whole grain oats, and fresh strawberries and blueberries. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "isqyupry1fu4ad55m56od"
+      "$oid": "h9xx2mc6xqoza0yo7rqfb9"
     },
     "name": "Plain Cream Cheese Spread Tub",
     "price": "$6.19",
@@ -7831,13 +7831,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "110 Cal. Plain Cream Cheese Spread - Tub Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "snnjilu5bteqw9uohivh5d"
+      "$oid": "806jl5zeyw3nal1v3vkix"
     },
     "name": "Reduced Fat Honey Walnut Cream Cheese Tub",
     "price": "$6.19",
@@ -7852,13 +7852,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "80 Cal. Reduced Fat Honey Walnut Cream Cheese Spread – Tub (Serves 8) Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "ihphh7cuxygdpxjv8fadei"
+      "$oid": "vg403adf29bn3266bfra"
     },
     "name": "Plain Cream Cheese",
     "price": "$2.49",
@@ -7873,13 +7873,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "180 Cal. Plain Cream Cheese Spread - Individual Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "r1dwgbezdtknvuwop027fq"
+      "$oid": "hi6cbm5haf0jyi0sg6vh3v"
     },
     "name": "Banana",
     "price": "$1.29",
@@ -7894,13 +7894,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "90 Cal. Banana Allergens: none"
   },
   {
     "_id": {
-      "$oid": "vy2kstononp425hwi4io7u"
+      "$oid": "hs7j7ouuvyd2qh433di38"
     },
     "name": "Apple",
     "price": "$1.29",
@@ -7915,13 +7915,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "80 Cal. Fresh apple. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "pt41yt4l6p8p2jzpklr7ha"
+      "$oid": "57pszw1zt8twq2344672hc"
     },
     "name": "Fruit Cup",
     "price": "$5.59",
@@ -7936,13 +7936,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "60 Cal. Fresh pineapple, cantaloupe, strawberries and blueberries. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "w3rulpuzknfsp3j11otz1"
+      "$oid": "bhu81jo753vosdomhhdijc"
     },
     "name": "Toasted Garden Caprese",
     "price": "$10.79",
@@ -7971,13 +7971,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (1000 Cal.), Half (500 Cal.) Melty fresh mozzarella, vine-ripened tomatoes, chopped basil, fresh arugula, with salt and pepper, and balsamic vinaigrette and garlic aioli drizzle on our Ciabatta. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "nt31q4o0knz11h7z7x2hq"
+      "$oid": "x73mx9gr2zweyuc3h3c6o"
     },
     "name": "Grilled Cheese",
     "price": "$9.79",
@@ -8006,13 +8006,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (810 Cal.), Half (400 Cal.) American cheese melted on our thick-sliced Classic White Miche. Allergens: Contains Wheat, Soy, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "l4bmqo8whg9nisojk959lo"
+      "$oid": "9f1rnjyzhyon65y4g5cpu"
     },
     "name": "Mediterranean Veggie",
     "price": "$9.79",
@@ -8045,13 +8045,13 @@
       "vegetarian"
     ],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (490 Cal.), Half (250 Cal.) Zesty sweet peppers, feta, sliced cucumbers, crisp mixed greens, vine-ripened tomatoes, red onions, hummus, with salt and pepper on our Tomato Basil Miche. Allergens: Contains Wheat, Sesame, Milk"
   },
   {
     "_id": {
-      "$oid": "cisrtskwwnn2j38qi4h35d"
+      "$oid": "jw4buuudu7sy5jivq159"
     },
     "name": "Strawberry Poppyseed Salad",
     "price": "$10.29",
@@ -8080,13 +8080,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (240 Cal.), Half (120 Cal.) Crisp romaine tossed in poppyseed dressing, topped with mandarin oranges, fresh strawberries, blueberries, pineapple, and toasted pecan pieces. Allergens: Contains Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "lad7lf5yffgw6e2xhbv2oe"
+      "$oid": "h0f6mskahyqau59onbucxk"
     },
     "name": "Strawberry Caprese Salad",
     "price": "$10.29",
@@ -8115,13 +8115,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (460 Cal.), Half (230 Cal.) Mixed greens and arugula tossed in balsamic vinaigrette, topped with strawberries, fresh mozzarella, basil and toasted pecan pieces. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "fkuemiomsev5pwgarog57k"
+      "$oid": "9xxda5jpngvy1oelpx6q5l"
     },
     "name": "Mediterranean Greens with Grains",
     "price": "$10.29",
@@ -8150,13 +8150,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (540 Cal.), Half (270 Cal.) Mixed greens and crisp romaine tossed in Greek Dressing, topped with our whole grain blend, hummus, feta, red onions, zesty sweet peppers, sliced cucumbers, and sprinkled with shawarma seasoning. Allergens: Contains Wheat, Sesame, Milk"
   },
   {
     "_id": {
-      "$oid": "j4ky2wthhr8j0ycg4jk6d"
+      "$oid": "nb0zfyp748cuemmk8273ha"
     },
     "name": "Balsamic Greens with Grains",
     "price": "$10.29",
@@ -8185,13 +8185,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (470 Cal.), Half (230 Cal.) Mixed greens and crisp romaine tossed in balsamic vinaigrette, topped with our whole grain blend, sliced cucumbers, sliced pepperoncini peppers, fresh avocado, feta, pumpkin seeds, and drizzled with Green Goddess dressing. Allergens: Contains Wheat, Milk"
   },
   {
     "_id": {
-      "$oid": "fo6hjx7yeq5apqodkblfu9"
+      "$oid": "xxnzgcq21atti05vzzz7c"
     },
     "name": "Greek Salad",
     "price": "$8.99",
@@ -8220,13 +8220,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Whole (420 Cal.), Half (210 Cal.) Crisp romaine tossed in Greek dressing, topped with grape tomatoes, feta, sliced cucumbers, red onions, kalamata olives, sliced pepperoncini peppers, with salt and pepper. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "3rojkp0rytip2s0e7xjta"
+      "$oid": "iao7qblkd1a3bb2waehxd"
     },
     "name": "Mexican Street Corn Chowder",
     "price": "$9.99",
@@ -8381,13 +8381,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (360 Cal.), Cup (230 Cal.), Bread Bowl (880 Cal.) Sweet corn, fire-roasted poblano peppers, russet potatoes, chile powder, lime juice and cilantro in a creamy broth topped with blue corn tortilla strips. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xg6v955bc9qzginnfh17wj"
+      "$oid": "ofud68wh4k8y2ieufw3re"
     },
     "name": "Mac & Cheese",
     "price": "$10.79",
@@ -8542,13 +8542,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (960 Cal.), Cup (480 Cal.), Bread Bowl (1130 Cal.) Tender shell pasta in a blend of rich cheeses including our tangy aged white cheddar cheese sauce. Allergens: Contains Wheat, Milk, Egg. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "psp78jjz1klhss2hkb0yr"
+      "$oid": "41c3w7mdqd1khwgb6xnhm"
     },
     "name": "Creamy Tomato Soup",
     "price": "$9.99",
@@ -8581,13 +8581,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "Bowl (370 Cal.), Cup (250 Cal.), Bread Bowl (900 Cal.) Vine-ripened pear tomatoes pureed with fresh cream for a velvety smooth flavor accented by hints of red pepper and oregano and topped with black pepper and sea salt croutons. Allergens: Contains Wheat, Milk. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "xsqre5v282p4ap30uzuij"
+      "$oid": "cvn4vy847lrvyd0jqtycs9"
     },
     "name": "Greek Yogurt with Mixed Berries Parfait",
     "price": "$8.49",
@@ -8602,13 +8602,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. Greek yogurt with honey, maple butter pecan granola with whole grain oats, and fresh strawberries and blueberries. Allergens: Contains Milk, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "b355ujzyx5ihy2r3aelj5q"
+      "$oid": "7311ahg792vxtskpbq1nc"
     },
     "name": "Fruit Cup",
     "price": "$5.59",
@@ -8623,13 +8623,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "60 Cal. Fresh pineapple, cantaloupe, strawberries and blueberries. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "t6xms2acqpkea3885a2qd4"
+      "$oid": "g7nmo94akqtu5eda1qxxd"
     },
     "name": "Cinnamon Crunch Bagel",
     "price": "$2.49",
@@ -8644,13 +8644,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "320 Cal. Bagel made with cinnamon and vanilla flavored chips and topped with our sweet cinnamon crunch topping. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "6p9ydv8f6qqnnp9xm73t6a"
+      "$oid": "gu8bb3d1xeqenzzcn1thk"
     },
     "name": "Asiago Bagel",
     "price": "$2.49",
@@ -8665,13 +8665,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel made with chunks of asiago cheese baked inside and topped with more asiago. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Milk. May contain Egg, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "gwpx6lbiamj7six8e2tyjf"
+      "$oid": "b6ldy23r5tefc0aqt09vq"
     },
     "name": "Everything Bagel",
     "price": "$2.49",
@@ -8686,13 +8686,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with sesame seeds, poppy seeds, dried garlic, toasted onion &amp; kosher salt. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "oh8tbebmct8h5ptwv812rb"
+      "$oid": "bbdqkk4taqcry9sw5vw0rk"
     },
     "name": "Blueberry Bagel",
     "price": "$2.49",
@@ -8707,13 +8707,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel made with a mix of dried infused blueberries and blueberry flavors. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "qnhy0b6ebdb8sd0fh1bq97"
+      "$oid": "fy25p8bj01kjbssx43jn8o"
     },
     "name": "Sesame Bagel",
     "price": "$2.49",
@@ -8728,13 +8728,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Bagel topped with nutty sesame seeds. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "z7h6lp0585fo3ph8n0rvhi"
+      "$oid": "0fkzrvobwtxd0847z33bbq9w"
     },
     "name": "Plain Bagel",
     "price": "$2.49",
@@ -8749,13 +8749,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Bagel lightly sweetened with brown sugar. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "4l5f3du7xtejgyvfdh2qhd"
+      "$oid": "ggxxtbtoxtbkihfxizlr"
     },
     "name": "Cinnamon Swirl & Raisin Bagel",
     "price": "$2.49",
@@ -8770,13 +8770,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "310 Cal. Sourdough bagel swirled with cinnamon and cinnamon flavored chips, brown sugar and raisins. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat, Sesame. May contain Soy"
   },
   {
     "_id": {
-      "$oid": "5t5wue3ao5f0tjawk00jv1d"
+      "$oid": "f12y2rjnc766eutrn92n7c"
     },
     "name": "Multigrain Bagel Flat",
     "price": "$2.49",
@@ -8791,13 +8791,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. Multigrain bagel flat featuring whole wheat, rye, seeds and topped with oats. Some of our recipes have changed. Please check the latest allergen information. Allergens: Contains Wheat. May contain Sesame"
   },
   {
     "_id": {
-      "$oid": "wm7jc10hxknxsm5rxmbf0b"
+      "$oid": "q6akrx3teomy2lz91f3oi"
     },
     "name": "Cherry Pastry",
     "price": "$5.69",
@@ -8812,13 +8812,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. A buttery, flaky pastry baked to perfection with tart cherry filling and drizzled with icing. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "y4fkevv5uhdo4a24cwetpb"
+      "$oid": "nfu1fyiyjwm6hn30km83mw"
     },
     "name": "Almond Pastry",
     "price": "$5.69",
@@ -8833,13 +8833,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. A buttery, flaky pastry with sweet almond filling, drizzled with icing and topped with sliced almonds. Allergens: Contains Wheat, Soy, Milk, Egg, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "nie6e7ozo5h3whmykjad"
+      "$oid": "jlqrt40grjbba7s63opfl"
     },
     "name": "Cranberry Orange Slice",
     "price": "$5.59",
@@ -8854,13 +8854,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "380 Cal. A flavorful slice of cake with whole cranberries and sweet orange flavor, sour cream, and sprinkled with coarse sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "lostklcg0xu2pb25wlhwd"
+      "$oid": "z0norlb6kr6xfvc0q5nh2"
     },
     "name": "Chocolate Coconut Macaroon",
     "price": "$2.49",
@@ -8875,13 +8875,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "190 Cal. A deliciously crafted chocolate coconut macaroon cookie finished with a chocolatey dip. Allergens: Contains Wheat, Soy, Milk, Egg, Tree Nuts. May contain Peanuts"
   },
   {
     "_id": {
-      "$oid": "aseexscswmwvlsxushay0m"
+      "$oid": "bsywpmlwba5ygzk3snd53"
     },
     "name": "Candy Cookie",
     "price": "$4.19",
@@ -8896,13 +8896,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "480 Cal. Deliciously crafted sugar cookie topped with semi-sweet chocolate candies. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "ronhptd6ejqmztzdf1u35i"
+      "$oid": "sqw4m5533ttpa2dnwldz"
     },
     "name": "Oatmeal Raisin with Berries Cookie",
     "price": "$4.19",
@@ -8917,13 +8917,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "350 Cal. A chewy oatmeal raisin cookie with sweetened, dried cranberries and infused, dried strawberries and blueberries. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "wbwbsz4ywipqx3w5x5rrn"
+      "$oid": "99n8z1qyv8so3btn60409"
     },
     "name": "Chocolate Chipper Cookie",
     "price": "$4.19",
@@ -8938,13 +8938,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "390 Cal. A traditional favorite, deliciously crafted, and made with semi-sweet chocolate chunks &amp; milk chocolate flakes. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "z98umgxgmsplt7yqxc9yni"
+      "$oid": "ftoc15fzeehtaz8wh1434"
     },
     "name": "Kitchen Sink Cookie",
     "price": "$7.49",
@@ -8959,13 +8959,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "820 Cal. A salty, chocolaty, caramel confection big enough to share.  A large cookie with semi-sweet chocolate, milk chocolate, caramel pieces, pretzels and then topped with flake salt. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "k2q80piz6wsegc7hfpipyv"
+      "$oid": "l3odhfuqaqk2pdttda5a5z"
     },
     "name": "Brownie Bite",
     "price": "$2.49",
@@ -8980,13 +8980,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "130 Cal. A mini chocolate fudge brownie topped with chocolate chips and brownie crumbles. Allergens: Contains Wheat, Soy, Milk, Egg. May contain Sesame, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "gf2sbeznozl6kyi7sistd"
+      "$oid": "noywg0uvzlgnaiii5il9vn"
     },
     "name": "Brownie",
     "price": "$5.69",
@@ -9001,13 +9001,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "550 Cal. Rich, fudgy soft chocolate brownie dusted with powdered sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "9bv1rbb2vy6eq84g62xcgv"
+      "$oid": "f4r1cvxzv4ot4i6twr69t8"
     },
     "name": "Pecan Braid",
     "price": "$5.69",
@@ -9022,13 +9022,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "450 Cal. Our pastry dough, twisted and braided made with butter and pecan filling topped with toasted pecan pieces and icing for sweetness. Allergens: Contains Wheat, Milk, Egg, Tree Nuts. May contain Sesame, Soy"
   },
   {
     "_id": {
-      "$oid": "6y6yjav0884kn6ow7d6dne"
+      "$oid": "lbdaiws7ypbgmsfwkv6c4w"
     },
     "name": "Chocolate Croissant",
     "price": "$5.69",
@@ -9043,13 +9043,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "410 Cal. A delicate, perfectly flaky butter croissant filled with semi-sweet chocolate, topped with chocolatey drizzle and powdered sugar. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "uq9e5bbzhtdfroyuvt5kam"
+      "$oid": "v4ae7dxwo9lul12an1w4ic"
     },
     "name": "Cinnamon Roll",
     "price": "$5.99",
@@ -9064,13 +9064,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "520 Cal. A deliciously crafted roll made with our sweet dough, stuffed with cinnamon-sugar filling and topped with decadent icing. Allergens: Contains Wheat, Milk, Egg. May contain Sesame, Soy, Tree Nuts"
   },
   {
     "_id": {
-      "$oid": "1drvhfihj2d3ktiz4b7prh"
+      "$oid": "ncpe7jpdcbeldem8sq44c"
     },
     "name": "Blueberry Muffin",
     "price": "$5.19",
@@ -9085,13 +9085,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "510 Cal. Deliciously crafted muffin with blueberries and topped with streusel. Allergens: Contains Wheat, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "stow714chbcbrd790jjv"
+      "$oid": "ad1ddh545kw948die0nwq"
     },
     "name": "Chocolate Chip Muffie",
     "price": "$4.39",
@@ -9106,13 +9106,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "340 Cal. Deliciously crafted muffie flavored with semisweet chocolate chips. Allergens: Contains Wheat, Soy, Milk, Egg"
   },
   {
     "_id": {
-      "$oid": "zwc64hjr78he36qjfsi7d"
+      "$oid": "m42xug98imp9zxdpbc11q"
     },
     "name": "Frozen Strawberry Lemonade",
     "price": "$4.99",
@@ -9127,13 +9127,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "140 Cal. Strawberry fruit blend, our Agave Lemonade blend and fresh strawberries blended with ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "kas4tj1kt99hc6xidose"
+      "$oid": "l4zgwc0azvspp2kdkjl4a"
     },
     "name": "Tropical Green Smoothie",
     "price": "$9.09",
@@ -9148,13 +9148,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "200 Cal. Guava and mango puree concentrates, with white grape, pineapple, and passionfruit juice concentrates blended with spinach and ice. Allergens: none"
   },
   {
     "_id": {
-      "$oid": "lfd6l2w86wkfo37e55o2"
+      "$oid": "8s7uawc28vfywdswdpz91"
     },
     "name": "Strawberry Banana Smoothie",
     "price": "$9.09",
@@ -9169,13 +9169,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "250 Cal. A mix of fruit purees and juice concentrates, blended with a banana and plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "s7oztjeb15la3xszpdnb"
+      "$oid": "otl3h0vgxgkjn7lwiq0ax"
     },
     "name": "Mango Smoothie",
     "price": "$9.09",
@@ -9190,13 +9190,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "300 Cal. Mango fruit base mixed with orange juice and banana puree blended with plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "mdbgb1zog7hxf6opknj2m"
+      "$oid": "hallq1u634r729ftc760d5"
     },
     "name": "Strawberry Smoothie",
     "price": "$9.09",
@@ -9211,13 +9211,13 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "260 Cal. A mix of fruit purees and juice concentrates, blended with plain Greek yogurt and ice. Allergens: Contains Milk"
   },
   {
     "_id": {
-      "$oid": "nmdc6dt36kd9cxqpu5y4cl"
+      "$oid": "stv6zeiqx9aifhn50k1v2k"
     },
     "name": "NEW Summer Sprinkle Cookie",
     "price": "$4.49",
@@ -9232,7 +9232,7 @@
     "restaurant": "Panera (775 NW Gilman Blvd )",
     "dietary": [],
     "brandId": {
-      "$oid": "mi0tw879limfe2s4y768xl"
+      "$oid": "phdjfm5dnegkjo4jpg6ya"
     },
     "description": "440 Cal. A deliciously crafted shortbread cookie with decorative icing and sprinkles. Allergens: Contains Wheat, Soy, Milk. May contain Peanuts, Egg, Tree Nuts"
   }
