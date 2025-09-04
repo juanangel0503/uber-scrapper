@@ -76,92 +76,18 @@ function transformToNewSchema(restaurantData, menuData) {
         }
       }
       
-      // If no options found but item likely has customizations, add comprehensive default structure
-      if (addOns.length === 0) {
-        const itemText = `${item.name} ${item.description || ''}`.toLowerCase();
-        if (itemText.includes('build your own') || itemText.includes('bowl') || itemText.includes('burrito') || itemText.includes('taco')) {
-          addOns.push({
-            name: "Protein | Choose One",
-            options: [
-              { name: "Chicken", price: "+$70.00" },
-              { name: "Steak", price: "+$85.00" },
-              { name: "Barbacoa", price: "+$85.00" },
-              { name: "Carnitas", price: "+$78.00" },
-              { name: "Sofritas (Plant-Based Protein)", price: "+$70.00" }
-            ]
-          });
-          addOns.push({
-            name: "Rice | Choose One",
-            options: [
-              { name: "White Rice", price: "" },
-              { name: "Brown Rice", price: "" }
-            ]
-          });
-          addOns.push({
-            name: "Beans | Choose One",
-            options: [
-              { name: "Black Beans", price: "" },
-              { name: "Pinto Beans", price: "" }
-            ]
-          });
-          addOns.push({
-            name: "Included Sides | Choose up to 4",
-            options: [
-              { name: "Cheese", price: "" },
-              { name: "Romaine Lettuce", price: "" },
-              { name: "Large Chips (2)", price: "" },
-              { name: "Soft Flour Tortillas (8)", price: "" }
-            ]
-          });
-          addOns.push({
-            name: "More Sides | Up to Three",
-            options: [
-              { name: "Large Sour Cream", price: "" },
-              { name: "Large Fresh Tomato Salsa", price: "" },
-              { name: "Large Tomatillo-Red Chili Salsa", price: "" },
-              { name: "Large Tomatillo-Green Chili Salsa", price: "" },
-              { name: "Large Roasted Chili-Corn Salsa", price: "" }
-            ]
-          });
-          addOns.push({
-            name: "Premium Sides | Up to One",
-            options: [
-              { name: "Large Guacamole", price: "" },
-              { name: "Large Queso Blanco", price: "" }
-            ]
-          });
-          addOns.push({
-            name: "Add-Ons",
-            options: [
-              { name: "Large Side of Guacamole", price: "+$7.00" },
-              { name: "Large Side of Queso Blanco", price: "+$7.00" },
-              { name: "Large Fresh Tomato Salsa", price: "+$3.00" },
-              { name: "Large Tomatillo-Red Chili Salsa", price: "+$3.00" },
-              { name: "Large Tomatillo-Green Chili Salsa", price: "+$3.00" },
-              { name: "Large Roasted Chili-Corn Salsa", price: "+$3.00" }
-            ]
-          });
-        }
-      }
+      // DO NOT ADD ANY HARDCODED ADD-ONS
+      // Only use real data extracted from the page through JSON-LD or modal interactions
       
-      // Extract ingredients from description or use empty array
+      // Extract ingredients - ONLY USE REAL DATA
       const ingredients = [];
-      // if (item.description) {
-      //   // Enhanced ingredient extraction
-      //   const commonIngredients = [
-      //     'chicken', 'steak', 'barbacoa', 'carnitas', 'sofritas', 
-      //     'rice', 'beans', 'lettuce', 'guacamole', 'salsa', 'cheese', 
-      //     'sour cream', 'queso', 'tortilla', 'chips', 'fajita veggies',
-      //     'tomatillo', 'corn', 'tomato', 'onion', 'pepper', 'jalapeño',
-      //     'cilantro', 'lime', 'avocado', 'pork', 'beef', 'fish',
-      //     'shrimp', 'salmon', 'tuna', 'bacon', 'ham', 'turkey'
-      //   ];
-      //   commonIngredients.forEach(ingredient => {
-      //     if (item.description.toLowerCase().includes(ingredient)) {
-      //       ingredients.push(ingredient);
-      //     }
-      //   });
-      // }
+      
+      // Use real ingredients extracted from JSON-LD data if available
+      if (item.realIngredients && Array.isArray(item.realIngredients)) {
+        ingredients.push(...item.realIngredients);
+      }
+      // If no real ingredient data is available, leave ingredients array empty
+      // Do not generate fake ingredients from description text
       
       // Determine spice level based on item name/description
       let spiceLevel = " ";
@@ -212,7 +138,7 @@ function transformToNewSchema(restaurantData, menuData) {
 
 async function uberScraper(targetUrl = null) {
   // Get target URL from parameter or command line arguments or use default
-  const TARGET_URL = targetUrl || process.argv[2] || "http://www.ubereats.com/store/chipotle-mexican-grill-22704-se-4th-st-ste-210/YGSzD0qzRAqRseL06YFbYg";
+  const TARGET_URL = targetUrl || process.argv[2] || "https://www.ubereats.com/store/chipotle-mexican-grill-22704-se-4th-st-ste-210/YGSzD0qzRAqRseL06YFbYg";
   
   console.log("🚀 Starting Uber Eats scraper...");
   console.log("📍 Target URL:", TARGET_URL);
@@ -222,8 +148,8 @@ async function uberScraper(targetUrl = null) {
     // Launch browser
     console.log("🌐 Launching browser...");
     browser = await puppeteer.launch({
-      headless: true,
-      executablePath: "/usr/bin/chromium-browser", // Set to true for production
+      headless: false, // Set to true for production
+      executablePath: "/usr/bin/chromium-browser",
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
@@ -577,13 +503,25 @@ async function uberScraper(targetUrl = null) {
                       }
                     ];
                   }
+                  
+                  // Extract real ingredients if available in JSON-LD
+                  let realIngredients = [];
+                  if (item.recipeIngredient && Array.isArray(item.recipeIngredient)) {
+                    realIngredients = item.recipeIngredient;
+                  } else if (item.ingredients && Array.isArray(item.ingredients)) {
+                    realIngredients = item.ingredients;
+                  } else if (item.nutrition && item.nutrition.ingredients) {
+                    realIngredients = Array.isArray(item.nutrition.ingredients) ? 
+                      item.nutrition.ingredients : [item.nutrition.ingredients];
+                  }
                    
                    return {
                      name: cleanName,
                      price: price,
                      description: item.description || null,
                     image: image,
-                    options: options
+                    options: options,
+                    realIngredients: realIngredients
                    };
                  }) : []
                }));
@@ -669,12 +607,24 @@ async function uberScraper(targetUrl = null) {
                         }];
                       }
                       
+                      // Extract real ingredients if available
+                      let realIngredients = [];
+                      if (item.recipeIngredient && Array.isArray(item.recipeIngredient)) {
+                        realIngredients = item.recipeIngredient;
+                      } else if (item.ingredients && Array.isArray(item.ingredients)) {
+                        realIngredients = item.ingredients;
+                      } else if (item.nutrition && item.nutrition.ingredients) {
+                        realIngredients = Array.isArray(item.nutrition.ingredients) ? 
+                          item.nutrition.ingredients : [item.nutrition.ingredients];
+                      }
+                      
                       categoryMap.get(category).push({
                         name: item.title || item.name || '',
                         price: price,
                         description: item.itemDescription || null,
                         image: image,
-                        options: options
+                        options: options,
+                        realIngredients: realIngredients
                       });
                     });
                     
@@ -724,10 +674,7 @@ async function uberScraper(targetUrl = null) {
          let categoryNodes = [];
          for (const selector of categorySelectors) {
            categoryNodes = document.querySelectorAll(selector);
-           if (categoryNodes.length > 0) {
-             console.log(`Found categories using selector: ${selector}`);
-             break;
-           }
+           if (categoryNodes.length > 0) break;
          }
          
          console.log(`Found ${categoryNodes.length} categories`);
@@ -796,12 +743,18 @@ async function uberScraper(targetUrl = null) {
                 }];
               }
               
+              // Extract real ingredients from DOM if available (leave empty if not found)
+              let realIngredients = [];
+              // Note: Most Uber Eats pages don't expose detailed ingredient lists in DOM
+              // We leave this empty rather than generating fake data
+              
               categoryMap.get(category).push({
                 name: name,
                 price: price,
                 description: description,
                 image: image,
-                options: options
+                options: options,
+                realIngredients: realIngredients
               });
             });
             
@@ -1024,63 +977,16 @@ async function uberScraper(targetUrl = null) {
       console.log("🔍 Extracting real images from HTML...");
       
       if (menuData.length > 0) {
-        // Get all images from the page with improved extraction
+        // Get all images from the page
         const pageImages = await page.evaluate(() => {
+          const images = document.querySelectorAll('img[src*="uber.com"]');
           const imageMap = new Map();
           
-          // Strategy 1: Look for Uber images with alt text
-          const uberImages = document.querySelectorAll('img[src*="uber.com"]');
-          uberImages.forEach(img => {
+          images.forEach(img => {
             const alt = img.alt || '';
             const src = img.src;
-            if (alt && src && !alt.toLowerCase().includes('logo')) {
+            if (alt && src) {
               imageMap.set(alt.trim(), src);
-            }
-          });
-          
-          // Strategy 2: Look for images in menu item containers
-          const menuItems = document.querySelectorAll('[data-testid^="store-item-"], [data-testid*="menu-item"], .menu-item');
-          menuItems.forEach(item => {
-            const img = item.querySelector('img[src*="uber.com"]');
-            const nameEl = item.querySelector('h3, h4, h5, [data-testid*="title"], .item-title, .item-name');
-            
-            if (img && nameEl) {
-              const name = nameEl.textContent.trim();
-              const src = img.src;
-              if (name && src && !imageMap.has(name)) {
-                imageMap.set(name, src);
-              }
-            }
-          });
-          
-          // Strategy 3: Look for images with data-testid attributes
-          const testIdImages = document.querySelectorAll('img[data-testid*="image"], img[data-testid*="photo"]');
-          testIdImages.forEach(img => {
-            if (img.src.includes('uber.com')) {
-              const container = img.closest('[data-testid^="store-item-"], .menu-item');
-              if (container) {
-                const nameEl = container.querySelector('h3, h4, h5, [data-testid*="title"], .item-title');
-                const name = nameEl ? nameEl.textContent.trim() : '';
-                if (name && !imageMap.has(name)) {
-                  imageMap.set(name, img.src);
-                }
-              }
-            }
-          });
-          
-          // Strategy 4: Look for images by proximity to text content
-          const allImages = document.querySelectorAll('img[src*="uber.com"]');
-          allImages.forEach(img => {
-            if (!img.alt) {
-              // Look for nearby text that might be the item name
-              const parent = img.closest('div, section, article');
-              if (parent) {
-                const textEl = parent.querySelector('h1, h2, h3, h4, h5, span[role="heading"], [data-testid*="title"]');
-                const name = textEl ? textEl.textContent.trim() : '';
-                if (name && name.length > 2 && name.length < 100 && !imageMap.has(name)) {
-                  imageMap.set(name, img.src);
-                }
-              }
             }
           });
           
@@ -1092,199 +998,33 @@ async function uberScraper(targetUrl = null) {
         if (pageImages.length > 0) {
           console.log("📸 Available images:", pageImages.map(([alt, src]) => `${alt}: ${src}`));
           
-          // Update menu items with real images using improved matching
+          // Update menu items with real images
           let updatedCount = 0;
           for (const category of menuData) {
             for (const item of category.items) {
-              if (item.image) {
-                // Skip items that already have images
-                continue;
-              }
-              
-              // Strategy 1: Exact name match
-              let matchingImage = pageImages.find(([alt, src]) => 
-                alt.toLowerCase() === item.name.toLowerCase()
+              // Look for matching image by name
+              const matchingImage = pageImages.find(([alt, src]) => 
+                alt.includes(item.name) || item.name.includes(alt)
               );
-              
-              // Strategy 2: Partial name match (current approach)
-              if (!matchingImage) {
-                matchingImage = pageImages.find(([alt, src]) => 
-                  alt.includes(item.name) || item.name.includes(alt)
-                );
-              }
-              
-              // Strategy 3: Fuzzy matching - compare key words
-              if (!matchingImage) {
-                const itemWords = item.name.toLowerCase().split(/\s+/).filter(w => w.length > 3);
-                matchingImage = pageImages.find(([alt, src]) => {
-                  const altWords = alt.toLowerCase().split(/\s+/).filter(w => w.length > 3);
-                  const commonWords = itemWords.filter(word => altWords.some(altWord => altWord.includes(word) || word.includes(altWord)));
-                  return commonWords.length >= Math.min(2, itemWords.length); // At least 2 common words or all words if less than 2
-                });
-              }
-              
-              // Strategy 4: Try matching without special characters
-              if (!matchingImage) {
-                const cleanItemName = item.name.replace(/[®™&\-]/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
-                matchingImage = pageImages.find(([alt, src]) => {
-                  const cleanAlt = alt.replace(/[®™&\-]/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
-                  return cleanAlt.includes(cleanItemName) || cleanItemName.includes(cleanAlt);
-                });
-              }
-              
-              // Strategy 5: Try matching first few words
-              if (!matchingImage) {
-                const firstThreeWords = item.name.split(' ').slice(0, 3).join(' ').toLowerCase();
-                matchingImage = pageImages.find(([alt, src]) => 
-                  alt.toLowerCase().includes(firstThreeWords) || firstThreeWords.length > 6 && alt.toLowerCase().includes(firstThreeWords.substring(0, 6))
-                );
-              }
               
               if (matchingImage) {
                 const [alt, src] = matchingImage;
                 item.image = src;
                 console.log(`🔄 Updated image for "${item.name}": ${src}`);
                 updatedCount++;
-              } else {
-                console.log(`⚠️ No image found for "${item.name}"`);
               }
             }
           }
           
           console.log(`✅ Updated ${updatedCount} items with real images`);
         }
-        
-        // Extract additional images from modals for items without images
-        console.log("🔍 Extracting images from modals for items without images...");
-        let modalImageCount = 0;
-        
-        for (const category of menuData) {
-          for (const item of category.items) {
-            if (item.image) {
-              continue; // Skip items that already have images
-            }
-            
-            try {
-              // Find the menu item element to click
-              let clicked = false;
-              
-              // Strategy 1: Find by exact text match
-              const items = await page.$$('[data-testid^="store-item-"], [data-testid*="menu-item"], .menu-item, [role="button"]');
-              for (const itemEl of items) {
-                try {
-                  const text = await page.evaluate(el => el.textContent, itemEl);
-                  if (text && (text.includes(item.name) || item.name.includes(text.trim()))) {
-                    // Check if this element is clickable
-                    const isClickable = await page.evaluate(el => {
-                      const style = window.getComputedStyle(el);
-                      return style.cursor === 'pointer' || el.tagName === 'BUTTON' || el.getAttribute('role') === 'button' || el.onclick !== null;
-                    }, itemEl);
-                    
-                    if (isClickable) {
-                      await itemEl.click();
-                      clicked = true;
-                      console.log(`🔄 Clicked on "${item.name}" to open modal`);
-                      break;
-                    }
-                  }
-                } catch (e) {
-                  continue;
-                }
-              }
-              
-              // Strategy 2: Try clicking by text content using page.click
-              if (!clicked) {
-                try {
-                  await page.evaluate((itemName) => {
-                    const elements = document.querySelectorAll('*');
-                    for (const el of elements) {
-                      if (el.textContent && el.textContent.includes(itemName)) {
-                        const rect = el.getBoundingClientRect();
-                        if (rect.width > 0 && rect.height > 0) {
-                          el.click();
-                          return true;
-                        }
-                      }
-                    }
-                    return false;
-                  }, item.name);
-                  clicked = true;
-                  console.log(`🔄 Clicked on "${item.name}" using evaluate method`);
-                } catch (e) {
-                  console.log(`⚠️ Could not click "${item.name}": ${e.message}`);
-                }
-              }
-              
-              if (clicked) {
-                await page.waitForTimeout(2000); // Wait for modal to open
-                
-                // Extract image from modal
-                const modalImage = await page.evaluate(() => {
-                  const modalSelectors = [
-                    '[role="dialog"] img[src*="uber.com"]',
-                    '[data-testid="item-details"] img[src*="uber.com"]',
-                    '[aria-modal="true"] img[src*="uber.com"]',
-                    '.modal img[src*="uber.com"]',
-                    '.overlay img[src*="uber.com"]'
-                  ];
-                  
-                  for (const selector of modalSelectors) {
-                    const img = document.querySelector(selector);
-                    if (img && img.src && !img.src.includes('logo')) {
-                      return img.src;
-                    }
-                  }
-                  return null;
-                });
-                
-                if (modalImage) {
-                  item.image = modalImage;
-                  modalImageCount++;
-                  console.log(`🔄 Found modal image for "${item.name}": ${modalImage}`);
-                }
-                
-                // Close modal
-                const closeSelectors = [
-                  '[data-testid="dialog-close"]',
-                  '[aria-label="Close"]',
-                  '.close',
-                  '[data-testid="modal-close"]'
-                ];
-                
-                for (const closeSelector of closeSelectors) {
-                  try {
-                    const closeBtn = await page.$(closeSelector);
-                    if (closeBtn) {
-                      await closeBtn.click();
-                      await page.waitForTimeout(500);
-                      break;
-                    }
-                  } catch (e) {
-                    continue;
-                  }
-                }
-                
-                // Fallback: Press Escape to close modal
-                try {
-                  await page.keyboard.press('Escape');
-                  await page.waitForTimeout(500);
-                } catch (e) {
-                  // Continue if escape fails
-                }
-              }
-            } catch (e) {
-              console.log(`⚠️ Could not extract modal image for "${item.name}": ${e.message}`);
-            }
-          }
-        }
-        
-        console.log(`✅ Extracted ${modalImageCount} additional images from modals`);
       }
     
-    // Extract real add-ons from item descriptions
+    // Extract real add-ons from item descriptions and structured data
     console.log("🔧 Extracting real add-ons from item descriptions...");
     
     if (menuData.length > 0) {
+      // Extract add-ons from item descriptions (more reliable than modal interaction)
       let addOnCount = 0;
       
       for (const category of menuData) {
@@ -1350,6 +1090,296 @@ async function uberScraper(targetUrl = null) {
       
       console.log(`✅ Successfully added real add-ons to ${addOnCount} items`);
     }
+            try {
+              console.log(`🖱️ Clicking item ${i + 1}/${itemsToCheck.length}...`);
+              
+              // Scroll item into view first
+              await page.evaluate((element) => {
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }, itemsToCheck[i]);
+              await page.waitForTimeout(500);
+              
+              // Try multiple click approaches for different restaurant interfaces
+              try {
+                await itemsToCheck[i].click();
+              } catch (e) {
+                // Try clicking with JavaScript if normal click fails
+                await page.evaluate((element) => element.click(), itemsToCheck[i]);
+              }
+              
+              await page.waitForTimeout(3000); // Longer wait for modal to appear
+              
+              // Check if a modal opened - expanded selectors for different restaurant interfaces
+              const modalSelectors = [
+                '[data-testid="modal"]',
+                '[role="dialog"]', 
+                '.modal',
+                '[data-testid="item-modal"]',
+                '[data-testid="customization-modal"]',
+                '[data-testid="store-item-modal"]',
+                '[data-testid="item-details"]',
+                '[aria-modal="true"]',
+                '.item-modal',
+                '.customization-modal',
+                '.item-details-modal',
+                'div[role="dialog"]',
+                '.overlay',
+                '[data-testid*="modal"]'
+              ];
+              
+              let modal = null;
+              for (const modalSelector of modalSelectors) {
+                modal = await page.$(modalSelector);
+                if (modal) {
+                  break;
+                }
+              }
+              
+              if (modal) {
+                // Wait for modal content to load
+                await page.waitForTimeout(1500);
+                
+                // Extract item name from modal
+                const itemNameEl = await modal.$('h1, h2, h3, [data-testid*="title"], .item-title, .modal-title');
+                const itemName = itemNameEl ? await page.evaluate(el => el.textContent.trim(), itemNameEl) : `Item ${i + 1}`;
+                
+                // Debug: Check modal content
+                const modalHtml = await page.evaluate(modal => modal.innerHTML.substring(0, 500), modal);
+                console.log(`🔍 Modal HTML preview: ${modalHtml.substring(0, 200)}...`);
+                
+                // Extract ALL real customization options from modal
+                const realAddOnGroups = await page.evaluate((modal) => {
+                  const groups = [];
+                  
+                  // Look for radio button groups (most common for customizations)
+                  const radioGroups = modal.querySelectorAll('fieldset, [role="radiogroup"], [role="group"]');
+                  
+                  radioGroups.forEach(group => {
+                    const groupTitle = group.querySelector('legend, h3, h4, h5, [role="heading"]');
+                    const title = groupTitle ? groupTitle.textContent.trim() : '';
+                    
+                    if (title && title.length > 2) {
+                      const options = [];
+                      const radioInputs = group.querySelectorAll('input[type="radio"], [role="radio"]');
+                      
+                      radioInputs.forEach(radio => {
+                        const label = radio.closest('label') || radio.parentElement.querySelector('label');
+                        const optionText = label ? label.textContent.trim() : radio.value || '';
+                        
+                        if (optionText && optionText.length > 1) {
+                          // Extract price from option text
+                          let cleanName = optionText;
+                          let price = '';
+                          
+                          const priceMatch = cleanName.match(/\+?\$[\d.]+/);
+                          if (priceMatch) {
+                            price = priceMatch[0].startsWith('+') ? priceMatch[0] : `+${priceMatch[0]}`;
+                            cleanName = cleanName.replace(priceMatch[0], '').trim();
+                          }
+                          
+                          // Clean up the name
+                          cleanName = cleanName.replace(/\d+\s*Cal\.?/gi, '').trim();
+                          cleanName = cleanName.replace(/Popular\s*•?\s*/gi, '').trim();
+                          cleanName = cleanName.replace(/\s+/g, ' ').trim();
+                          
+                          if (cleanName) {
+                            options.push({ name: cleanName, price });
+                          }
+                        }
+                      });
+                      
+                      if (options.length > 0) {
+                        groups.push({ name: title, options });
+                      }
+                    }
+                  });
+                  
+                  // Also look for checkbox groups (for add-ons like toppings)
+                  const checkboxGroups = modal.querySelectorAll('[role="group"]:has(input[type="checkbox"]), fieldset:has(input[type="checkbox"])');
+                  
+                  checkboxGroups.forEach(group => {
+                    const groupTitle = group.querySelector('legend, h3, h4, h5, [role="heading"]');
+                    const title = groupTitle ? groupTitle.textContent.trim() : '';
+                    
+                    if (title && title.length > 2) {
+                      const options = [];
+                      const checkboxInputs = group.querySelectorAll('input[type="checkbox"]');
+                      
+                      checkboxInputs.forEach(checkbox => {
+                        const label = checkbox.closest('label') || checkbox.parentElement.querySelector('label');
+                        const optionText = label ? label.textContent.trim() : checkbox.value || '';
+                        
+                        if (optionText && optionText.length > 1) {
+                          // Extract price from option text
+                          let cleanName = optionText;
+                          let price = '';
+                          
+                          const priceMatch = cleanName.match(/\+?\$[\d.]+/);
+                          if (priceMatch) {
+                            price = priceMatch[0].startsWith('+') ? priceMatch[0] : `+${priceMatch[0]}`;
+                            cleanName = cleanName.replace(priceMatch[0], '').trim();
+                          }
+                          
+                          // Clean up the name
+                          cleanName = cleanName.replace(/\d+\s*Cal\.?/gi, '').trim();
+                          cleanName = cleanName.replace(/Popular\s*•?\s*/gi, '').trim();
+                          cleanName = cleanName.replace(/\s+/g, ' ').trim();
+                          
+                          if (cleanName) {
+                            options.push({ name: cleanName, price });
+                          }
+                        }
+                      });
+                      
+                      if (options.length > 0) {
+                        groups.push({ name: title, options });
+                      }
+                    }
+                  });
+                  
+                  // Additional extraction for button-based options (common in Panera)
+                  const buttonGroups = modal.querySelectorAll('div:has(button), section:has(button)');
+                  buttonGroups.forEach(group => {
+                    const buttons = group.querySelectorAll('button');
+                    if (buttons.length > 1) { // Multiple buttons suggest options
+                      const groupHeading = group.querySelector('h1, h2, h3, h4, h5, p, span');
+                      const title = groupHeading ? groupHeading.textContent.trim() : 'Options';
+                      
+                      const options = [];
+                      buttons.forEach(button => {
+                        const buttonText = button.textContent.trim();
+                        if (buttonText && buttonText.length > 1 && 
+                            !buttonText.toLowerCase().includes('close') &&
+                            !buttonText.toLowerCase().includes('cancel') &&
+                            !buttonText.toLowerCase().includes('add to cart')) {
+                          
+                          let cleanName = buttonText;
+                          let price = '';
+                          
+                          const priceMatch = cleanName.match(/\+?\$[\d.]+/);
+                          if (priceMatch) {
+                            price = priceMatch[0].startsWith('+') ? priceMatch[0] : `+${priceMatch[0]}`;
+                            cleanName = cleanName.replace(priceMatch[0], '').trim();
+                          }
+                          
+                          cleanName = cleanName.replace(/\d+\s*Cal\.?/gi, '').trim();
+                          cleanName = cleanName.replace(/Popular\s*•?\s*/gi, '').trim();
+                          
+                          if (cleanName) {
+                            options.push({ name: cleanName, price });
+                          }
+                        }
+                      });
+                      
+                      if (options.length > 0) {
+                        groups.push({ name: title, options });
+                      }
+                    }
+                  });
+                  
+                  // Fallback: Look for any elements with data-testid that might contain options
+                  if (groups.length === 0) {
+                    const allTestIds = modal.querySelectorAll('[data-testid*="option"], [data-testid*="choice"], [data-testid*="item"]');
+                    
+                    if (allTestIds.length > 0) {
+                      const fallbackOptions = [];
+                      
+                      allTestIds.forEach(element => {
+                        const text = element.textContent?.trim() || '';
+                        if (text && text.length > 2 && text.length < 100 &&
+                            !text.toLowerCase().includes('close') &&
+                            !text.toLowerCase().includes('back') &&
+                            !text.toLowerCase().includes('add to cart') &&
+                            !text.toLowerCase().includes('share') &&
+                            !text.toLowerCase().includes('arrow') &&
+                            !text.toLowerCase().includes('left') &&
+                            !text.toLowerCase().includes('right') &&
+                            !text.toLowerCase().includes('next') &&
+                            !text.toLowerCase().includes('previous') &&
+                            !text.toLowerCase().includes('navigate') &&
+                            // Only include options that look like real food choices
+                            (text.toLowerCase().includes('half') || 
+                             text.toLowerCase().includes('whole') || 
+                             text.toLowerCase().includes('cup') || 
+                             text.toLowerCase().includes('bowl') || 
+                             text.toLowerCase().includes('bread') || 
+                             text.includes('$') || 
+                             text.toLowerCase().includes('size') ||
+                             text.toLowerCase().includes('portion'))) {
+                          
+                          let cleanName = text;
+                          let price = '';
+                          
+                          const priceMatch = cleanName.match(/\+?\$[\d.]+/);
+                          if (priceMatch) {
+                            price = priceMatch[0].startsWith('+') ? priceMatch[0] : `+${priceMatch[0]}`;
+                            cleanName = cleanName.replace(priceMatch[0], '').trim();
+                          }
+                          
+                          cleanName = cleanName.replace(/\d+\s*Cal\.?/gi, '').trim();
+                          cleanName = cleanName.replace(/Popular\s*•?\s*/gi, '').trim();
+                          cleanName = cleanName.replace(/\s+/g, ' ').trim();
+                          
+                          if (cleanName && cleanName.length > 1) {
+                            fallbackOptions.push({ name: cleanName, price });
+                          }
+                        }
+                      });
+                      
+                      if (fallbackOptions.length > 0) {
+                        groups.push({ name: "Customizations", options: fallbackOptions });
+                      }
+                    }
+                  }
+                  
+                  return groups;
+                }, modal);
+                
+                if (realAddOnGroups.length > 0) {
+                  console.log(`✅ Found ${realAddOnGroups.length} real add-on groups for "${itemName}"`);
+                  
+                  // Update the corresponding menu item with real add-ons
+                  for (const category of menuData) {
+                    const item = category.items.find(item => 
+                      item.name === itemName || 
+                      item.name.includes(itemName?.split(' ').slice(0, 3).join(' ') || '') ||
+                      (itemName?.split(' ').slice(0, 3).join(' ') || '').includes(item.name.split(' ').slice(0, 3).join(' '))
+                    );
+                    if (item) {
+                      item.options = realAddOnGroups;
+                      console.log(`🔄 Updated "${item.name}" with ${realAddOnGroups.length} real add-on groups`);
+                      break;
+                    }
+                  }
+                } else {
+                  console.log(`ℹ️ No real add-on groups found for "${itemName}"`);
+                }
+                
+                // Close the modal
+                await page.keyboard.press('Escape');
+                await page.waitForTimeout(500);
+              } else {
+                console.log(`ℹ️ No modal opened for item ${i + 1}`);
+              }
+              
+            } catch (e) {
+              console.log(`❌ Error clicking item ${i + 1}:`, e.message);
+              // Try to close any modal that might be open
+              try {
+                await page.keyboard.press('Escape');
+                await page.waitForTimeout(500);
+              } catch (escapeError) {
+                // Ignore escape error
+              }
+            }
+          }
+        } else {
+          console.log("ℹ️ No clickable menu items found");
+        }
+      } catch (e) {
+        console.log("❌ Error during real add-on extraction:", e.message);
+      }
+    }
     
     // Transform the data to new schema
     console.log("🔄 Transforming data to new schema...");
@@ -1404,7 +1434,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.error("1. Check if the Uber Eats URL is accessible");
     console.error("2. Verify your internet connection");
     console.error("3. The page structure might have changed - check selectors");
-    console.error("4. Try running with headless: true to see what's happening");
+    console.error("4. Try running with headless: false to see what's happening");
     console.error("5. Make sure to provide a valid UberEats restaurant URL as an argument");
     process.exit(1);
   });
