@@ -223,7 +223,7 @@ async function uberScraper(targetUrl = null) {
     console.log("🌐 Launching browser...");
     browser = await puppeteer.launch({
       headless: true,
-      executablePath: "/usr/bin/chromium-browser", // Set to true for production
+      executablePath: '/home/dev/.cache/puppeteer/chrome/linux-121.0.6167.85/chrome-linux64/chrome',
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
@@ -231,7 +231,9 @@ async function uberScraper(targetUrl = null) {
         '--disable-accelerated-2d-canvas',
         '--no-first-run',
         '--no-zygote',
-        '--disable-gpu'
+        '--disable-gpu',
+        '--disable-web-security',
+        '--disable-features=VizDisplayCompositor'
       ]
     });
 

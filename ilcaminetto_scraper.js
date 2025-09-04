@@ -12,7 +12,7 @@ async function ilcaminettoScraper(targetUrl = null) {
   try {
     browser = await puppeteer.launch({ 
       headless: true,
-      executablePath: "/usr/bin/chromium-browser",
+      executablePath: '/home/dev/.cache/puppeteer/chrome/linux-121.0.6167.85/chrome-linux64/chrome',
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -20,7 +20,9 @@ async function ilcaminettoScraper(targetUrl = null) {
         "--disable-accelerated-2d-canvas",
         "--no-first-run",
         "--no-zygote",
-        "--disable-gpu"
+        "--disable-gpu",
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor"
       ]
     });
     const page = await browser.newPage();
