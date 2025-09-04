@@ -245,13 +245,13 @@ async function uberScraper(targetUrl = null) {
     
     console.log("📱 Navigating to Uber Eats...");
     await page.goto(TARGET_URL, { 
-      waitUntil: 'networkidle2',
-      timeout: 60000 
+      waitUntil: 'domcontentloaded',
+      timeout: 45000 
     });
     
-    // Wait for the page to load
+    // Wait for the page to load (reduced for performance)
     console.log("⏳ Waiting for page to load...");
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3000);
     
     // Check if we need to handle any popups or cookies
     try {
@@ -422,9 +422,8 @@ async function uberScraper(targetUrl = null) {
     console.log("🔍 Extracting menu data...");
     
     // Debug: Take a screenshot to see what the page looks like
-    console.log("📸 Taking screenshot for debugging...");
-    await page.screenshot({ path: 'debug_page.png', fullPage: true });
-    console.log("📸 Screenshot saved as debug_page.png");
+    // Skip screenshot in production for faster scraping
+    console.log("⚡ Skipping screenshot for faster scraping...");
     
     // Debug: Log the page HTML structure
     const pageContent = await page.content();

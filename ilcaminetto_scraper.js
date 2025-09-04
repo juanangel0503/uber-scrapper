@@ -28,21 +28,19 @@ async function ilcaminettoScraper(targetUrl = null) {
     console.log("🍕 Navigating to Il Caminetto...");
     await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
     
-    // Wait for the page to load completely with additional time for dynamic content
+    // Wait for the page to load completely with optimized timing
     try {
-      await page.waitForSelector('[id^="TabSelectOption-"]', { timeout: 30000 });
+      await page.waitForSelector('[id^="TabSelectOption-"]', { timeout: 15000 });
       console.log("✅ Menu categories loaded successfully");
+      // Reduced wait time for faster scraping
+      await page.waitForTimeout(2000);
     } catch (error) {
       console.log("⚠️  Categories not found, continuing with basic wait...");
-      await page.waitForTimeout(5000);
+      await page.waitForTimeout(3000);
     }
     
-    console.log("📸 Taking screenshot for debugging...");
-    await page.screenshot({ path: 'ilcaminetto_debug.png', fullPage: true });
-    
-    const html = await page.content();
-    fs.writeFileSync('ilcaminetto_debug.html', html);
-    console.log(`📄 Page HTML length: ${html.length}`);
+    // Skip debug operations in production to improve performance
+    console.log("⚡ Skipping debug operations for faster scraping...");
     
     console.log("🏪 Extracting restaurant information...");
     const restaurantData = await page.evaluate(() => {
