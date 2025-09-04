@@ -94,12 +94,28 @@ async function ilcaminettoScraper(targetUrl = null) {
           const dishItems = dishGridSection.querySelectorAll('.item__DishComponent-wkeq8p-0');
           
           dishItems.forEach(dishItem => {
-            const itemName = dishItem.querySelector('h2')?.textContent.trim();
+            let itemName = dishItem.querySelector('h2')?.textContent.trim();
             
+            // Fix for items showing "Liquor licence" instead of real names
+            if (itemName && itemName.includes('Liquor licence') && categoryName === 'DRINK LIST') {
+              // Map license items to their real names based on position/context
+              const dishIndex = Array.from(dishItems).indexOf(dishItem);
+              const drinkNames = ['SOFT DRINKS', 'BEERS', 'SPARKLING WATER 750ML', 'RED WINES', 'WHITE WINES'];
+              
+              if (dishIndex >= 0 && dishIndex < drinkNames.length) {
+                itemName = drinkNames[dishIndex];
+              }
+            }
+            
+            // Enhanced filtering for unwanted items
             if (!itemName || 
                 itemName.includes('Liquor licence') || 
                 itemName.includes('Guest') ||
-                itemName.includes('Login')) {
+                itemName.includes('Login') ||
+                itemName.includes('licence N') ||
+                itemName.toLowerCase().includes('license') ||
+                itemName.length < 3 ||
+                itemName.match(/^[N0-9\s]+$/)) { // Filter out pure numbers/license numbers
               return;
             }
             
@@ -183,6 +199,67 @@ async function ilcaminettoScraper(targetUrl = null) {
     
     console.log(`📊 Found ${menuData.length} categories with ${menuData.reduce((sum, cat) => sum + cat.items.length, 0)} total items`);
     
+    // Extract individual drinks from option_sets (beers, wines, etc.)
+    console.log('🍺 Extracting individual drinks from option sets...');
+    
+    // Get the page data to access option_sets
+    const pageData = await page.evaluate(() => {
+      if (window.__INITIAL_STATE__ && window.__INITIAL_STATE__.restaurant) {
+        return {
+          menus: window.__INITIAL_STATE__.restaurant.menus,
+          option_sets: window.__INITIAL_STATE__.restaurant.option_sets
+        };
+      }
+      return null;
+    });
+    
+    if (pageData) {
+      for (const menu of pageData.menus || []) {
+        const drinkCategory = menuData.find(cat => cat.category === 'DRINK LIST');
+        if (drinkCategory && menu.categories) {
+          const menuDrinkCategory = menu.categories.find(cat => cat.name === 'DRINK LIST');
+          
+          if (menuDrinkCategory) {
+            // Find items that have option_sets (like BEERS, RED WINES, WHITE WINES)
+            for (const dish of menuDrinkCategory.dishes) {
+              if (dish.option_sets && dish.option_sets.length > 0) {
+                // Extract individual items from option_sets
+                for (const optionSetId of dish.option_sets) {
+                  const optionSet = pageData.option_sets?.find(os => os._id === optionSetId);
+                  
+                  if (optionSet && optionSet.options && optionSet.options.length > 0) {
+                    console.log(`🍷 Found ${optionSet.options.length} individual items in ${optionSet.name}`);
+                    
+                    // Create individual products for each option
+                    for (const option of optionSet.options) {
+                      if (option.name && option.name.trim()) {
+                        const individualDrink = {
+                          name: option.name.trim(),
+                          description: `${optionSet.name} - ${option.name}`,
+                          price: option.price ? `$${option.price}` : '$0.00',
+                          image: dish.image ? `https://ucarecdn.com/${dish.image._id}/-/resize/x400/-/format/auto/-/progressive/yes/${dish.image.name}` : null,
+                          dietary: [],
+                          options: []
+                        };
+                        
+                        drinkCategory.items.push(individualDrink);
+                        console.log(`✅ Added individual drink: ${option.name} - $${option.price}`);
+                      }
+                    }
+                    
+                    // Remove the generic category item (BEERS, RED WINES, etc.)
+                    drinkCategory.items = drinkCategory.items.filter(item => 
+                      item.name !== dish.name && !item.name.includes('Liquor licence')
+                    );
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
     console.log("🔄 Transforming data to new schema...");
     const transformedData = transformToNewSchema(restaurantData, menuData);
     
@@ -237,8 +314,8 @@ function transformToNewSchema(restaurantData, menuData) {
       const dietary = item.dietary || []; // Use real dietary data from website
       const addOns = item.options || []; // Use real options data from website
       const brandId = generateObjectId();
-      // Use extracted image if available, otherwise fallback to appropriate image
-      const image = item.image || getItalianRestaurantImage(item.name, category.category);
+      // Use extracted image if available, otherwise null (no fake images)
+      const image = item.image || null;
       
       transformedItems.push({
         "_id": { "$oid": uniqueId },
@@ -304,23 +381,7 @@ function generateTags(name, description) {
 
 
 
-function getItalianRestaurantImage(itemName, category) {
-  const name = itemName.toLowerCase();
-  
-  if (name.includes('pizza') || name.includes('margherita') || name.includes('capricciosa')) {
-    return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-  }
-  
-  if (name.includes('pasta') || name.includes('tortelloni') || name.includes('gnocchi')) {
-    return "http://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop";
-  }
-  
-  if (name.includes('risotto')) {
-    return "http://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop";
-  }
-  
-  return "http://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop";
-}
+// Removed fake image generation function - using real images only
 
 function extractDietaryTags(name, description) {
   // Only return empty array - all real dietary tags are extracted during scraping
