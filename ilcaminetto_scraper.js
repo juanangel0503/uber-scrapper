@@ -10,9 +10,10 @@ async function ilcaminettoScraper(targetUrl = null) {
   let browser;
   
   try {
-    browser = await puppeteer.launch({ 
+    // Try multiple browser launch strategies for maximum compatibility
+    let browser;
+    const launchOptions = {
       headless: true,
-      executablePath: '/home/dev/.cache/puppeteer/chrome/linux-121.0.6167.85/chrome-linux64/chrome',
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
@@ -24,7 +25,28 @@ async function ilcaminettoScraper(targetUrl = null) {
         "--disable-web-security",
         "--disable-features=VizDisplayCompositor"
       ]
-    });
+    };
+    
+    try {
+      // First try: Use Puppeteer's bundled Chrome
+      browser = await puppeteer.launch(launchOptions);
+    } catch (error) {
+      console.log("⚠️  Bundled Chrome failed, trying system Chrome...");
+      try {
+        // Second try: Use system Chrome
+        browser = await puppeteer.launch({
+          ...launchOptions,
+          executablePath: '/usr/bin/google-chrome'
+        });
+      } catch (error2) {
+        console.log("⚠️  System Chrome failed, trying Chromium...");
+        // Third try: Use system Chromium
+        browser = await puppeteer.launch({
+          ...launchOptions,
+          executablePath: '/usr/bin/chromium-browser'
+        });
+      }
+    }
     const page = await browser.newPage();
     
     console.log("🍕 Navigating to Il Caminetto...");
