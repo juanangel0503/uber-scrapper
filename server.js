@@ -6,43 +6,11 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// Background scraping status tracking
-const scrapingJobs = new Map();
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
-// Configure timeouts to prevent 504 Gateway Timeout errors
-app.use((req, res, next) => {
-  // Set request timeout to 5 minutes for scraping operations
-  req.setTimeout(300000, () => {
-    console.log('⏰ Request timeout after 5 minutes');
-    if (!res.headersSent) {
-      res.status(504).json({
-        success: false,
-        error: 'Request timeout',
-        message: 'Scraping operation took too long. Try again or use cached data.'
-      });
-    }
-  });
-  
-  // Set response timeout
-  res.setTimeout(300000, () => {
-    console.log('⏰ Response timeout after 5 minutes');
-    if (!res.headersSent) {
-      res.status(504).json({
-        success: false,
-        error: 'Response timeout',
-        message: 'Server took too long to respond.'
-      });
-    }
-  });
-  
-  next();
-});
 
 // Middleware
 app.use(helmet({
@@ -207,55 +175,18 @@ function createApiRoutes() {
 
   router.post('/scrapers/ilcaminetto/scrape', async (req, res) => {
     try {
+      const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
       const { url } = req.body;
-      const jobId = `ilcaminetto_${Date.now()}`;
-      
-      // Start background scraping job
-      scrapingJobs.set(jobId, {
-        status: 'running',
-        startTime: new Date().toISOString(),
-        scraper: 'ilcaminetto',
-        url: url || 'http://orders.ilcaminetto.com.au/'
-      });
-      
-      // Immediately return job ID without waiting for completion
+      const result = await ilcaminettoScraper(url);
       res.json({
         success: true,
-        message: 'Scraping started in background',
-        jobId: jobId,
-        statusEndpoint: `/api/v1/scrapers/status/${jobId}`,
-        estimatedTime: '2-3 minutes'
+        message: 'Scraping completed successfully',
+        data: result
       });
-      
-      // Run scraping in background
-      (async () => {
-        try {
-          console.log(`🚀 Background scraping job ${jobId} started`);
-          const { ilcaminettoScraper } = await import('./ilcaminetto_scraper.js');
-          const result = await ilcaminettoScraper(url);
-          
-          scrapingJobs.set(jobId, {
-            ...scrapingJobs.get(jobId),
-            status: 'completed',
-            completedTime: new Date().toISOString(),
-            result: result
-          });
-          console.log(`✅ Background scraping job ${jobId} completed`);
-        } catch (error) {
-          scrapingJobs.set(jobId, {
-            ...scrapingJobs.get(jobId),
-            status: 'failed',
-            completedTime: new Date().toISOString(),
-            error: error.message
-          });
-          console.log(`❌ Background scraping job ${jobId} failed: ${error.message}`);
-        }
-      })();
-      
     } catch (error) {
       res.status(500).json({
         success: false,
-        error: 'Failed to start scraping job',
+        error: 'Scraping failed',
         message: error.message
       });
     }
@@ -376,113 +307,21 @@ function createApiRoutes() {
 
   router.post('/scrapers/uber/scrape', async (req, res) => {
     try {
+      const { uberScraper } = await import('./uber_scraper.js');
       const { url } = req.body;
-      const jobId = `uber_${Date.now()}`;
-      
-      // Start background scraping job
-      scrapingJobs.set(jobId, {
-        status: 'running',
-        startTime: new Date().toISOString(),
-        scraper: 'uber',
-        url: url || 'default-uber-url'
-      });
-      
-      // Immediately return job ID without waiting for completion
+      const result = await uberScraper(url);
       res.json({
         success: true,
-        message: 'Scraping started in background',
-        jobId: jobId,
-        statusEndpoint: `/api/v1/scrapers/status/${jobId}`,
-        estimatedTime: '5-10 minutes'
+        message: 'Scraping completed successfully',
+        data: result
       });
-      
-      // Run scraping in background
-      (async () => {
-        try {
-          console.log(`🚀 Background scraping job ${jobId} started`);
-          const { uberScraper } = await import('./uber_scraper.js');
-          const result = await uberScraper(url);
-          
-          scrapingJobs.set(jobId, {
-            ...scrapingJobs.get(jobId),
-            status: 'completed',
-            completedTime: new Date().toISOString(),
-            result: result
-          });
-          console.log(`✅ Background scraping job ${jobId} completed`);
-        } catch (error) {
-          scrapingJobs.set(jobId, {
-            ...scrapingJobs.get(jobId),
-            status: 'failed',
-            completedTime: new Date().toISOString(),
-            error: error.message
-          });
-          console.log(`❌ Background scraping job ${jobId} failed: ${error.message}`);
-        }
-      })();
-      
     } catch (error) {
       res.status(500).json({
         success: false,
-        error: 'Failed to start scraping job',
+        error: 'Scraping failed',
         message: error.message
       });
     }
-  });
-
-  // Scraping job status endpoint
-  router.get('/scrapers/status/:jobId', (req, res) => {
-    const { jobId } = req.params;
-    const job = scrapingJobs.get(jobId);
-    
-    if (!job) {
-      return res.status(404).json({
-        success: false,
-        error: 'Job not found',
-        message: 'The specified job ID does not exist or has expired.'
-      });
-    }
-    
-    const response = {
-      success: true,
-      jobId: jobId,
-      status: job.status,
-      scraper: job.scraper,
-      url: job.url,
-      startTime: job.startTime
-    };
-    
-    if (job.status === 'completed') {
-      response.completedTime = job.completedTime;
-      response.result = job.result;
-      response.downloadUrl = `/api/v1/scrapers/${job.scraper}/download`;
-    } else if (job.status === 'failed') {
-      response.completedTime = job.completedTime;
-      response.error = job.error;
-    } else if (job.status === 'running') {
-      const elapsed = Date.now() - new Date(job.startTime).getTime();
-      response.elapsedTime = `${Math.floor(elapsed / 1000)}s`;
-      response.message = 'Scraping in progress...';
-    }
-    
-    res.json(response);
-  });
-  
-  // List all active jobs
-  router.get('/scrapers/jobs', (req, res) => {
-    const jobs = Array.from(scrapingJobs.entries()).map(([jobId, job]) => ({
-      jobId,
-      ...job
-    }));
-    
-    res.json({
-      success: true,
-      totalJobs: jobs.length,
-      runningJobs: jobs.filter(j => j.status === 'running').length,
-      completedJobs: jobs.filter(j => j.status === 'completed').length,
-      failedJobs: jobs.filter(j => j.status === 'failed').length,
-      jobs: jobs
-    });
   });
 
   // Combined JSON Download (All scrapers)
